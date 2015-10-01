@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
 
-		<title> AKCSSC | IEEE NSIT Delhi</title>
+		<title> AICSC | IEEE NSIT Delhi</title>
 
 		<meta charset="utf-8">
     	<meta name="description" content="__DESCRIPTION__" />
-    	<meta name="keywords" content="NSIT, IEEE, IEEE-NSIT, AKCSSC, 2015, Delhi, Dwarka" />
+    	<meta name="keywords" content="NSIT, IEEE, IEEE-NSIT, AICSC, 2015, Delhi, Dwarka" />
     	<meta name="author" content="IEEE NSIT">
    		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -26,7 +26,6 @@
 
         <!-- Pop Up Images -->
         <link rel="stylesheet" href="assets/css/magnific-popup.css">
-
 
         <!-- CAROUSEL SLIDERS -->
         <link rel="stylesheet" href="assets/css/owl.carousel.css">
@@ -94,12 +93,12 @@
 
                         <!-- Headline Goes HEre -->
                         <h1 class="wow fadeInDown" data-wow-delay="0.3s">
-                            Hello! Welcome To Finiti
+                            Hello! Welcome To AICSC
                         </h1>
 
                         <!-- Detail -->
                         <p class="wow fadeInDown" data-wow-delay="0.6s">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit corrupti facilis
+                        Open sourcing technology for betterment
                         </p>
 
                         <!-- Start: CountDown area -->
@@ -109,7 +108,7 @@
                         
                         <!-- Start: Button area -->
                         <div class="buy-tricket btn-scroll wow fadeInDown" data-wow-delay="1.2s">
-                            <a href="#pricing-table" class="btn btn-1 btn-top">Buy Tricket</a>
+                            <a href="#pricing-table" class="btn btn-1 btn-top">Register Now</a>
                             <!--<button class="btn btn-1 btn-1c">Button</button>-->
                         </div>
                         <!-- End: Button area" -->
@@ -140,24 +139,24 @@
 
                     <ul class="nav">
                         <!-- Item 1 -->
-                        <li class="col-xs-6 col-sm-3 wow fadeInRight">
-                            <a href="#"><img src="assets/images/partner-1.png" class="img-responsive" alt=""></a>
+                        <li class="col-xs-6 col-sm-4 wow fadeInRight">
+                            <a href="#"><img src="assets/images/ieee-cs-logo.png" class="img-responsive" alt=""></a>
                         </li>
 
                         <!-- Item 2 -->
-                        <li class="col-xs-6 col-sm-3 wow fadeInRight" data-wow-delay="0.3s">
-                            <a href="#"><img src="assets/images/partner-2.png" class="img-responsive" alt=""></a>
+                        <li class="col-xs-6 col-sm-4 wow fadeInRight" data-wow-delay="0.3s">
+                            <a href="#"><img src="assets/images/ieee-logo.png" class="img-responsive" alt=""></a>
                         </li>
 
                         <!-- Item 3 -->
-                        <li class="col-xs-6 col-sm-3 wow fadeInRight" data-wow-delay="0.6s">
-                            <a href="#"><img src="assets/images/partner-3.png" class="img-responsive" alt=""></a>
+                        <li class="col-xs-6 col-sm-4 wow fadeInRight" data-wow-delay="0.6s">
+                            <a href="#"><img src="assets/images/logo-small.png" class="img-responsive" alt=""></a>
                         </li>
 
                         <!-- Item 4 -->
-                        <li class="col-xs-6 col-sm-3 wow fadeInRight" data-wow-delay="0.9s">
+                        <!--<li class="col-xs-6 col-sm-3 wow fadeInRight" data-wow-delay="0.9s">
                             <a href="#"><img src="assets/images/partner-4.png" class="img-responsive" alt=""></a>
-                        </li>
+                        </li>-->
                     </ul>
 
                 </div>
