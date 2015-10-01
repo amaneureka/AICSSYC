@@ -1,0 +1,701 @@
+/*
+ * VARIABLES 
+ */
+/*
+ * ======================================
+ * Defult CSS 
+ * ======================================
+ */
+body {
+  color: #666666;
+}
+p {
+  color: #666666;
+}
+.overlay-color {
+  background-color: rgba(0, 0, 0, 0.69);
+}
+.section-heading:after {
+  background-color: #914891;
+}
+/**
+ * ============================
+ * Button style
+ * ============================
+ */
+.btn-top:hover,
+.btn-top:active,
+.btn-top:focus {
+  color: #914891;
+}
+/* Button left */
+.btn-left:before {
+  background: #914891;
+}
+/**
+ * ==============================
+ * Header Nav Style
+ * ==============================
+ */
+.header-nav ul li.active a {
+  background-color: #914891 !important;
+}
+.header-nav ul li a {
+  background-color: rgba(145, 72, 145, 0.8);
+}
+.header-nav ul li a:hover,
+.header-nav ul li a:active,
+.header-nav ul li a:focus {
+  background-color: #914891 !important;
+}
+.header-nav ul li a:after {
+  background-color: #914891;
+}
+.header-nav ul li a:before {
+  background-color: #914891 !important;
+}
+/**
+ * ==========================
+ * Header Contant style
+ * ==========================
+ */
+.header-body img {
+  background-color: #914891;
+}
+/**
+ * ==========================
+ * Map and Contact style
+ * ==========================
+ */
+#map_contact {
+  background-color: #ffffff;
+}
+#map-btn {
+  color: #914891;
+}
+#map-btn:hover,
+#map-btn:focus {
+  color: #914891;
+}
+.contact-maps-box {
+  background-color: rgba(255, 255, 255, 0.9);
+}
+.contact-maps-box .btn {
+  border-color: #914891 !important;
+  color: #914891;
+}
+.contact-maps-box .btn:after {
+  background: #914891;
+}
+/**
+ * ======================================
+ * From Input Field Style
+ * ======================================
+ */
+.form-cus {
+  border-color: #914891;
+}
+.form-cus:focus {
+  border-color: #914891;
+}
+/**
+ * ======================================
+ * Social Icon Style
+ * ======================================
+ */
+.social-icon ul li a:hover,
+.social-icon ul li a:active,
+.social-icon ul li a:focus {
+  background-color: #914891;
+}
+.contact-address .address-ul a {
+  color: #666666;
+}
+.contact-address .address-ul a:hover,
+.contact-address .address-ul a:active,
+.contact-address .address-ul a:focus {
+  color: #914891;
+}
+/*
+ ********************************
+ *
+ *  Pricing Tables CSS
+ *
+  *  
+ */
+#pricing-table {
+  background: #ffffff;
+}
+.table-single {
+  background-color: #f6f6f6;
+}
+.table-single .popular {
+  background-color: #914891;
+}
+.table-single .meta-heading {
+  color: #666666;
+}
+.table-single .meta-price {
+  color: #666666;
+}
+.table-single ul li {
+  color: #666666;
+}
+.table-single .btn {
+  border-color: #666666;
+  color: #666666;
+}
+.table-single:hover .btn {
+  border-color: #914891 !important;
+  color: #914891;
+}
+.table-single:hover .btn:after {
+  background: #914891 !important;
+}
+.table-single:hover .meta-price {
+  color: #914891;
+}
+/**
+ * ================================
+ * TESTIMONIALS 
+ * ================================
+ */
+.testimonials {
+  color: #666666;
+}
+.testimonials figure img {
+  border: 1px solid #666666;
+}
+.synced .name {
+  color: #914891 !important;
+}
+/**
+ * ========================================
+ * Subscription and contact  "MESSAGE"
+ * ========================================
+ */
+.subscription-success,
+.email-success {
+  color: #914891 !important;
+}
+/**
+ * ==================================
+ *   Subscription Form
+ * ==================================
+ */
+.news_letter-bg {
+  background-color: #f6f6f6;
+}
+.subscribe-form-inner .input-group {
+  border-color: #914891;
+}
+.subscribe-form-inner button {
+  border-left-color: #914891;
+  color: #914891;
+}
+.subscribe-form-inner button:focus {
+  color: #914891;
+}
+/**
+ * ==================================
+ * Our Work
+ * ==================================
+ */
+#our-work {
+  background-color: #ffffff;
+}
+.zoom-gallery a:after {
+  background-color: rgba(145, 72, 145, 0.69);
+}
+/**
+ * ==================================
+ * Hover defut effect css
+ * ==================================
+ */
+.grid figure figcaption {
+  background: rgba(145, 72, 145, 0.69);
+}
+.grid figure figcaption a:hover,
+.grid figure figcaption a:focus {
+  color: #914891 !important;
+}
+/**
+ * ====================================
+ * Speakers CSS
+ * ====================================
+ */
+.speakers {
+  background: #f6f6f6;
+}
+.speakers-body .item p {
+  color: #666666;
+}
+.speakers-body .item h3 {
+  color: #914891;
+}
+/**
+ * ====================================
+ * Owl Carousel Slider Pagination Custom Style
+ * ====================================
+ */
+.owl-page.active {
+  border-color: #914891;
+}
+.owl-page.active span {
+  background-color: #914891 !important;
+}
+/**
+ * ===================================
+ * Footer Style
+ * ===================================
+ */
+footer .footer-body .social-icon .btn {
+  border-color: #914891 !important;
+  color: #914891;
+}
+footer .footer-body .social-icon .btn:after {
+  background: #914891;
+}
+footer .footer-body .copyright p .fa {
+  border-left-color: #666666;
+}
+/**
+ * ===================================
+ * Sponsors Style
+ * ===================================
+ */
+#sponsore {
+  background-color: #f6f6f6;
+}
+#sponsore ul li a {
+  border: 1px solid #f6f6f6;
+  background-color: #ffffff;
+}
+#sponsore ul li .btn:hover,
+#sponsore ul li .btn:active,
+#sponsore ul li .btn:focus {
+  border: 1px solid #f6f6f6;
+}
+#sponsore ul li .btn:after {
+  background-color: #f6f6f6 !important;
+}
+.become-a-sponsor a {
+  color: #666666;
+}
+.become-a-sponsor a:hover {
+  color: #914891;
+}
+/**
+ * ===============================
+ * Our Featured Style
+ * ===============================
+ */
+#our-featured {
+  background-color: #ffffff;
+}
+/**
+ * ===============================
+ * Two cols description width image slider
+ * ===============================
+ */
+.two-cols-description-with-slider {
+  background-color: #ffffff;
+}
+.description-info-inner ul li:before {
+  color: #914891;
+}
+/**
+ * ========================================
+ * Read Me More Button Style
+ * ========================================
+ */
+.btn-read-more {
+  color: #914891;
+  border-left-color: #914891;
+}
+.btn-read-more:before {
+  background-color: #914891;
+}
+/**
+ * ========================================
+ * Two cols description width image
+ * ========================================
+ */
+.two-cols-description-with-image {
+  background-color: #ffffff;
+}
+/**
+ * =========================================
+ * Flex Slider 
+ * =========================================
+ */
+.flexslider .flex-direction-nav .btn-left:hover,
+.flexslider .flex-direction-nav .btn-left:active {
+  color: #914891 !important;
+}
+/**
+ * =========================================
+ * Collapse CSS
+ * =========================================
+ */
+#collapse-area {
+  background-color: #f6f6f6;
+}
+.collapse-tab .panel .panel-heading {
+  background: #f6f6f6;
+}
+.collapse-tab .panel .panel-heading .panel-title a {
+  background-color: #ffffff;
+}
+.collapse-tab .panel .panel-heading .panel-title a.collapsed {
+  background-color: #f6f6f6 !important;
+  border-bottom-color: #eeeef3;
+}
+.collapse-tab .panel-collapse {
+  background-color: #ffffff;
+}
+.collapse-tab .panel-collapse .panel-body {
+  background-color: #ffffff;
+}
+/**
+ * ====================================
+ * Register Form Style
+ * ====================================
+ */
+.register-background {
+  background-color: #ffffff;
+}
+.register-form select {
+  border-color: #914891;
+}
+.register-form select:focus {
+  border-color: #914891;
+}
+.register-form select option {
+  background-color: #fff;
+}
+.register-form select option:hover {
+  background: #914891 !important;
+}
+.register-form .btn {
+  border-color: #914891;
+  color: #914891;
+}
+.register-form .btn:after {
+  background-color: #914891;
+}
+/**
+ * =============================
+ * Schedule Style
+ * =============================
+ */
+.schedule {
+  background-color: #f6f6f6;
+}
+.schedule .schedule-day li a:hover,
+.schedule .schedule-day li a:active {
+  color: #914891;
+}
+.schedule .schedule-hall {
+  background-color: #f6f6f6;
+}
+.schedule .schedule-hall li a:hover,
+.schedule .schedule-hall li a:active {
+  color: #914891;
+}
+.schedule .schedule-hall li a::after {
+  background-color: #914891;
+}
+.schedule .schedule-day li a,
+.schedule .schedule-hall li a {
+  color: #666666;
+}
+.schedule .schedule-day li a:hover,
+.schedule .schedule-hall li a:hover,
+.schedule .schedule-day li a:active,
+.schedule .schedule-hall li a:active {
+  color: #914891;
+}
+.schedule .schedule-day .active a,
+.schedule .schedule-hall .active a {
+  color: #914891;
+}
+.schedule .schedule-day .active a:hover,
+.schedule .schedule-hall .active a:hover,
+.schedule .schedule-day .active a:active,
+.schedule .schedule-hall .active a:active {
+  color: #914891;
+}
+.schedule-hall .line-h {
+  background-color: #914891;
+  border-left-color: #f6f6f6;
+}
+.schedule-hall .panel .panel-heading {
+  background: #ffffff;
+}
+.schedule-hall .panel .panel-heading .panel-title .panel-title-a,
+.schedule-hall .panel .panel-heading .panel-title a {
+  background-color: #ffffff;
+}
+.schedule-hall .panel .panel-heading .panel-title .rotate {
+  background-color: #f6f6f6 !important;
+}
+.schedule-hall .panel .panel-heading .panel-title a.collapsed {
+  background-color: #ffffff !important;
+}
+.schedule-hall .panel-collapse {
+  background-color: #f6f6f6;
+}
+.schedule-hall .panel-collapse .panel-body {
+  background-color: #f6f6f6;
+}
+.schedule-hall .panel-collapse .panel-body h4 {
+  color: #666666;
+}
+.schedule-hall .panel-collapse .panel-body p {
+  color: #666666;
+}
+.schedule-hall .panel-title-a .detail .headline,
+.schedule-hall a .detail .headline {
+  color: #914891;
+}
+.schedule-hall .panel-title-a .detail .name:before,
+.schedule-hall a .detail .name:before {
+  color: #666666;
+}
+.schedule-hall .panel-title-a .detail .company,
+.schedule-hall a .detail .company,
+.schedule-hall .panel-title-a .detail .name,
+.schedule-hall a .detail .name {
+  color: #666666;
+}
+.schedule-hall .panel-title-a .time,
+.schedule-hall a .time {
+  color: #914891;
+}
+.schedule-hall .panel-title-a .time .collapse-icon,
+.schedule-hall a .time .collapse-icon {
+  background-color: #914891;
+}
+/**
+ * ===================================
+ * Count Down Style
+ * ===================================
+ */
+.countdown-background {
+  background-color: #f6f6f6;
+}
+.countdown .count_down .background .counter,
+.countdown-up .count_down .background .counter,
+.countdown .count_down .background .title,
+.countdown-up .count_down .background .title {
+  color: #914891;
+}
+/**
+ * ==================================
+ * Blog Section Style
+ * ==================================
+ */
+.blog-section {
+  background-color: #ffffff;
+}
+.blog-post-demo .thumbnail {
+  background-color: #f6f6f6;
+}
+.blog-post-demo .thumbnail .caption a {
+  color: #914891;
+}
+.blog-post-demo .thumbnail .caption a:hover .date-of-post {
+  color: #914891;
+}
+.defult-use-btn .btn {
+  color: #914891;
+  border-color: #914891;
+}
+.defult-use-btn .btn:after {
+  background-color: #914891;
+}
+footer {
+  background-color: #f6f6f6;
+}
+/** 
+ * ========================================================
+ * ============================================================
+ * Blog Style
+ * ============================================================
+ * ========================================================
+ */
+/**
+ * ===================================
+ * Blog Header Style
+ * ===================================
+ */
+.blog-body {
+  background-color: #ffffff;
+}
+/**
+ * ===================================
+ * Blog Post Body Left Side Style
+ * ===================================
+ */
+.bolg-body-left nav .pagination li .btn {
+  border-color: #914891;
+  color: #914891;
+}
+.bolg-body-left nav .pagination li .btn:after {
+  background-color: #914891;
+}
+/* Post text Detail */
+.post-detail h3,
+.post-detail h3 a {
+  color: #914891;
+}
+.post-detail .post-option span {
+  color: #666666;
+}
+.post-detail .post-option a {
+  color: #666666;
+}
+.post-detail .post-option a:hover {
+  color: #914891;
+}
+/**
+ * ==================================
+ * Side Bar Style
+ * ==================================
+ */
+/* Search Form Style */
+.search .subscribe-form-inner input {
+  color: #666666 !important;
+}
+.search .subscribe-form-inner input::-webkit-input-placeholder {
+  color: #666666 !important;
+}
+.search .subscribe-form-inner input:-moz-placeholder {
+  color: #666666 !important;
+}
+.search .subscribe-form-inner input::-moz-placeholder {
+  color: #666666 !important;
+}
+.search .subscribe-form-inner input:-ms-input-placeholder {
+  color: #666666 !important;
+}
+.post-counter a {
+  color: #666666;
+}
+.post-counter a:hover {
+  color: #914891;
+}
+.tags .title {
+  background-color: #f6f6f6;
+  color: #666666;
+}
+.tags .title:hover {
+  color: #914891;
+}
+.recent-post a:hover p {
+  color: #914891;
+}
+.recent-post a:hover p span {
+  color: #666666;
+}
+/** 
+ * ========================================================
+ * ============================================================
+ * Blog Single Page Style
+ * ============================================================
+ * ========================================================
+ */
+.heading .post-detail .post-option a:hover,
+.heading .post-detail .date a:hover,
+.heading .post-detail .comment a:hover,
+.heading .post-detail .by a:hover {
+  color: #914891;
+}
+.blog-message-form .btn {
+  border-color: #914891;
+  color: #914891;
+}
+.blog-message-form .btn:after {
+  background-color: #914891;
+}
+.comment-option a {
+  color: #666666;
+}
+.comment-option .reply:hover,
+.comment-option .like:hover,
+.comment-option .dislike:hover,
+.comment-option .reply:active,
+.comment-option .like:active,
+.comment-option .dislike:active {
+  color: #914891;
+}
+/**
+ * ===================================
+ * ===========================================
+ * Style 2
+ * ===========================================
+ * ===================================
+ */
+/**
+ * ================================
+ * Navbar Style 2
+ * ================================
+ */
+.header-nav-2 {
+  /* After Fixed In Top */
+}
+.header-nav-2 .navbar-header .navbar-toggle {
+  border-color: #ffffff;
+}
+.header-nav-2 .navbar-header .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.header-nav-2 .navbar-header a img {
+  background-color: #914891 !important;
+}
+.header-nav-2 .navbar-header a span {
+  border-color: transparent;
+}
+.header-nav-2 .nav li a::after {
+  background-color: #914891;
+}
+.header-nav-2.navbar-home .navbar-header .navbar-toggle {
+  border-color: #914891;
+}
+.header-nav-2.navbar-home .navbar-header .navbar-toggle .icon-bar {
+  background-color: #914891;
+}
+.header-nav-2.navbar-home .navbar-header a span {
+  background-color: #ffffff;
+  border-left-color: #914891;
+  border-bottom-color: #914891;
+  border-right-color: #914891;
+}
+.header-nav-2.navbar-home .nav li a {
+  color: #914891;
+}
+.header-nav-2.navbar-home .nav li .new-page:hover {
+  background-color: transparent;
+  color: #914891;
+}
+@media (max-width: 767px) {
+  /**
+     * ================================
+     * Navbar Style 2
+     * ================================
+     */
+  .header-nav-2 {
+    /* After Fixed In Top */
+  }
+  .header-nav-2 .nav li a {
+    color: #914891;
+  }
+  .header-nav-2.navbar-home .nav li a {
+    color: #914891;
+  }
+  .header-nav-2.navbar-home .nav li .new-page {
+    background-color: transparent;
+    color: #914891;
+  }
+}

@@ -1,0 +1,218 @@
+
+/* --------------------
+   -------------------- Layout -------------------- */
+.b-customizer  {
+     position:  fixed;
+     z-index:  111111111;
+     top:  100px;
+     right:  0;
+     font:  300 1.6em/1.5 'Open Sans',  sans-serif;
+     text-align:  left;
+ }
+
+.b-customizer_options  {
+     position:  relative;
+     z-index:  5;
+     padding:  20px 20px;
+     width:  259px;
+     background:  #fff;
+     background:  rgba(255,  255,  255,  .85);
+ }
+
+
+.b-customizer_toggle  {
+     position:  absolute;
+     z-index:  0;
+     right:  100%;
+     top:  16px;
+     padding:  10px;
+     font-size:  22px;
+     line-height:  24px;
+     text-align:  center;
+     color:  #666;
+     background:  #fff;
+     background:  rgba(255,  255,  255,  .85);
+     cursor:  pointer;
+ }
+
+.b-customizer_toggle:hover,
+.b-customizer_toggle:active {
+     color:  #3DC355 !important;
+ }
+ .b-customizer_toggle:focus {
+     color:  #666 !important;
+ }
+
+
+.b-customizer_toggle, 
+.b-customizer_options  {
+     -webkit-border-radius:  0 0px 0px 0;
+     -moz-border-radius:  0 0px 0px 0;
+     border-radius:  0 0px 0px 0;
+ }
+
+
+.b-customizer_set  {
+     position:  relative;
+     margin-bottom:  25px;
+ }
+
+.b-customizer_set ~ .b-customizer_set  {
+     margin-top:  16px;
+ }
+
+
+.b-customizer_set_legend  {
+     font-size:  15px !important;
+     margin-bottom:  10px;
+     font:  900 1em/1.25 'Open Sans',  sans-serif;
+     text-transform:  uppercase;
+     letter-spacing:  .025em;
+     color:  #666;
+ }
+
+
+@media (max-width: 768px)  {
+    
+
+    .b-customizer  {
+          position:  fixed;
+      }
+
+
+}
+
+
+/* --------------------
+   -------------------- Toggle -------------------- */
+.b-customizer  {
+     -webkit-transform:  translate(0,  0);
+     -moz-transform:  translate(0,  0);
+     -ms-transform:  translate(0,  0);
+     -o-transform:  translate(0,  0);
+     transform:  translate(0,  0);
+     -webkit-transition:  all 400ms;
+     -moz-transition:  all 400ms;
+     -o-transition:  all 400ms;
+     transition:  all 400ms;
+ }
+
+.b-customizer.open  {
+     -webkit-transform:  translate(260px,  0);
+     -moz-transform:  translate(260px,  0);
+     -ms-transform:  translate(260px,  0);
+     -o-transform:  translate(260px,  0);
+     transform:  translate(260px,  0);
+ }
+
+
+
+/* --------------------
+   -------------------- Links -------------------- */
+.b-customizer_layout, 
+.b-customizer_style  {
+     list-style:  none;
+     font:  700 .875em/1.25 'Open Sans',  sans-serif;
+     letter-spacing:  .025em;
+ }
+
+
+.b-customizer_layout li, 
+.b-customizer_style li  {
+     display:  block;
+     margin-bottom:  0px;
+ }
+
+
+.b-customizer_layout a, 
+.b-customizer_style a  {
+     text-decoration:  none;
+     color:  #666;
+         font-size:  14px;
+     font-weight:  bold;
+}
+
+
+.b-customizer_layout a:hover, 
+.b-customizer_style a:hover, 
+.b-customizer_layout a.current, 
+.b-customizer_style a.current  {
+     color:  #3AC353;
+ }
+
+
+
+.b-customizer_options ul  {
+    margin-left:  0px;
+     padding-left:  0px;
+}
+
+
+/* --------------------
+   -------------------- Colors -------------------- */
+.b-customizer_colors  {
+     list-style:  none;
+     max-width:  160px;
+ }
+
+.b-customizer_colors li  {
+     display:  inline-block;
+     margin-right:  5px;
+ }
+
+
+.b-customizer_colors a  {
+     display:  block;
+     width:  35px;
+     height:  35px;
+     cursor:  pointer;
+     border:  2px solid transparent;
+     -webkit-border-radius:  4px;
+     -moz-border-radius:  4px;
+     border-radius:  4px;
+     -webkit-box-sizing:  border-box;
+     -moz-box-sizing:  border-box;
+     box-sizing:  border-box;
+ }
+
+.b-customizer_colors a:hover  {
+     opacity:  .85em;
+ }
+
+
+.b-customizer_colors a.current  {
+     border-color:  rgba(0,  0,  0,  .25);
+ }
+
+
+.b-customizer_colors a.forestGreen  {
+     background:  #3AC353;
+ }
+
+.b-customizer_colors a.yellow  {
+     background:  #FE6767;
+ }
+
+.b-customizer_colors a.oliveDrab  {
+     background:  #4F3F76;
+ }
+
+.b-customizer_colors a.blue  {
+     background:  #009beb;
+ }
+
+.b-customizer_colors a.purple  {
+     background:  #914891;
+ }
+
+.b-customizer_colors a.slate  {
+     background:  #667388;
+ }
+
+.b-customizer_colors a.orange  {
+     background:  #f39c12;
+ }
+
+.b-customizer_colors a.berry  {
+     background:  #e97a6d;
+ }
