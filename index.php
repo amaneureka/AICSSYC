@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-		<title> AICSC | IEEE NSIT Delhi</title>
+        <title> AICSC | IEEE NSIT Delhi</title>
 
-		<meta charset="utf-8">
-    	<meta name="description" content="__DESCRIPTION__" />
-    	<meta name="keywords" content="NSIT, IEEE, IEEE-NSIT, AICSC, 2015, Delhi, Dwarka" />
-    	<meta name="author" content="IEEE NSIT">
-   		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+        <meta charset="utf-8">
+        <meta name="description" content="__DESCRIPTION__" />
+        <meta name="keywords" content="NSIT, IEEE, IEEE-NSIT, AICSC, 2015, Delhi, Dwarka" />
+        <meta name="author" content="IEEE NSIT">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-   		<!--   FAV AND TOUCH ICONS   -->
+        <!--   FAV AND TOUCH ICONS   -->
         <link rel="icon" href="assets/images/favicon.ico">
         <link rel="apple-touch-icon" href="assets/images/logo_medium.png">
 
@@ -89,8 +89,8 @@
                     <div class="row header-body section-separator">
                         
                         <!-- Logo Goes Here -->
-                        <img src="assets/images/logo.png" alt="This is a logo" class="wow fadeInDown">
-
+                        <img src="assets/images/logo.png" alt="This is a logo" style="background-color: transparent;" class="wow fadeInDown">
+                        
                         <!-- Headline Goes HEre -->
                         <h1 class="wow fadeInDown" data-wow-delay="0.3s">
                             Hello! Welcome To AICSC

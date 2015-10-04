@@ -516,9 +516,17 @@ $(function() {
                 type: "POST",
                 url: "sendmail.php",
                 data: data,
-                success: function() {
+                timeout: 5000,
+                success: function(data) {
+                    if (data.error) 
+                    {
+                      $('.email-failed').
+                    }
                     $('.email-success').delay(500).fadeIn(1000);
                     $('.email-failed').fadeOut(500);
+                },
+                error: function(xhr, textStatus, errorThrown){
+                    alert('request failed');
                 }
             });
         } else {
