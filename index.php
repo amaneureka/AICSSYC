@@ -2054,7 +2054,11 @@ src="http://maps.googleapis.com/maps/api/js">
 function initialize() {
   var mapProp = {
     center:new google.maps.LatLng(28.609122, 77.035638),
+<<<<<<< HEAD
     zoom:5,
+=======
+    zoom:17,
+>>>>>>> 90a63d5126d3e440554409f0346b95d57ad1d8ab
     mapTypeId:google.maps.MapTypeId.ROADMAP
   };
   var map=new google.maps.Map(document.getElementById("map"), mapProp);
