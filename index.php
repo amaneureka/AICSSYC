@@ -1180,43 +1180,7 @@ src="http://maps.googleapis.com/maps/api/js">
         ==================================-->
         
         
-        <!-- Start: Our Featured Area
-        ==============================-->
-        <section id="our-featured">
-            <div class="container">
-                <div class="row our-featured-body section-separator">
-
-                    <!-- Start: Section Header -->
-                    <div class="section-header col-md-8 col-md-offset-2">
-
-                        <h2 class="section-heading">ENVATO BANGLADESH MEETUP</h2>
-                        <P>Lorem ipsum dolor sit amet, multipage adipiscing elit, sed diam nonummy event landing euismod tincidunt ut laoreet dolore magna  aliquam erat volutpat. Finiti is multipage event landing wisi enim ad minim veniam, quis nostrud exerci tation ullamcorp eu feugiat nulla facilisis at vero eros et accumsan et iusto odior tempor cum soluta nobis eleifend option congue nihil imperdiet new designdoming id quohab por cum soluta new style event landing multipage template nobis eleif reen d option congue nihil doming</P>
-
-                    </div>
-                    <!-- End: Section Header -->
-
-                    <div class="clearfix"></div>
-                    
-                    <!-- Start: Our Featured video -->
-                    <div class="our-featured-video col-md-10 col-md-offset-1 wow fadeInDown">
-
-                       <!--  Start: Video Area  "PASTE YOUR VIDEO LINK HERE " -->
-                        <div class="video">
-                           <iframe class="video-async" data-source="vimeo" data-video="89035281" data-color="3AC353" allowfullscreen="" src="https://player.vimeo.com/video/89035281?color=3AC353"></iframe> <!--  Video Link Goes Here--> 
-                        </div>
-                        <!--  End: Video Area  -->
-
-                    </div>
-                    <!-- End: Our Featured Video -->
-
-                </div>
-                <!-- Start: .row .our-featured-body .section-separator  -->
-             </div>
-             <!-- End: container  -->
-        </section> 
-        <!-- End: Our Featured Area
-        ====================================-->
-        
+          
         
         <!-- Start: Speakers Area 
         =====================================-->
