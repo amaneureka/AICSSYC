@@ -2138,7 +2138,7 @@ src="http://maps.googleapis.com/maps/api/js">
 function initialize() {
   var mapProp = {
     center:new google.maps.LatLng(28.609122, 77.035638),
-    zoom:5,
+    zoom:17,
     mapTypeId:google.maps.MapTypeId.ROADMAP
   };
   var map=new google.maps.Map(document.getElementById("map"), mapProp);
