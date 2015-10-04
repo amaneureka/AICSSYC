@@ -79,9 +79,9 @@ src="http://maps.googleapis.com/maps/api/js">
                             <li class="section-selector"><a href="#header">Home</a></li>
                             <li class="section-selector"><a href="#schedule">Schedule</a></li>
                             <li class="section-selector"><a href="#two-cols-description-with-image">About</a></li>
-                            <li class="section-selector"><a href="#pricing-table">Price</a></li>
+                            <!--<li class="section-selector"><a href="#pricing-table">Price</a></li>-->
                             <li class="section-selector"><a href="#map_contact">Venue</a></li> 
-                            <li class="section-selector"><a href="blog.html" class="blog">Blog</a></li> 
+                            <!--<li class="section-selector"><a href="blog.html" class="blog">Blog</a></li>--> 
                         </ul>
                         
                     </nav> <!-- End: navbar navbar-inverse  -->
@@ -101,7 +101,7 @@ src="http://maps.googleapis.com/maps/api/js">
 
                         <!-- Detail -->
                         <p class="wow fadeInDown" data-wow-delay="0.6s">
-                        Open sourcing technology for betterment
+                        Open Sourcing Technology for Betterment
                         </p>
 
                         <!-- Start: CountDown area -->
@@ -1615,139 +1615,7 @@ src="http://maps.googleapis.com/maps/api/js">
         ==============================-->
 
         
-        <!-- Start: Blog Area 
-        ==================================-->
-        <section id="blog-section" class="blog-section">
-            <div class="container">
-                <div class="row section-separator">
-                    
-                    <!-- Start: Section Header -->
-                    <div class="section-header col-md-8 col-md-offset-2" >
-
-                        <h2 class="section-heading">Blog</h2>
-                        <p>Lorem ipsum dolor sit amet event landing template, consectetuer adipiscing elit event landing template, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
-
-                    </div>
-                    <!-- End: Section Header -->
-                    
-                    <!-- Start: Bolg Post body -->
-                    <div class="blog-post-demo col-xs-12 ">
-                        <div class="row">
-                            
-                            <!-- Blog Post 1 -->
-                            <div class="col-sm-6 col-md-4 wow fadeInUp" >
-                                <div class="thumbnail blog-post">
-
-                                    <!-- Post Gelary Slider Goes Here -->
-                                    <div class="slider-bar">
-                                        <div class="flexslider">
-                                            <ul class="slides">
-                                                <li>
-                                                    <img src="assets/images/gallery/gallery-1.jpg" alt="" title=""/>
-                                                </li>
-                                                <li>
-                                                    <img src="assets/images/gallery/gallery-2.jpg" alt="" title=""/>
-                                                </li>
-                                                <li>
-                                                    <img src="assets/images/gallery/gallery-3.jpg" alt="" title=""/>
-                                                </li>
-                                                <li>
-                                                    <img src="assets/images/gallery/gallery-4.jpg" alt="" title=""/>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div class="caption">
-                                        <a href="blog-gallery.html">
-
-                                            <!-- Post Heading -->
-                                            Gallery Blog Post Header Here
-
-                                            <!-- Post detail -->
-                                            <p class="post-comment">
-                                                Lorem ipsum dolor sit amet event landing template, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt...
-                                            
-                                            </p>
-
-                                            <!-- Post date -->
-                                            <p class="date-of-post">17th May 2014</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!-- Blog Post 2 -->
-                            <div class="col-sm-6 col-md-4 wow fadeInUp" data-wow-delay="0.3s">
-                                <div class="thumbnail blog-post">
-
-                                    <!-- Post video Goes Here -->
-                                    <!--  Start: Video Area  "PASTE YOUR VIDEO LINK HERE " -->
-                                    <div class="video">
-                                       <iframe class="video-async" data-source="vimeo" data-video="89035281" data-color="3AC353" allowfullscreen="" src="https://player.vimeo.com/video/89035281?color=3AC353"></iframe> <!--  Video Link Goes Here--> 
-                                    </div>
-                                    <!--  End: Video Area  -->
-
-                                    <div class="caption">
-                                        <a href="blog-video.html">
-
-                                            <!-- Post Heading -->
-                                            Video Blog Post Header Here
-
-                                            <!-- Post detail -->
-                                            <p class="post-comment">
-                                                
-                                                Lorem ipsum dolor sit amet event landing template, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt. ipsum dolor sit amet event landing template...
-                                            
-                                            </p>
-
-                                            <!-- Post date -->
-                                            <p class="date-of-post">17th May 2014</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!-- Blog Post 3 -->
-                            <div class="col-sm-6 col-sm-offset-3 col-md-offset-0 col-md-4 wow fadeInUp" data-wow-delay="0.6s">
-                                <div class="thumbnail blog-post">
-
-                                    <!-- Post Image Goes Here -->
-                                    <img alt="" src="assets/images/blog/post-1.jpg" class="img-responsive">
-
-                                    <div class="caption">
-                                        <a href="blog-image.html">
-
-                                            <!-- Post Heading -->
-                                            Image Blog Post Header Here
-
-                                            <!-- Post detail -->
-                                            <p class="post-comment">
-                                                Lorem ipsum dolor sit amet event landing template, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt...
-                                            </p>
-
-                                            <!-- Post date -->
-                                            <p class="date-of-post">17th May 2014</p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <!-- End: Blog Post Body -->
-                    
-                    <!-- Start Button -->
-                    <div class="blog-page-btn defult-use-btn">
-                        <a href="#" class="btn btn-1 btn-top wow fadeInDown">Show All Post</a>
-                    </div>
-                    <!-- End: Button -->
-
-                </div>
-            </div>
-        </section>
-        <!-- End: Blog Area 
-        ==================================-->
+        
         
         
         <!-- Start: NewsLetter Area 
