@@ -1488,8 +1488,8 @@ src="http://maps.googleapis.com/maps/api/js">
                     <!-- Start: Section Header -->
                     <div class="section-header col-md-8 col-md-offset-2">
                     
-                        <h2 class="section-heading">Freaquently Asked Question</h2>
-                        <p>Lorem ipsum dolor sit amet event landing template, consectetur adipisicing elit. Suscipit corrupti facilis event landing template, enim earum numquam minus veritatis nobis accusamus similique, totam?</p>
+                        <h2 class="section-heading">Frequently Asked Question</h2>
+                        <p>Common Doubts and Queries</p>
                         
                     </div>
                     <!-- End: Section Header -->
@@ -1508,7 +1508,7 @@ src="http://maps.googleapis.com/maps/api/js">
 
                                             <!-- Tab-1 Title Goes Here  -->
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="">
-                                                What if I need to cancel my booking at late notice?
+                                                How do to Register?
                                                 <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
                                             </a>
 
@@ -1532,7 +1532,7 @@ src="http://maps.googleapis.com/maps/api/js">
 
                                             <!-- Tab-1 Title Goes Here  -->
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">
-                                                Which payment methods do you accept?
+                                                How to reach NSIT?
                                                 <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
                                             </a>
 
@@ -1542,7 +1542,8 @@ src="http://maps.googleapis.com/maps/api/js">
 
                                         <!-- Tab-2 Detail Goes Here  -->
                                         <div class="panel-body">
-                                            Anim pariatur cliche reprehenderit event landing template, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute event landing template, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3.
+                                         Alternative #1: Bus no.764,727</br>
+                                         Alternative #2: Dwarka More Metro Station.										 
                                         </div>
 
                                     </div>
@@ -1556,7 +1557,7 @@ src="http://maps.googleapis.com/maps/api/js">
 
                                             <!-- Tab-3 Title Goes Here  -->
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
-                                                I'd like to buy 5 tickets event landing template, is there bulk pricing?
+                                                What all should I bring?
                                                 <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
                                             </a>
 
@@ -1566,8 +1567,12 @@ src="http://maps.googleapis.com/maps/api/js">
 
                                         <!-- Tab-3 Detail Goes Here  -->
                                         <div class="panel-body">
-                                           Anim pariatur cliche reprehenderit event landing template, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute event landing template, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3.
-                                        </div>
+                                         Things to bring :-
+										  </br>
+										  #1 ID proof.
+										  </br> 
+										  #2 Registration Form.
+										</div>
 
                                     </div>
                                 </div>
