@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 
-        <title> AICSC | IEEE NSIT Delhi</title>
+		<title> AICSC | IEEE NSIT Delhi</title>
 
-        <meta charset="utf-8">
-        <meta name="description" content="__DESCRIPTION__" />
-        <meta name="keywords" content="NSIT, IEEE, IEEE-NSIT, AICSC, 2015, Delhi, Dwarka" />
-        <meta name="author" content="IEEE NSIT">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta charset="utf-8">
+    	<meta name="description" content="__DESCRIPTION__" />
+    	<meta name="keywords" content="NSIT, IEEE, IEEE-NSIT, AICSC, 2015, Delhi, Dwarka" />
+    	<meta name="author" content="IEEE NSIT">
+   		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-        <!--   FAV AND TOUCH ICONS   -->
+   		<!--   FAV AND TOUCH ICONS   -->
         <link rel="icon" href="assets/images/favicon.ico">
         <link rel="apple-touch-icon" href="assets/images/logo_medium.png">
 
@@ -92,8 +92,8 @@ src="http://maps.googleapis.com/maps/api/js">
                     <div class="row header-body section-separator">
                         
                         <!-- Logo Goes Here -->
-                        <img src="assets/images/logo.png" alt="This is a logo" style="background-color: transparent;" class="wow fadeInDown">
-                        
+                        <img src="assets/images/logo.png" alt="This is a logo" class="wow fadeInDown">
+
                         <!-- Headline Goes HEre -->
                         <h1 class="wow fadeInDown" data-wow-delay="0.3s">
                             Hello! Welcome To AICSC
@@ -111,7 +111,7 @@ src="http://maps.googleapis.com/maps/api/js">
                         
                         <!-- Start: Button area -->
                         <div class="buy-tricket btn-scroll wow fadeInDown" data-wow-delay="1.2s">
-                            <a href="#register" class="btn btn-1 btn-top">Register Now</a>
+                            <a href="#pricing-table" class="btn btn-1 btn-top">Register Now</a>
                             <!--<button class="btn btn-1 btn-1c">Button</button>-->
                         </div>
                         <!-- End: Button area" -->
@@ -1446,6 +1446,90 @@ src="http://maps.googleapis.com/maps/api/js">
         </section>
         <!-- End: Speakers Area 
         =====================================-->
+
+        
+        <!-- Start: Pricing Table Area 
+        =====================================-->
+        <section id="pricing-table" class="fix"> 
+            <div class="container">
+                <div class="row section-separator">
+                    
+                    <!-- Start: Section Header -->
+                    <div class="section-header col-md-6 col-md-offset-3" >
+                    
+                        <h2 class="section-heading">We Have Plans</h2>
+                        <p>Lorem ipsum dolor sit amet event landing template, consectetur adipisicing elit. Suscipit corrupti facilis event landing template, enim earum numquam minus veritatis nobis accusamus similique, totam?</p>
+                        
+                    </div>
+                    <!-- End: Section Header -->
+                    
+                    <!-- Start: .table -->
+                    <div class="table  wow fadeInDown">
+                        <div class="row">
+
+                            <!-- Table no-1-->
+                            <div class="pricing-table col-xs-12 col-sm-6">
+                                <div class="table-single">
+
+                                    <div class="meta-price col-sm-5 col-xs-12">
+                                        <div class="meta-price-inner">
+                                            <span class="currency">$</span>
+                                            <span class="rate">13</span> <br/> 
+                                            <span class="period">/all days</span>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-right col-sm-7 col-xs-12">
+                                        <h3 class="meta-heading">BASIC</h3>
+                                         <ul>
+                                            <li>Business Class Flight Ticket</li>
+                                            <li>Startup Review</li>
+                                        </ul>
+                                        <div class="btn-scroll-2">
+                                            <a href="#register" class="btn btn-1 btn-left">Register Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End: .table-single -->
+                            </div>  
+                            
+                            <!-- Table no-1-->
+                            <div class="pricing-table col-xs-12 col-sm-6">
+                                <div class="table-single">
+
+                                    <div class="meta-price col-sm-5 col-xs-12">
+                                        <div class="meta-price-inner">
+                                            <span class="currency">$</span>
+                                            <span class="rate">49</span> <br/> 
+                                            <span class="period">/all days</span>
+                                        </div>
+                                    </div>
+                                    <div class="pricing-right  col-sm-7 col-xs-12">
+                                        <h3 class="meta-heading">STANDARD</h3>
+                                         <ul>
+                                            <li>Business Class Flight Ticket</li>
+                                            <li>Startup Review</li>
+                                        </ul>
+                                        <div class="btn-scroll-2">
+                                            <a href="#register" class="btn btn-1 btn-left">Register Now</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- End: .table-single -->
+                            </div> 
+
+                        </div>
+                        <!-- End: .row -->
+                    </div>
+                    <!-- End: .table -->
+                    
+                </div>
+                <!-- End: .row .section-separator  -->
+            </div> 
+            <!-- End: .container  -->
+        </section> 
+        <!-- End: .Pricing .Table Area 
+        ==================================-->
+
 
         <!-- Start: Register Area 
         ==================================-->

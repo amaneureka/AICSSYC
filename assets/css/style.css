@@ -222,7 +222,7 @@ html * {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
+  }
 body {
   overflow-x: hidden !important;
   font-family: 'Open Sans', sans-serif;
@@ -247,7 +247,7 @@ a:focus {
   overflow: hidden;
 }
 p {
-  font-size: 15px;
+  font-size: 25px;
   line-height: 28px;
   font-weight: 300;
   text-align: center;
@@ -424,11 +424,11 @@ h3 {
 .btn-1 {
   border: 1px solid #fff;
   color: #fff;
-  border-radius: 0 0 0 0;
-  -webkit-border-radius: 0 0 0 0;
-  -moz-border-radius: 0 0 0 0;
-  -ms-border-radius: 0 0 0 0;
-  -o-border-radius: 0 0 0 0;
+  border-radius: 0 35 0 35;
+  -webkit-border-radius: 0 35 0 35;
+  -moz-border-radius: 0 35 0 35;
+  -ms-border-radius: 0 35 0 35;
+  -o-border-radius: 0 35 0 35;
 }
 /* Slide Effect [ Left and Right] */
 .btn-left,
