@@ -417,9 +417,6 @@ $(function() {
       time: 1000
     });
 
-
-
-
     /**
      * =============================================
      * MAILCHIMP NEWSLETTER SUBSCRIPTION 
@@ -501,15 +498,13 @@ $(function() {
      * Contact Form 
      * ====================================
      */
-    $("#contact").submit(function(e) {
+    $("#contact").submit(function(e) {    	
         e.preventDefault();
         var data = {
             name: $("#contact-name").val(),
             email: $("#contact-email").val(),
             message: $("#contact-message").val()
         };
-
-        
 
         if ( isValidEmail(data['email']) && (data['message'].length > 1) && (data['name'].length > 1) ) {
             $.ajax({
@@ -518,15 +513,12 @@ $(function() {
                 data: data,
                 timeout: 5000,
                 success: function(data) {
-                    if (data.error) 
-                    {
-                      $('.email-failed').
-                    }
                     $('.email-success').delay(500).fadeIn(1000);
                     $('.email-failed').fadeOut(500);
                 },
                 error: function(xhr, textStatus, errorThrown){
-                    alert('request failed');
+                    $('.email-failed').delay(500).fadeIn(1000);
+            		$('.email-success').fadeOut(500);
                 }
             });
         } else {
@@ -644,7 +636,7 @@ $(function() {
    * =======================================
    */
   function init_map() {
-    var myLocation = new google.maps.LatLng(24.892467,91.87048);
+    var myLocation = new google.maps.LatLng(28.6091309,77.0350686);
 
     var draggableValue;
       if($(document).width() <= 768){
@@ -673,7 +665,7 @@ $(function() {
 
     var marker = new google.maps.Marker({
       position: myLocation,
-      title:"Peggy Guggenheim Collection"});
+      title:"Netaji Subhash Instituate of Technology (NSIT)"});
       
     var map = new google.maps.Map(document.getElementById("map"),
       mapOptions);

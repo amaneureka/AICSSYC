@@ -979,13 +979,6 @@ src="http://maps.googleapis.com/maps/api/js">
                         </div>
 
                     </div>
-                    
-                    <!-- Download Button -->
-                    <div class="download-btn defult-use-btn">
-                        <a href="#" class="btn btn-1 btn-top">Download<span>[ PDF 0.450KB ]</span></a>
-                    </div>
-
-
                 </div>
                 <!-- End: .row -->
             </div> 
@@ -1032,24 +1025,13 @@ src="http://maps.googleapis.com/maps/api/js">
                             <div class="section-header align-left">
                                 
                                 <h2 class="section-heading">About Our Event</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
-                                
-                            </div>
-                            <!-- End: Section Header -->
 
-                            <!-- Start: .chaecklist -->
-                            <ul class="checklist">
-                                <li>Finiti id dolor id evint landing ultricies vehicula ut id elit.</li>
-                                <li>Aenean lacinia bibendum nulla sed consectetur.</li>
-                                <li>Nulla vitae elit finiti, a pharetra augue.</li>
-                                <li>Etiam porta sem multipage evint landing magna mollis euismod a pharetra augue.</li>
-                                <li class="visible-lg">Praesent commodo cursus magna, event landing scelerisque nisl consectetur et.</li>
-                            </ul> 
-                            <!-- End: .checklist -->
-                            
-                            <!-- Read More Button -->
-                            <a href="#0" class="btn btn-1 btn-left btn-read-more">Read More</a>
-                            
+                                <p style="font-size:20px">IEEE students members are the leaders of tomorrow.
+Through IEEE, they are able to access the best electrical, electronic, and engineering publications of today’s world. Moreover,  networking with IEEE’s members and industry’s leaders not only imparts students with leadership skills, but also goes a long way nurturing a healthy technical environment where innovation and invention can bloom.
+However, in order to consummate IEEE’s aims, it is a necessity that student branches meet, communicate, and share their ideas and methods.
+To facilitate this communication, IEEE Delhi Branch has decided to host the All India Student Congress (AISC) for the year 2015 in association with IEEE NSIT Branch.</p>
+                                
+                            </div>                            
                         </div>
 
                     </div>
@@ -1078,25 +1060,12 @@ src="http://maps.googleapis.com/maps/api/js">
                             <!-- Start: Section Header -->
                             <div class="section-header align-left">
                                 
-                                <h2 class="section-heading">About Our Event</h2>
-                                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
+                                <h2 class="section-heading">Why?</h2>
+                                <p style="font-size:20px">This congress offers the members a collaborative environment for creativity and productivity as well as the resources to advance their knowledge and professional training. Participants are provided with the opportunity to meet the IEEE leaders and interact with members from other sections. They can also learn about the various student programs and networking opportunities that the society has to offer.
+So this basically provides a platform to the students to further their knowledge and equip them with the tools needed to realize their dreams and aspirations</p>
                                 
                             </div>
-                            <!-- End: Section Header -->
-
-                            <!-- Start: .chaecklist -->
-                            <ul class="checklist">
-                                <li>Finiti id dolor id evint landing ultricies vehicula ut id elit.</li>
-                                <li>Aenean lacinia bibendum nulla sed consectetur.</li>
-                                <li>Nulla vitae elit finiti, a pharetra augue.</li>
-                                <li>Etiam porta sem multipage evint landing magna mollis euismod a pharetra augue.</li>
-                                <li class="visible-lg">Praesent commodo cursus magna event landing template, event landing scelerisque nisl consectetur et.</li>
-                            </ul> 
-                            <!-- End: .checklist -->
-                            
-                            <!-- Read More Button -->
-                            <a href="#0" class="btn btn-1 btn-left btn-read-more">Read More</a>
-                            
+                            <!-- End: Section Header -->                            
                         </div>
 
                     </div>
@@ -1797,84 +1766,8 @@ src="http://maps.googleapis.com/maps/api/js">
             <!-- COLOR OVERLAY -->
             <div class="overlay-color">
                 <div class="container section-separator">
-
                     <div class="quote-sym"><i class="fa fa-twitter"></i></div>
-                    <div id="sync1" class="owl-carousel">
-                        
-                        <!-- TESTIMONIAL TEXT - CLIENT'S MSG -->
-              <a class="twitter-timeline" href="https://twitter.com/hashtag/aicsc%23nsit" data-widget-id="650332494936477696">#aicsc#nsit Tweets</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-                         <!-- End: TESTIMONIAL TEXT - CLIENT'S MSG -->
-
-                    </div>
-
-                    <div id="sync2" class="owl-carousel">
-
-                        <!-- CLIENT'S PICTURE -->
-                        <div class="item">
-                            <figure>
-                                <img src="assets/images/clients-pic/client-1.jpg" alt="" class="img-responsive">
-                                <figcaption>
-                                    <p class="name">Maria Adair</p>
-                                    <cite>Programmer</cite>
-                                </figcaption>
-                            </figure>
-                        </div>
-                        
-                        <div class="item">
-                            <figure>
-                                <img src="assets/images/clients-pic/client-2.jpg" alt="" class="img-responsive">
-                                <figcaption>
-                                    <p class="name">William Jackson</p>
-                                    <cite>Graphic Artist</cite>
-                                </figcaption>
-                            </figure>
-                        </div>
-
-                        <div class="item">
-                            <figure>
-                                <img src="assets/images/clients-pic/client-3.jpg" alt="" class="img-responsive">
-                                <figcaption>
-                                    <p class="name">Robert Gregory</p>
-                                    <cite>Developer</cite>
-                                </figcaption>
-                            </figure>
-                        </div>
-
-                        <div class="item">
-                            <figure>
-                                <img src="assets/images/clients-pic/client-2.jpg" alt="" class="img-responsive">
-                                <figcaption>
-                                    <p class="name">Michael Murphy</p>
-                                    <cite>Web Engineer</cite>
-                                </figcaption>
-                            </figure>
-                        </div>
-
-                        <div class="item">
-                            <figure>
-                                <img src="assets/images/clients-pic/client-1.jpg" alt="" class="img-responsive">
-                                <figcaption>
-                                    <p class="name">Blanca Anderson</p>
-                                    <cite>UI Expert</cite>
-                                </figcaption>
-                            </figure>
-                        </div>
-
-                        <div class="item">
-                            <figure>
-                                <img src="assets/images/clients-pic/client-3.jpg" alt="" class="img-responsive">
-                                <figcaption>
-                                    <p class="name">James Gordon</p>
-                                    <cite>Photographer</cite>
-                                </figcaption>
-                            </figure>
-                        </div>
-                    </div>
-                     <!-- End: CLIENT'S PICTURE -->
-
-                </div> 
-                <!-- End: .container -->
+                </div>
             </div>
              <!-- End: Color Overlay -->
         </section>
@@ -1887,24 +1780,9 @@ src="http://maps.googleapis.com/maps/api/js">
         <section id="map_contact">
 
             <!-- Start: Map -->
-<script>
-function initialize() {
-  var mapProp = {
-    center:new google.maps.LatLng(28.609122, 77.035638),
-<<<<<<< HEAD
-    zoom:5,
-=======
-    zoom:17,
->>>>>>> 90a63d5126d3e440554409f0346b95d57ad1d8ab
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("map"), mapProp);
-}
-google.maps.event.addDomListener(window, 'load', initialize);
-</script>
             <div class="map-map">
                 <div class="map-body">
-                    <div class="map" id="map" style="width:500px;height:380px">
+                    <div class="map" id="map">
                         <!-- Map Show Here -->
 
                     </div>
@@ -2010,7 +1888,7 @@ google.maps.event.addDomListener(window, 'load', initialize);
                     </div>
 
                     <div class="copyright col-xs-12">
-                        <p>Copyright 2015 Finiti Landing Page - All rights reserved. <i class="fa twitter fa-twitter"></i> English (US) </p>
+                        <p>&copy; 2015 IEEE-NSIT WebD Team. <i class="fa twitter fa-twitter"></i> English (US) </p>
                     </div>
                     
 
@@ -2038,12 +1916,9 @@ google.maps.event.addDomListener(window, 'load', initialize);
         <script src="assets/js/jquery.countdown.js"></script>
         <script src="assets/js/jquery.flexslider-min.js"></script>
         <script src="assets/js/jquery.counterup.min.js"></script>
-        <script src="assets/js/waypoints.min.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
-        
-        <!-- Custom Script 
-        ==========================================-->
+        <script src="assets/js/waypoints.min.js"></script>
         <script src="assets/js/custom-scripts.js"></script>
     </body>
 </html>
