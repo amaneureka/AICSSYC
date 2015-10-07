@@ -1511,8 +1511,9 @@ So this basically provides a platform to the students to further their knowledge
 
                                         <!-- Tab-2 Detail Goes Here  -->
                                         <div class="panel-body">
-                                         Alternative #1: Bus no.764,727</br>
-                                         Alternative #2: Dwarka More Metro Station.										 
+                                         The best way to reach NSIT is by using the Metro train. The nearest Metro Station to NSIT is the Dwarka Mor station, which is on the blue line. After getting off at the station a 5 min ride in an e- rickshaw takes you to NSIT.
+You can also avail the Bus Service, specifically bus nos. 764 and 727
+                                   		 
                                         </div>
 
                                     </div>
@@ -1665,7 +1666,7 @@ So this basically provides a platform to the students to further their knowledge
         ==================================-->
         
         
-        <!-- Start: Sponsore Area 
+        <!-- Start: Sponsors Area 
         =================================-->
         <section id="sponsore" >
             <div class="container-fluid">
