@@ -180,7 +180,7 @@ src="http://maps.googleapis.com/maps/api/js">
                     <div class="section-header col-md-6 col-md-offset-3">
                     
                         <h2 class="section-heading">Schedule Detail</h2>
-                        <p>IEEE AISC will take place on 22nd and 23rd December 2015.
+                        <p>IEEE AICSC will take place on 22nd and 23rd December 2015.
 These two days will be jam packed with events which will put your technical skills to the test!
  </p>
                         
