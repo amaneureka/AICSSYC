@@ -424,7 +424,7 @@ $(function() {
      */
     $("#mailchimp-subscribe").ajaxChimp({
         callback: mailchimpCallback,
-        url: "http://deviserweb.us8.list-manage.com/subscribe/post?u=8035b74ecdb23c8ce0ccb094f&id=1a9b909143" // Replace your mailchimp post url inside double quote "".  
+        url: "http://ieeensit.us11.list-manage1.com/subscribe/post?u=fb07d627163505a9d6abf7580&id=66eb1cf803"
     });
 
     function mailchimpCallback(resp) {
@@ -467,7 +467,7 @@ $(function() {
      * LOCAL NEWSLETTER SUBSCRIPTION
      * ====================================
      */
-    $("#local-subscribe").submit(function(e) {
+    $("#subscribe").submit(function(e) {
         e.preventDefault();
         var data = {
             email: $("#subscriber-email").val()
@@ -476,22 +476,28 @@ $(function() {
         if ( isValidEmail(data['email']) ) {
             $.ajax({
                 type: "POST",
-                url: "subscribe/subscribe.php",
+                url: "subscribe.php",
                 data: data,
                 success: function() {
-                    $('.subscription-success').fadeIn(1000);
+                    $('.subscription-success')
+                      .html('<i class="fa fa-check"></i>' + "&nbsp;Almost finished...We need to confirm your email address.")
+                      .delay(500)
+                      .fadeIn(1000);
+
                     $('.subscription-failed').fadeOut(500);
                 }
             });
         } else {
-            $('.subscription-failed').fadeIn(1000);
+            $('.subscription-failed')
+                .html('<i class="fa fa-close"></i>' + "&nbsp;Something went wrong!")
+                .delay(500)
+                .fadeIn(1000);
+                
             $('.subscription-success').fadeOut(500);
         }
 
         return false;
     });
-
-
 
     /**
      * ====================================

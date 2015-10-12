@@ -1,5 +1,10 @@
-<?php
-	
+<?php	
+	if (!isset($_POST['name']))
+		die();
+	if (!isset($_POST['email']))
+		die();
+	if (!isset($_POST['message']))
+		die();
 	$name = $_POST['name'];
 	$email = $_POST['email'];
 	$message = $_POST['message'];

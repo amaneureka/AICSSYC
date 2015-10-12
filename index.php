@@ -1,3 +1,27 @@
+<?php
+    if (isset($_GET['email']) && isset($_GET['hash']))
+    {
+        $mailid = $_GET['email'];
+        $hashid = $_GET['hash'];
+        if (md5($mailid . "ieeensit") == $hashid)
+        {
+            $to = 'aman.eureka@gmail.com';
+            $email_subject = "@AICSC: New Subscriber";
+            $email_body = "Email". $mailid . "\n"; 
+    
+            $headers = "From: $to\n"; 
+            $headers .= "Reply-To: $to";
+                    
+            mail($to,$email_subject,$email_body,$headers);
+            echo ("Great! you're done!");
+        }
+        else
+        {
+            echo ("Invalid Hash");
+        }
+    }
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -1448,8 +1472,6 @@ So this basically provides a platform to the students to further their knowledge
         <!-- End: Register Area 
         ================================-->
 
-
-
         <!-- Start: Collapse Area 
         ==================================-->
         <section class="collapse-area" id="collapse-area"> 
@@ -1464,7 +1486,6 @@ So this basically provides a platform to the students to further their knowledge
                         
                     </div>
                     <!-- End: Section Header -->
-
 
                     <!-- Start: Collapse Area Inner  -->
                     <div class="collapse-inner col-sm-12 col-md-offset-2 col-md-8">
@@ -1590,10 +1611,6 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
         </section> 
         <!-- End: Collapse Area 
         ==============================-->
-
-        
-        
-        
         
         <!-- Start: NewsLetter Area 
         ==================================-->
@@ -1609,13 +1626,13 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                             <div class="section-header col-md-8 col-md-offset-2" >
 
                                 <h2 class="section-heading">Subscribe Our Newsletter</h2>
-                                <p>Lorem ipsum dolor sit amet event landing template, consectetuer adipiscing elit event landing template, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper.</p>
+                                <p>Stay updated with latest feeds and facts about the event.</p>
 
                             </div>
                             <!-- End: Section Header -->
                             
                             <!-- Start: Subscribe Button area -->
-                            <form id="mailchimp-subscribe" class="mailchimp-subscribe subscribe-form-inner wow fadeInDown">
+                            <form id="subscribe" class="mailchimp-subscribe subscribe-form-inner wow fadeInDown">
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-2">
                                         <p class="subscription-success"></p>
@@ -1629,31 +1646,7 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                                     </div>
                                 </div>
                             </form>
-                            <!-- End: Subscribe Button area -->
-                            
-
-                            <!-- =========================
-                                LOCAL SUBSCRIPTION FORM 
-                            ============================== -->
-                            <!-- COMMENTED FOR ALTERNATE USE-->
-
-                            <!--<form class="local-subscribe subscribe-form-inner wow fadeInDown" id="local-subscribe" >
-                                <div class="row">
-                                    <div class="col-md-8 col-md-offset-2">
-                                    
-                                        <p class="subscription-success"><i class="fa fa-check"></i> Your quote has successfully been sent.</p>
-                                        <p class="subscription-failed"><i class="fa fa-close"></i> Something went wrong!</p>
-                                        
-                                        <div class="input-group">
-                                            <input type="email" id="subscriber-email" name="email" placeholder="Your email address" class="form-control btn btn-1">
-                                            <span class="input-group-btn">
-                                                <button class="btn btn-1 btn-left">Submit</button>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>-->
-                            
+                            <!-- End: Subscribe Button area -->                                                        
                         </div>
                         <!-- End: NewsLetter Body Area-->
                     </div>
@@ -1815,9 +1808,9 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                                     <address class="contact-address margin-b25">
                                         <strong>Finiti Headoffice</strong>
                                         <ul class="address-ul">
-                                            <li><span class="bold"><i class="fa fa-home"></i>Address:&nbsp;</span> Finiti, one caspian point, pierhead street cardiff waterside, cf10 4dq</li>
-                                            <li><span class="bold"><i class="fa fa-phone"></i>Contact:&nbsp;</span><a href="callto:+8801771299299">+880 177 129 9299</a></li>
-                                            <li><span class="bold"><i class="fa fa-fax"></i>Mail:&nbsp;</span><a href="mailto:contact@deviserweb.com">contact@deviserweb.com</a></li>
+                                            <li><span class="bold"><i class="fa fa-home"></i>Address:&nbsp;</span> NSIT, Dwarka Mor Delhi</li>
+                                            <li><span class="bold"><i class="fa fa-phone"></i>Contact:&nbsp;</span><a href="callto:+919999999999">+91 999 999 9999</a></li>
+                                            <li><span class="bold"><i class="fa fa-fax"></i>Mail:&nbsp;</span><a href="mailto:contact@ieeensit.orf">contact@deviserweb.com</a></li>
                                         </ul>
                                     </address> 
                                     <!-- End: address -->
@@ -1901,7 +1894,7 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
         <!-- End: Footer Area  
         =====================================-->
 
-        <!-- SCRIPTS 
+            <!-- SCRIPTS 
         ========================================-->
         <script src="assets/js/jquery-1.11.3.js"></script>
         <script src="assets/js/bootstrap.min.js"></script>
