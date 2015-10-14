@@ -1136,20 +1136,20 @@ So this basically provides a platform to the students to further their knowledge
                                
                                 <div class="days_wrapper col-sm-6 col-xs-12 col-md-3 custom">
                                     <div class="background time">
-                                        <span class="counter"> <span class="counter-up">10,900</span></span>
-                                        <span class="title">TICKETS SOLVED</span>
+                                        <span class="counter"> <span class="counter-up">50</span></span>
+                                        <span class="title">Participants</span>
                                     </div>
                                 </div>
                                 <div class="hours_wrapper col-sm-6 col-xs-12 col-md-3 custom">
                                     <div class="background time">
-                                        <span class="counter"> <span class="counter-up">12,200</span></span>
-                                        <span class="title">SUBSCRIBERS</span>
+                                        <span class="counter"> <span class="counter-up">15</span></span>
+                                        <span class="title">Registrations</span>
                                     </div>
                                 </div>
                                 <div class="minutes_wrapper col-sm-6 col-xs-12 col-md-3 custom">
                                     <div class="background time">
-                                        <span class="counter"> <span class="counter-up">99.9</span> % </span>
-                                        <span class="title">USER RATINGS</span>
+                                        <span class="counter"> <span class="counter-up">25</span></span>
+                                        <span class="title">Events</span>
                                     </div>
                                 </div>
                                 <div class="seconds_wrapper col-sm-6 col-xs-12 col-md-3 custom">
