@@ -1393,7 +1393,7 @@ So this basically provides a platform to the students to further their knowledge
                         <!-- Start: Section Header -->
                         <div class="section-header col-md-6 col-md-offset-3">
                         
-                            <h2 class="section-heading">Register Form</h2>
+                            <h2 class="section-heading">Registeration Form</h2>
                             <p>Register Here to Join abut every single things heppening on our event and know more about this event.</p>
                             
                         </div>
@@ -1485,36 +1485,14 @@ So this basically provides a platform to the students to further their knowledge
                         <div class="collapse-tab wow fadeInDown">
                             <div class="panel-group" id="accordion">
 
-                                <!-- Start: Tab-1 -->
-                                <div class="panel panel-default" id="panel1">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-1 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="">
-                                                How do to Register?
-                                                <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseOne" class="panel-collapse collapse in">
-
-                                        <!-- Tab-1 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                          will be uploaded soon !
-										</div>
-
-                                    </div>
-                                </div>
-                                <!-- End: Tab-1 -->
+                                
 
                                 <!-- Start: Tab-2 -->
                                 <div class="panel panel-default" id="panel2" >
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
 
-                                            <!-- Tab-1 Title Goes Here  --
+                                            <!-- Tab-1 Title Goes Here  -->
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">
                                                 How to reach NSIT?
                                                 <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
@@ -1563,29 +1541,6 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                                 </div>
                                 <!-- End: Tab-3 -->
 
-                                <!-- Start: Tab-4 --
-                                <div class="panel panel-default" id="panel4" >
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-4 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" class="collapsed">
-                                                What if I need to cancel my booking at late notice?
-                                                <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseFour" class="panel-collapse collapse">
-
-                                        <!-- Tab-4 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                           soon!
-										</div>
-
-                                    </div>
-                                </div>
-                                <!-- End: Tab-4 -->
                                 
                             </div> 
                             <!-- End: .panel-group  -->
