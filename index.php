@@ -1511,8 +1511,8 @@ So this basically provides a platform to the students to further their knowledge
 
                                         <!-- Tab-1 Detail Goes Here  -->
                                         <div class="panel-body">
-                                            Lorem ipsum dolor sit amet event landing template, consectetuer adipiscing elit event landing template, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna  aliquam erat volutpat. Ut wisi enim ad minim veniam event landing template, quis nostrud exerci tation ullamcorp eu feugiat nulla facilisis at vero eros et accumsan et iusto odior
-                                        </div>
+                                          will be uploaded soon !
+										</div>
 
                                     </div>
                                 </div>
@@ -1589,8 +1589,8 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
 
                                         <!-- Tab-4 Detail Goes Here  -->
                                         <div class="panel-body">
-                                            Anim pariatur cliche reprehenderit event landing template, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute event landing template, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3.
-                                        </div>
+                                           soon!
+										</div>
 
                                     </div>
                                 </div>
