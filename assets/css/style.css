@@ -213,11 +213,12 @@ p:
 Notes:  This Template Defult [ font-family:    'Open Sans', sans-serif; ] [ font-size:      15px; ]
 
 -------------------------------------------------------------------*/
-/**
+/*
  * ===============================
  *  Defult CSS 
  * ===============================
- */
+*/
+
 html * {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
