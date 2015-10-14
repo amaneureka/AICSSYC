@@ -204,18 +204,19 @@ src="http://maps.googleapis.com/maps/api/js">
                     <div class="section-header col-md-6 col-md-offset-3">
                     
                         <h2 class="section-heading">Schedule Detail</h2>
-                        <p>IEEE AICSC will take place on 22nd and 23rd December 2015.
+                        <p>IEEE AICSC will take place on 20th - 22nd December 2015.
 These two days will be jam packed with events which will put your technical skills to the test!
  </p>
+                        <p> The schedule will be announced soon! </p>
                         
                     </div>
-
+                  <!--
                     <div class="clearfix"></div>
 
                     <div class="schedule-inner wow fadeInUp" >
 
                         <div class="link">
-                            <!-- Nav tabs -->
+                            <!-- Nav tabs --
                             <ul class="schedule-day nav" role="tablist">
                                 <li role="presentation" class="btn-group active">
                                     <a class="" href="#day-1" aria-controls="day-1" role="tab" data-toggle="tab">1<span class="power">st</span> Day</a>
@@ -231,11 +232,11 @@ These two days will be jam packed with events which will put your technical skil
 
                         <div class="tab-content ">
 
-                            <!-- 1st day -->
+                            <!-- 1st day --
                             <div class="tab-pane schedule-day-detail active" id="day-1">
                                 <div class="link">
 
-                                    <!-- Nav tabs -->
+                                    <!-- Nav tabs --
                                     <ul class="schedule-hall nav" role="tablist">
                                         <li role="presentation" class="btn-group active">
                                             <a class="btn-bottom" href="#hall-1-1" aria-controls="hall-1-1" role="tab" data-toggle="tab">Hall 1</a>
@@ -252,21 +253,21 @@ These two days will be jam packed with events which will put your technical skil
 
                                 <div class="clearfix"></div>
                                 
-                                <!-- Start: 1st day .tab-content -->
+                                <!-- Start: 1st day .tab-content --
                                 <div class="tab-content ">
 
-                                    <!-- 1st hall -->
+                                    <!-- 1st hall --
                                     <div class="tab-pane schedule-hall-detail active" id="hall-1-1">
                                         <div class="collapse-tab schedule-hall">
                                             <div class="panel-group" id="accordion-1-1">
                                                 <span class="line-h"></span>
 
-                                                <!-- Start: Tab-1 -->
+                                                <!-- Start: Tab-1 --
                                                 <div class="panel panel-default" id="hall-1-1-panel-1">
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
 
-                                                            <!-- Tab-1 Title Goes Here  -->
+                                                            <!-- Tab-1 Title Goes Here  --
                                                             <a data-toggle="collapse" data-parent="#accordion-1-1" href="#hall-1-1-collapseOne" class="" aria-expanded="true">
                                                                 <span class="detail col-sm-9">
                                                                     <span class="headline">The Future of the Web</span>
@@ -284,7 +285,7 @@ These two days will be jam packed with events which will put your technical skil
                                                     <div class="clearfix"></div>
                                                     <div id="hall-1-1-collapseOne" class="panel-collapse collapse">
 
-                                                        <!-- Tab-1 Detail Goes Here  -->
+                                                        <!-- Tab-1 Detail Goes Here  --
                                                         <div class="panel-body">
                                                             <div class="row">
                                                                 <div class="col-lg-2 col-md-2 col-sm-2">
@@ -303,15 +304,15 @@ These two days will be jam packed with events which will put your technical skil
 
                                                     </div>
                                                 </div>
-                                                <!-- End: Tab-1 -->
+                                                <!-- End: Tab-1 --
 
 
-                                                <!-- Start: Break Time -->
+                                                <!-- Start: Break Time --
                                                 <div class="panel panel-default">
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
 
-                                                            <!-- Tab-1 Title Goes Here  -->
+                                                            <!-- Tab-1 Title Goes Here  --
                                                             <span class="panel-title-a">
                                                                 <span class="detail col-sm-9">
                                                                     <span class="headline">Lunch Brack</span>
@@ -328,12 +329,12 @@ These two days will be jam packed with events which will put your technical skil
                                                 <!-- End: Break Time -->
 
 
-                                                <!-- Start: Tab-2 -->
+                                                <!-- Start: Tab-2 --
                                                 <div class="panel panel-default" id="hall-1-1-panel-2">
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
 
-                                                            <!-- Tab-1 Title Goes Here  -->
+                                                            <!-- Tab-1 Title Goes Here  --
                                                             <a data-toggle="collapse" data-parent="#accordion-1-1" href="#hall-1-1-collapseTwo" class="" aria-expanded="false">
                                                                 <span class="detail col-sm-9">
                                                                     <span class="headline">Improving Wordpress</span>
@@ -351,7 +352,7 @@ These two days will be jam packed with events which will put your technical skil
                                                     <div class="clearfix"></div>
                                                     <div id="hall-1-1-collapseTwo" class="panel-collapse collapse">
 
-                                                        <!-- Tab-2 Detail Goes Here  -->
+                                                        <!-- Tab-2 Detail Goes Here  --
                                                         <div class="panel-body">
                                                             <div class="row">
                                                                 <div class="col-lg-2 col-md-2 col-sm-2">
@@ -373,12 +374,12 @@ These two days will be jam packed with events which will put your technical skil
                                                 <!-- End: Tab-2 -->
 
 
-                                                <!-- Start: Tab-3 -->
+                                                <!-- Start: Tab-3 --
                                                 <div class="panel panel-default" id="hall-1-1-panel-3">
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
 
-                                                            <!-- Tab-3 Title Goes Here  -->
+                                                            <!-- Tab-3 Title Goes Here  --
                                                             <a data-toggle="collapse" data-parent="#accordion-1-1" href="#hall-1-1-collapseThree" class="" aria-expanded="false">
                                                                 <span class="detail col-sm-9">
                                                                     <span class="headline">Dance With Code</span>
@@ -396,7 +397,7 @@ These two days will be jam packed with events which will put your technical skil
                                                     <div class="clearfix"></div>
                                                     <div id="hall-1-1-collapseThree" class="panel-collapse collapse">
 
-                                                        <!-- Tab-3 Detail Goes Here  -->
+                                                        <!-- Tab-3 Detail Goes Here  --
                                                         <div class="panel-body">
                                                            <div class="row">
                                                                 <div class="col-lg-2 col-md-2 col-sm-2">
@@ -415,28 +416,28 @@ These two days will be jam packed with events which will put your technical skil
 
                                                     </div>
                                                 </div>
-                                                <!-- End: Tab-3 -->
+                                                <!-- End: Tab-3 --
 
 
-                                            </div> <!-- End: .panel-group  -->
-                                        </div><!--  End: tab  -->
+                                            </div> <!-- End: .panel-group  --
+                                        </div><!--  End: tab  --
 
                                     </div>
                                     <!-- End: 1st holl -->
 
-                                    <!-- 2nd hall -->
+                                    <!-- 2nd hall --
                                     <div class="tab-pane schedule-hall-detail" id="hall-2-1">
                                         <div class="collapse-tab schedule-hall">
                                             <div class="panel-group" id="accordion-2-1">
                                                 <span class="line-h"></span>
 
 
-                                                <!-- Start: Tab-1 -->
+                                                <!-- Start: Tab-1 --
                                                 <div class="panel panel-default" id="hall-2-1-panel-1">
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
 
-                                                            <!-- Tab-1 Title Goes Here  -->
+                                                            <!-- Tab-1 Title Goes Here  --
                                                             <a data-toggle="collapse" data-parent="#accordion-2-1" href="#hall-2-1-collapseOne" class="" aria-expanded="true">
                                                                 <span class="detail col-sm-9">
                                                                     <span class="headline">Less Motivation</span>
@@ -454,7 +455,7 @@ These two days will be jam packed with events which will put your technical skil
                                                     <div class="clearfix"></div>
                                                     <div id="hall-2-1-collapseOne" class="panel-collapse collapse">
 
-                                                        <!-- Tab-1 Detail Goes Here  -->
+                                                        <!-- Tab-1 Detail Goes Here  --
                                                         <div class="panel-body">
                                                             <div class="row">
                                                                 <div class="col-lg-2 col-md-2 col-sm-2">
@@ -477,12 +478,12 @@ These two days will be jam packed with events which will put your technical skil
                                                 <!-- End: Tab-1 -->
 
 
-                                                <!-- Start: Break Time -->
+                                                <!-- Start: Break Time --
                                                 <div class="panel panel-default">
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
 
-                                                            <!-- Tab-1 Title Goes Here  -->
+                                                            <!-- Tab-1 Title Goes Here  --
                                                             <span class="panel-title-a">
                                                                 <span class="detail col-sm-9">
                                                                     <span class="headline">Lunch Brack</span>
@@ -499,12 +500,12 @@ These two days will be jam packed with events which will put your technical skil
                                                 <!-- End: Break Time -->
 
 
-                                                <!-- Start: Tab-2 -->
+                                                <!-- Start: Tab-2 --
                                                 <div class="panel panel-default" id="hall-2-1-panel-2">
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
 
-                                                            <!-- Tab-1 Title Goes Here  -->
+                                                            <!-- Tab-1 Title Goes Here  --
                                                             <a data-toggle="collapse" data-parent="#accordion-2-1" href="#hall-2-1-collapseTwo" class="" aria-expanded="false">
                                                                 <span class="detail col-sm-9">
                                                                     <span class="headline">Less Motivation</span>
@@ -522,7 +523,7 @@ These two days will be jam packed with events which will put your technical skil
                                                     <div class="clearfix"></div>
                                                     <div id="hall-2-1-collapseTwo" class="panel-collapse collapse">
 
-                                                        <!-- Tab-2 Detail Goes Here  -->
+                                                        <!-- Tab-2 Detail Goes Here  --
                                                         <div class="panel-body">
                                                             <div class="row">
                                                                 <div class="col-lg-2 col-md-2 col-sm-2">
@@ -541,28 +542,28 @@ These two days will be jam packed with events which will put your technical skil
 
                                                     </div>
                                                 </div>
-                                                <!-- End: Tab-2 -->
+                                                <!-- End: Tab-2 --
 
 
-                                            </div> <!-- End: .panel-group  -->
-                                        </div><!--  End: tab  -->
+                                            </div> <!-- End: .panel-group  --
+                                        </div><!--  End: tab  --
                                     </div>
                                     <!-- End: 2rd hall -->
 
 
-                                    <!-- 3rd hall -->
+                                    <!-- 3rd hall --
                                     <div class="tab-pane schedule-hall-detail" id="hall-3-1">
                                         <div class="collapse-tab schedule-hall">
                                             <div class="panel-group" id="accordion-3-1">
                                                 <span class="line-h"></span>
 
 
-                                                <!-- Start: Tab-1 -->
+                                                <!-- Start: Tab-1 --
                                                 <div class="panel panel-default" id="hall-3-1-panel-1">
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
 
-                                                            <!-- Tab-1 Title Goes Here  -->
+                                                            <!-- Tab-1 Title Goes Here  --
                                                             <a data-toggle="collapse" data-parent="#accordion-3-1" href="#hall-3-1-collapseOne" class="" aria-expanded="true">
                                                                 <span class="detail col-sm-9">
                                                                     <span class="headline">Less Motivation</span>
@@ -580,7 +581,7 @@ These two days will be jam packed with events which will put your technical skil
                                                     <div class="clearfix"></div>
                                                     <div id="hall-3-1-collapseOne" class="panel-collapse collapse">
 
-                                                        <!-- Tab-1 Detail Goes Here  -->
+                                                        <!-- Tab-1 Detail Goes Here  --
                                                         <div class="panel-body">
                                                             <div class="row">
                                                                 <div class="col-lg-2 col-md-2 col-sm-2">
@@ -603,12 +604,12 @@ These two days will be jam packed with events which will put your technical skil
                                                 <!-- End: Tab-1 -->
 
                                                 
-                                                <!-- Start: Break Time -->
+                                                <!-- Start: Break Time --
                                                 <div class="panel panel-default" >
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
 
-                                                            <!-- Tab-1 Title Goes Here  -->
+                                                            <!-- Tab-1 Title Goes Here  --
                                                             <span class="panel-title-a">
                                                                 <span class="detail col-sm-9">
                                                                     <span class="headline">Lunch Brack</span>
@@ -625,12 +626,12 @@ These two days will be jam packed with events which will put your technical skil
                                                 <!-- End: Break Time -->
 
 
-                                                <!-- Start: Tab-2 -->
+                                                <!-- Start: Tab-2 --
                                                 <div class="panel panel-default" id="hall-3-1-panel-2">
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
 
-                                                            <!-- Tab-1 Title Goes Here  -->
+                                                            <!-- Tab-1 Title Goes Here  --
                                                             <a data-toggle="collapse" data-parent="#accordion-3-1" href="#hall-3-1-collapseTwo" class="" aria-expanded="false">
                                                                 <span class="detail col-sm-9">
                                                                     <span class="headline">Less Motivation</span>
@@ -648,7 +649,7 @@ These two days will be jam packed with events which will put your technical skil
                                                     <div class="clearfix"></div>
                                                     <div id="hall-3-1-collapseTwo" class="panel-collapse collapse">
 
-                                                        <!-- Tab-2 Detail Goes Here  -->
+                                                        <!-- Tab-2 Detail Goes Here  --
                                                         <div class="panel-body">
                                                             <div class="row">
                                                                 <div class="col-lg-2 col-md-2 col-sm-2">
@@ -668,25 +669,25 @@ These two days will be jam packed with events which will put your technical skil
 
                                                     </div>
                                                 </div>
-                                                <!-- End: Tab-2 -->
+                                                <!-- End: Tab-2 --
 
 
-                                            </div> <!-- End: .panel-group  -->
-                                        </div><!--  End: tab  -->
+                                            </div> <!-- End: .panel-group  --
+                                        </div><!--  End: tab  --
                                     </div>
-                                    <!-- End: 3rd hall -->
+                                    <!-- End: 3rd hall --
 
 
                                 </div>
-                                <!-- End: 1st day .tab-content -->
+                                <!-- End: 1st day .tab-content --
                             </div>
                             <!-- End: 1st Day -->
 
-                            <!-- Start: 2nd day -->
+                            <!-- Start: 2nd day --
                             <div class="tab-pane schedule-day-detail" id="day-2">
                                 <div class="link">
 
-                                    <!-- Nav tabs -->
+                                    <!-- Nav tabs --
                                     <ul class="schedule-hall nav" role="tablist">
                                         <li role="presentation" class="btn-group active">
                                             <a class="btn-bottom" href="#hall-1-2" aria-controls="hall-1-2" role="tab" data-toggle="tab">Hall 1</a>
@@ -700,21 +701,21 @@ These two days will be jam packed with events which will put your technical skil
 
                                 <div class="clearfix"></div>
                                 
-                                <!-- Start: 2nd day .tab-content -->
+                                <!-- Start: 2nd day .tab-content --
                                 <div class="tab-content ">
 
-                                    <!-- 1st hall -->
+                                    <!-- 1st hall --
                                     <div class="tab-pane schedule-hall-detail active" id="hall-1-2">
                                         <div class="collapse-tab schedule-hall">
                                             <div class="panel-group" id="accordion-1-2">
                                                 <span class="line-h"></span>
 
-                                                <!-- Start: Tab-1 -->
+                                                <!-- Start: Tab-1 --
                                                 <div class="panel panel-default" id="hall-1-2-panel-1">
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
 
-                                                            <!-- Tab-1 Title Goes Here  -->
+                                                            <!-- Tab-1 Title Goes Here  --
                                                             <a data-toggle="collapse" data-parent="#accordion-1-2" href="#hall-1-2-collapseOne" class="" aria-expanded="true">
                                                                 <span class="detail col-sm-9">
                                                                     <span class="headline">The Future of the Web</span>
@@ -732,7 +733,7 @@ These two days will be jam packed with events which will put your technical skil
                                                     <div class="clearfix"></div>
                                                     <div id="hall-1-2-collapseOne" class="panel-collapse collapse">
 
-                                                        <!-- Tab-1 Detail Goes Here  -->
+                                                        <!-- Tab-1 Detail Goes Here  --
                                                         <div class="panel-body">
                                                             <div class="row">
                                                                 <div class="col-lg-2 col-md-2 col-sm-2">
@@ -753,12 +754,12 @@ These two days will be jam packed with events which will put your technical skil
                                                 </div>
                                                 <!-- End: Tab-1 -->
 
-                                                <!-- Start: Break Time -->
+                                                <!-- Start: Break Time --
                                                 <div class="panel panel-default">
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
 
-                                                            <!-- Tab-1 Title Goes Here  -->
+                                                            <!-- Tab-1 Title Goes Here  --
                                                             <span class="panel-title-a">
                                                                 <span class="detail col-sm-9">
                                                                     <span class="headline">Lunch Brack</span>
@@ -774,12 +775,12 @@ These two days will be jam packed with events which will put your technical skil
                                                 </div>
                                                 <!-- End: Break Time -->
 
-                                                <!-- Start: Tab-2 -->
+                                                <!-- Start: Tab-2 --
                                                 <div class="panel panel-default" id="hall-1-2-panel-2">
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
 
-                                                            <!-- Tab-1 Title Goes Here  -->
+                                                            <!-- Tab-1 Title Goes Here  --
                                                             <a data-toggle="collapse" data-parent="#accordion-1-2" href="#hall-1-2-collapseTwo" class="" aria-expanded="false">
                                                                 <span class="detail col-sm-9">
                                                                     <span class="headline">Improving Wordpress</span>
@@ -797,7 +798,7 @@ These two days will be jam packed with events which will put your technical skil
                                                     <div class="clearfix"></div>
                                                     <div id="hall-1-2-collapseTwo" class="panel-collapse collapse">
 
-                                                        <!-- Tab-2 Detail Goes Here  -->
+                                                        <!-- Tab-2 Detail Goes Here  --
                                                         <div class="panel-body">
                                                             <div class="row">
                                                                 <div class="col-lg-2 col-md-2 col-sm-2">
@@ -816,14 +817,14 @@ These two days will be jam packed with events which will put your technical skil
 
                                                     </div>
                                                 </div>
-                                                <!-- End: Tab-2 -->
+                                                <!-- End: Tab-2 --
 
-                                                <!-- Start: Tab-3 -->
+                                                <!-- Start: Tab-3 --
                                                 <div class="panel panel-default" id="hall-1-2-panel-3">
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
 
-                                                            <!-- Tab-3 Title Goes Here  -->
+                                                            <!-- Tab-3 Title Goes Here  --
                                                             <a data-toggle="collapse" data-parent="#accordion-1-2" href="#hall-1-2-collapseThree" class="" aria-expanded="false">
                                                                 <span class="detail col-sm-9">
                                                                     <span class="headline">Dance With Code</span>
@@ -841,7 +842,7 @@ These two days will be jam packed with events which will put your technical skil
                                                     <div class="clearfix"></div>
                                                     <div id="hall-1-2-collapseThree" class="panel-collapse collapse">
 
-                                                        <!-- Tab-3 Detail Goes Here  -->
+                                                        <!-- Tab-3 Detail Goes Here  --
                                                         <div class="panel-body">
                                                            <div class="row">
                                                                 <div class="col-lg-2 col-md-2 col-sm-2">
@@ -860,29 +861,29 @@ These two days will be jam packed with events which will put your technical skil
 
                                                     </div>
                                                 </div>
-                                                <!-- End: Tab-3 -->
+                                                <!-- End: Tab-3 --
 
                                             </div> 
-                                            <!-- End: .panel-group  -->
+                                            <!-- End: .panel-group  --
                                         </div>
-                                        <!--  End: tab  -->
+                                        <!--  End: tab  --
 
                                     </div>
-                                    <!-- End: 1st holl -->
+                                    <!-- End: 1st holl --
 
-                                    <!-- 2nd hall -->
+                                    <!-- 2nd hall --
                                     <div class="tab-pane schedule-hall-detail" id="hall-2-2">
                                         <div class="collapse-tab schedule-hall">
                                             <div class="panel-group" id="accordion-2-2">
                                                 <span class="line-h"></span>
 
 
-                                                <!-- Start: Tab-1 -->
+                                                <!-- Start: Tab-1 --
                                                 <div class="panel panel-default" id="hall-2-2-panel-1">
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
 
-                                                            <!-- Tab-1 Title Goes Here  -->
+                                                            <!-- Tab-1 Title Goes Here  --
                                                             <a data-toggle="collapse" data-parent="#accordion-2-2" href="#hall-2-2-collapseOne" class="" aria-expanded="true">
                                                                 <span class="detail col-sm-9">
                                                                     <span class="headline">Less Motivation</span>
@@ -900,7 +901,7 @@ These two days will be jam packed with events which will put your technical skil
                                                     <div class="clearfix"></div>
                                                     <div id="hall-2-2-collapseOne" class="panel-collapse collapse">
 
-                                                        <!-- Tab-1 Detail Goes Here  -->
+                                                        <!-- Tab-1 Detail Goes Here  --
                                                         <div class="panel-body">
                                                             <div class="row">
                                                                 <div class="col-lg-2 col-md-2 col-sm-2">
@@ -920,15 +921,15 @@ These two days will be jam packed with events which will put your technical skil
 
                                                     </div>
                                                 </div>
-                                                <!-- End: Tab-1 -->
+                                                <!-- End: Tab-1 --
 
 
-                                                <!-- Start: Break Time -->
+                                                <!-- Start: Break Time --
                                                 <div class="panel panel-default" >
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
 
-                                                            <!-- Tab-1 Title Goes Here  -->
+                                                            <!-- Tab-1 Title Goes Here  --
                                                             <span class="panel-title-a">
                                                                 <span class="detail col-sm-9">
                                                                     <span class="headline">Lunch Brack</span>
@@ -945,12 +946,12 @@ These two days will be jam packed with events which will put your technical skil
                                                 <!-- End: Break Time -->
 
 
-                                                <!-- Start: Tab-2 -->
+                                                <!-- Start: Tab-2 --
                                                 <div class="panel panel-default" id="hall-2-2-panel-2">
                                                     <div class="panel-heading">
                                                         <h4 class="panel-title">
 
-                                                            <!-- Tab-1 Title Goes Here  -->
+                                                            <!-- Tab-1 Title Goes Here  --
                                                             <a data-toggle="collapse" data-parent="#accordion-2-2" href="#hall-2-2-collapseTwo" class="" aria-expanded="false">
                                                                 <span class="detail col-sm-9">
                                                                     <span class="headline">Less Motivation</span>
@@ -968,7 +969,7 @@ These two days will be jam packed with events which will put your technical skil
                                                     <div class="clearfix"></div>
                                                     <div id="hall-2-2-collapseTwo" class="panel-collapse collapse">
 
-                                                        <!-- Tab-2 Detail Goes Here  -->
+                                                        <!-- Tab-2 Detail Goes Here  --
                                                         <div class="panel-body">
                                                             <div class="row">
                                                                 <div class="col-lg-2 col-md-2 col-sm-2">
@@ -987,24 +988,24 @@ These two days will be jam packed with events which will put your technical skil
 
                                                     </div>
                                                 </div>
-                                                <!-- End: Tab-2 -->
+                                                <!-- End: Tab-2 --
 
 
                                             </div> 
-                                            <!-- End: .panel-group  -->
+                                            <!-- End: .panel-group  --
                                         </div>
-                                        <!--  End: tab  -->
+                                        <!--  End: tab  --
                                     </div>
-                                    <!-- End: 2nd holl -->
+                                    <!-- End: 2nd holl --
 
                                 </div>
-                                <!-- End: 2nd day .tab-content -->
+                                <!-- End: 2nd day .tab-content --
                             </div>
-                            <!-- End: 2nd Day -->
+                            <!-- End: 2nd Day --
 
                         </div>
 
-                    </div>
+                    </div>-->
                 </div>
                 <!-- End: .row -->
             </div> 
@@ -1188,25 +1189,25 @@ So this basically provides a platform to the students to further their knowledge
 
                         <!-- Speakers Heading Goes Here -->
                         <h2 class="section-heading">OUR SPEAKERS</h2>
-
+                               <p>To Be announced soon !</p>
                     </div>
-                    <!-- End: Section Header -->
+                    <!-- End: Section Header --
 
                     <div class="clearfix"></div>
                     
-                    <!-- Start: Slider Area -->
+                    <!-- Start: Slider Area --
                     <div id="slider" class=" wow fadeInDown">
 
-                        <!-- Speakers Slide images Goes Here -->
-                        <!-- Item 1 -->
+                        <!-- Speakers Slide images Goes Here --
+                        <!-- Item 1 --
                         <div class="item">
                             <div class="view grid">
                                 <figure class="effect-zoe">
 
-                                    <!-- Image Goes Here -->
+                                    <!-- Image Goes Here --
                                     <img src="assets/images/speakers-img/1.jpg" alt="speakers"/>
 
-                                    <!-- Social Icon Goes Here -->
+                                    <!-- Social Icon Goes Here --
                                     <figcaption>
                                         <div class="icon-links">
                                             <ul class="nav">
@@ -1221,21 +1222,21 @@ So this basically provides a platform to the students to further their knowledge
 
                             <div class="clearfix"></div>
                             
-                            <!-- Name and Company Goes Here -->
+                            <!-- Name and Company Goes Here --
                             <h3>Anjel Gorina</h3>
                             <p>CEO, DeviserWeb</p>
 
                         </div>
 
-                        <!-- Item 2 -->
+                        <!-- Item 2 --
                         <div class="item">
                             <div class="view grid">
                                 <figure class="effect-zoe">
 
-                                    <!-- Image Goes Here -->
+                                    <!-- Image Goes Here --
                                     <img src="assets/images/speakers-img/2.jpg" alt="speakers"/>
 
-                                    <!-- Social Icon Goes Here -->
+                                    <!-- Social Icon Goes Here --
                                     <figcaption>
                                         <div class="icon-links">
                                             <ul class="nav">
@@ -1250,7 +1251,7 @@ So this basically provides a platform to the students to further their knowledge
 
                             <div class="clearfix"></div>
                             
-                            <!-- Name and Company Goes Here -->
+                            <!-- Name and Company Goes Here --
                             <h3>David Jones</h3>
                             <p>CEO, DeviserWeb</p>
                                 
@@ -1260,10 +1261,10 @@ So this basically provides a platform to the students to further their knowledge
                             <div class="view grid">
                                 <figure class="effect-zoe">
 
-                                    <!-- Image Goes Here -->
+                                    <!-- Image Goes Here --
                                     <img src="assets/images/speakers-img/3.jpg" alt="speakers"/>
 
-                                    <!-- Social Icon Goes Here -->
+                                    <!-- Social Icon Goes Here --
                                     <figcaption>
                                         <div class="icon-links">
                                             <ul class="nav">
@@ -1278,7 +1279,7 @@ So this basically provides a platform to the students to further their knowledge
 
                             <div class="clearfix"></div>
                             
-                            <!-- Name and Company Goes Here -->
+                            <!-- Name and Company Goes Here --
                             <h3>Jon Doe</h3>
                             <p>CEo, DeviserWeb</p>
 
@@ -1288,10 +1289,10 @@ So this basically provides a platform to the students to further their knowledge
                             <div class="view grid">
                                 <figure class="effect-zoe">
 
-                                    <!-- Image Goes Here -->
+                                    <!-- Image Goes Here --
                                     <img src="assets/images/speakers-img/2.jpg" alt="speakers"/>
 
-                                    <!-- Social Icon Goes Here -->
+                                    <!-- Social Icon Goes Here --
                                     <figcaption>
                                         <div class="icon-links">
                                             <ul class="nav">
@@ -1306,7 +1307,7 @@ So this basically provides a platform to the students to further their knowledge
 
                             <div class="clearfix"></div>
                             
-                            <!-- Name and Company Goes Here -->
+                            <!-- Name and Company Goes Here --
                             <h3>Mitrel Lord</h3>
                             <p>CEO, DeviserWeb</p>
 
@@ -1315,10 +1316,10 @@ So this basically provides a platform to the students to further their knowledge
                             <div class="view grid">
                                 <figure class="effect-zoe">
 
-                                    <!-- Image Goes Here -->
+                                    <!-- Image Goes Here --
                                     <img src="assets/images/speakers-img/3.jpg" alt="speakers"/>
 
-                                    <!-- Social Icon Goes Here -->
+                                    <!-- Social Icon Goes Here --
                                     <figcaption>
                                         <div class="icon-links">
                                             <ul class="nav">
@@ -1333,7 +1334,7 @@ So this basically provides a platform to the students to further their knowledge
 
                             <div class="clearfix"></div>
                             
-                            <!-- Name and Company Goes Here -->
+                            <!-- Name and Company Goes Here --
                             <h3>David Jones</h3>
                             <p>CEO, DeviserWeb</p>
                                 
@@ -1343,10 +1344,10 @@ So this basically provides a platform to the students to further their knowledge
                             <div class="view grid">
                                 <figure class="effect-zoe">
 
-                                    <!-- Image Goes Here -->
+                                    <!-- Image Goes Here --
                                     <img src="assets/images/speakers-img/1.jpg" alt="speakers"/>
 
-                                    <!-- Social Icon Goes Here -->
+                                    <!-- Social Icon Goes Here --
                                     <figcaption>
                                         <div class="icon-links">
                                             <ul class="nav">
@@ -1361,7 +1362,7 @@ So this basically provides a platform to the students to further their knowledge
 
                             <div class="clearfix"></div>
                             
-                            <!-- Name and Company Goes Here -->
+                            <!-- Name and Company Goes Here --
                             <h3>Kulsum Doe</h3>
                             <p>CEo, DeviserWeb</p>
 
@@ -1371,10 +1372,10 @@ So this basically provides a platform to the students to further their knowledge
                             <div class="view grid">
                                 <figure class="effect-zoe">
 
-                                    <!-- Image Goes Here -->
+                                    <!-- Image Goes Here --
                                     <img src="assets/images/speakers-img/1.jpg" alt="speakers"/>
 
-                                    <!-- Social Icon Goes Here -->
+                                    <!-- Social Icon Goes Here --
                                     <figcaption>
                                         <div class="icon-links">
                                             <ul class="nav">
@@ -1389,7 +1390,7 @@ So this basically provides a platform to the students to further their knowledge
 
                             <div class="clearfix"></div>
                             
-                            <!-- Name and Company Goes Here -->
+                            <!-- Name and Company Goes Here --
                             <h3>Mitrel Lord</h3>
                             <p>CEO, DeviserWeb</p>
 
@@ -1445,12 +1446,12 @@ So this basically provides a platform to the students to further their knowledge
 
                                         <div class="clearfix visible-xs"></div>
 
-                                        <div class="col-sm-6 col-xs-12 dropDown">
+                                        <!--<div class="col-sm-6 col-xs-12 dropDown">
                                             <select name="ticket" id="register-ticket" class="form-control">
                                                 <option value="Basic">Basic ( $13 )</option>
                                                 <option value="Standard">Standard ( $49 )</option>
                                             </select>
-                                        </div>
+                                        </div>-->
                                         <div class="form-group col-sm-12 col-md-6 col-md-offset-3">
                                             <button class="btn btn-1 btn-top">Submit</button>
                                         </div>
@@ -1613,25 +1614,25 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
         ==============================-->
         
         <!-- Start: NewsLetter Area 
-        ==================================-->
+        ==================================--
         <section class="news_letter-bg" data-stellar-background-ratio="0.5"> 
 
-            <!-- Start: COLOR OVERLAY -->
+            <!-- Start: COLOR OVERLAY 
             <div class="overlay-color">
                 <div class="container">
                     <div class="row">
                         <div class="news_letter_body section-separator">
 
-                            <!-- Start: Section Header -->
+                            <!-- Start: Section Header --
                             <div class="section-header col-md-8 col-md-offset-2" >
 
                                 <h2 class="section-heading">Subscribe Our Newsletter</h2>
                                 <p>Stay updated with latest feeds and facts about the event.</p>
 
                             </div>
-                            <!-- End: Section Header -->
+                            <!-- End: Section Header --
                             
-                            <!-- Start: Subscribe Button area -->
+                            <!-- Start: Subscribe Button area --
                             <form id="subscribe" class="mailchimp-subscribe subscribe-form-inner wow fadeInDown">
                                 <div class="row">
                                     <div class="col-md-8 col-md-offset-2">
@@ -1646,15 +1647,15 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                                     </div>
                                 </div>
                             </form>
-                            <!-- End: Subscribe Button area -->                                                        
+                            <!-- End: Subscribe Button area --                                                        
                         </div>
-                        <!-- End: NewsLetter Body Area-->
+                        <!-- End: NewsLetter Body Area--
                     </div>
-                    <!-- End: "row" -->
+                    <!-- End: "row" --
                 </div>
-                <!-- End:  "container"-->
+                <!-- End:  "container"--
             </div>
-            <!-- End: COLOR OVERLAY -->
+            <!-- End: COLOR OVERLAY --
 
         </section>
         <!-- End: NewsLetter Area 
@@ -1662,23 +1663,23 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
         
         
         <!-- Start: Sponsors Area 
-        =================================-->
+        =================================-
         <section id="sponsore" >
             <div class="container-fluid">
                 <div class="row sponsore-body section-separator">
                     
-                    <!-- Start: Section Header -->
+                    <!-- Start: Section Header --
                     <div class="section-header col-md-6 col-md-offset-3">
 
-                        <!-- Sponsore Heading Goes Here -->
+                        <!-- Sponsore Heading Goes Here --
                         <h2 class="section-heading">OUR SPONSORS</h2>
 
                     </div>
-                    <!-- End: Section Header -->
+                    <!-- End: Section Header --
 
                     <div class="clearfix"></div>
                     
-                    <!-- Start: Images Area -->
+                    <!-- Start: Images Area --
                     <div class=" wow fadeInDown">
 
                         <ul class="nav">
@@ -1697,7 +1698,8 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                             <li class="col-md-3 col-xs-6">
                                 <div class="row">
                                     <a href="#" class="btn btn-1 btn-top">
-                                        <img src="assets/images/sponsors-img/3.png" alt="Sponsors" class="">
+                                        <img s
+										rc="assets/images/sponsors-img/3.png" alt="Sponsors" class="">
                                     </a>
                                 </div>
                             </li>
@@ -1739,7 +1741,7 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                         </ul>
                         
                     </div>
-                    <!-- End: Images Area -->
+                    <!-- End: Images Area --
 
                     <div class="become-a-sponsor btn-scroll-2 wow fadeInDown" data-wow-delay="0.6s">
                         <a class="" href="#map_contact">Would you like to be a sponsor?</a>
@@ -1747,31 +1749,83 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
 
 
                 </div>
-                <!-- Start: Sponsore Body Area -->
+                <!-- Start: Sponsore Body Area --
             </div>
-            <!-- End: .container  -->
+            <!-- End: .container  --
         </section>
         <!-- End: Sponsore Area 
         ==================================-->
 
 
-        <!-- Start: Testimonial Area
-        ================================== -->
-        <section class="testimonials testimonials-bg" id="testimonials">
-
-            <!-- COLOR OVERLAY -->
+       <!--START Query Form
+	   ========================================================================-->
+	   <section class="register-background register" id="register"> 
             <div class="overlay-color">
-                <div class="container section-separator">
-                    <div class="quote-sym"><i class="fa fa-twitter"></i></div>
+                <div class="container">
+                    <div class="row register-body section-separator">
+                        
+                        <!-- Start: Section Header -->
+                        <div class="section-header col-md-6 col-md-offset-3">
+                        
+                            <h2 class="section-heading">Query Form</h2>
+                                                     
+                        </div>
+                        <!-- End: Section Header -->
+                        
+                        <div class="clearfix"></div>
+
+                        <!-- Register Form Goes Here  -->
+                        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInDown">
+
+                            <form id="register-form" method="post" class="form input-group register-form">
+                                <div class="container-fluid">
+                                    <div class="row">
+
+                                        <div class="col-sm-6 col-xs-12">
+                                            <input name="name" id="register-name" class="form-cus form-control" type="text" placeholder="Name" required>
+                                        </div>
+
+                                        <div class="col-sm-6 col-xs-12">
+                                            <input name="email" id="register-email" class="form-cus form-control" type="email" placeholder="Email" required>
+                                        </div>
+
+                                        <div class="col-sm-6 col-xs-12">
+                                            <input name="telephone" class="form-cus form-control" id="register-telephone" type="tel" placeholder="Telephone">
+                                        </div>
+                                        <div class="col-sm-6 col-xs-12">
+                                            <input name="Query" class="form-cus form-control" id="register-telephone" type="tel" placeholder="Query">
+                                        </div> 
+                                        <div class="clearfix visible-xs"></div>
+
+                                        <!--<div class="col-sm-6 col-xs-12 dropDown">
+                                            <select name="ticket" id="register-ticket" class="form-control">
+                                                <option value="Basic">Basic ( $13 )</option>
+                                                <option value="Standard">Standard ( $49 )</option>
+                                            </select>
+                                        </div>-->
+                                        <div class="form-group col-sm-12 col-md-6 col-md-offset-3">
+                                            <button class="btn btn-1 btn-top">Submit</button>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                        <!-- End: .col-sm-12  -->
+                        
+                    </div>
+                    <!-- End: .register-body -->
                 </div>
-            </div>
-             <!-- End: Color Overlay -->
-        </section>
-        <!-- End: Testimonial Area
-        ================================== -->
+                <!-- End: .container -->
+            </div> 
+            <!-- End: .overlay-color -->
+        </section> 
         
-       
-        <!-- Start: Map and Contact Area
+       <!-- END Query Form
+	   ========================================================================-->
+        
+	   <!-- Start: Map and Contact Area
         =============================== -->
         <section id="map_contact">
 
