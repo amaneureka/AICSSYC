@@ -1902,11 +1902,12 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                     <!-- Social Icon Goes Here  -->
                     <div class="social-icon col-xs-12">
                         <ul class="nav">
-                            <li><a href="#" class="btn btn-1 btn-top"> <i class="fa facebook fa-facebook"></i> </a></li>
-                            <li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
+                            <li><a href="https://www.facebook.com/aicssyc" class="btn btn-1 btn-top"><i class="fa facebook fa-facebook"></i></a></li>
+                        <!--    <li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
                             <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>
                             <li><a href="#" class="btn btn-1 btn-top"> <i class="fa rss fa-rss "></i> </a></li>
-                        </ul>
+                        -->
+						</ul>
                     </div>
 
                     <div class="copyright col-xs-12">
