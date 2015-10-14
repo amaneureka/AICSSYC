@@ -1419,15 +1419,30 @@ So this basically provides a platform to the students to further their knowledge
                                         <div class="col-sm-6 col-xs-12">
                                             <input name="telephone" class="form-cus form-control" id="register-telephone" type="tel" placeholder="Telephone">
                                         </div>
+										  <div class="col-sm-6 col-xs-12">
+                                            <input name="Membership id" class="form-cus form-control" type="text" placeholder="Membership id">
+                                        </div>
+										</div>
+										  <div class="col-sm-6 col-xs-12">
+                                            <input name="Section" class="form-cus form-control" type="text" placeholder="Section">
+                                        </div>
+										<div class="col-sm-6 col-xs-12">
+                                            <input name="T-shirt size" class="form-cus form-control" type="text" placeholder="T-shirt size">
+                                        </div>
+										
+										
+										
+                                       <div class="clearfix visible-xs"></div>
 
-                                        <div class="clearfix visible-xs"></div>
-
-                                        <!--<div class="col-sm-6 col-xs-12 dropDown">
-                                            <select name="ticket" id="register-ticket" class="form-control">
-                                                <option value="Basic">Basic ( $13 )</option>
-                                                <option value="Standard">Standard ( $49 )</option>
+                                       <div class="col-sm-6 col-xs-12 dropDown">
+                                        <h4> Member of computer society?</h4>
+										 <select name="member of ieee cs" id="registered-member" class="form-control">
+                                                <option value="Yes">Yes</option>
+                                                <option value="No">No</option>
                                             </select>
-                                        </div>-->
+                                        </div>
+										 </div>
+										
                                         <div class="form-group col-sm-12 col-md-6 col-md-offset-3">
                                             <button class="btn btn-1 btn-top">Submit</button>
                                         </div>
@@ -1499,7 +1514,7 @@ So this basically provides a platform to the students to further their knowledge
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
 
-                                            <!-- Tab-1 Title Goes Here  -->
+                                            <!-- Tab-1 Title Goes Here  --
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" class="collapsed">
                                                 How to reach NSIT?
                                                 <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
@@ -1548,7 +1563,7 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                                 </div>
                                 <!-- End: Tab-3 -->
 
-                                <!-- Start: Tab-4 -->
+                                <!-- Start: Tab-4 --
                                 <div class="panel panel-default" id="panel4" >
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
@@ -1589,53 +1604,7 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
         <!-- End: Collapse Area 
         ==============================-->
         
-        <!-- Start: NewsLetter Area 
-        ==================================--
-        <section class="news_letter-bg" data-stellar-background-ratio="0.5"> 
-
-            <!-- Start: COLOR OVERLAY 
-            <div class="overlay-color">
-                <div class="container">
-                    <div class="row">
-                        <div class="news_letter_body section-separator">
-
-                            <!-- Start: Section Header --
-                            <div class="section-header col-md-8 col-md-offset-2" >
-
-                                <h2 class="section-heading">Subscribe Our Newsletter</h2>
-                                <p>Stay updated with latest feeds and facts about the event.</p>
-
-                            </div>
-                            <!-- End: Section Header --
-                            
-                            <!-- Start: Subscribe Button area --
-                            <form id="subscribe" class="mailchimp-subscribe subscribe-form-inner wow fadeInDown">
-                                <div class="row">
-                                    <div class="col-md-8 col-md-offset-2">
-                                        <p class="subscription-success"></p>
-                                        <p class="subscription-failed"></p>
-                                        <div class="input-group">
-                                            <input type="email" id="subscriber-email" name="email" placeholder="Your email address" class="subscribe-input form-control btn btn-1">
-                                            <span class="input-group-btn">
-                                                <button class="btn btn-1 btn-left">Subscribe</button>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                            <!-- End: Subscribe Button area --                                                        
-                        </div>
-                        <!-- End: NewsLetter Body Area--
-                    </div>
-                    <!-- End: "row" --
-                </div>
-                <!-- End:  "container"--
-            </div>
-            <!-- End: COLOR OVERLAY --
-
-        </section>
-        <!-- End: NewsLetter Area 
-        ==================================-->
+        
         
         
         <!-- Start: Sponsors Area 
