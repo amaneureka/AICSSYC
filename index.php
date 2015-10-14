@@ -1865,7 +1865,7 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                                             <li><span class="bold"><i class="fa fa-home"></i>Address:&nbsp;</span> NSIT, Dwarka Mor Delhi</li>
                                             <li><span class="bold"><i class="fa fa-phone"></i>Contact:Krishan Dhingra&nbsp;</span><a href="callto:+919999999999">+91 9717300858</a></li>
                                              <li><span class="bold"><i class="fa fa-phone"></i>Contact:Aman Jain&nbsp;</span><a href="callto:+919999999999">+91 9810244065</a></li>
-											<li><span class="bold"><i class="fa fa-fax"></i>Mail:&nbsp;</span><a href="mailto:contact@ieeensit.org">contact@deviserweb.com</a></li>
+											<li><span class="bold"><i class="fa fa-fax"></i>Mail:&nbsp;</span><a href="mailto:contact@ieeensit.org">contact@ieeensit.org</a></li>
                                         </ul>
                                     </address> 
                                     <!-- End: address -->
