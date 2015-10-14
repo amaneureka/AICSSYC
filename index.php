@@ -1,35 +1,11 @@
-<?php
-    if (isset($_GET['email']) && isset($_GET['hash']))
-    {
-        $mailid = $_GET['email'];
-        $hashid = $_GET['hash'];
-        if (md5($mailid . "ieeensit") == $hashid)
-        {
-            $to = 'aman.eureka@gmail.com';
-            $email_subject = "@AICSC: New Subscriber";
-            $email_body = "Email". $mailid . "\n"; 
-    
-            $headers = "From: $to\n"; 
-            $headers .= "Reply-To: $to";
-                    
-            mail($to,$email_subject,$email_body,$headers);
-            echo ("Great! you're done!");
-        }
-        else
-        {
-            echo ("Invalid Hash");
-        }
-    }
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
-        <title> AICSC | IEEE NSIT Delhi</title>
+        <title> AICSSYC'15 | IEEE NSIT Delhi</title>
 
         <meta charset="utf-8">
         <meta name="description" content="__DESCRIPTION__" />
-        <meta name="keywords" content="NSIT, IEEE, IEEE-NSIT, AICSC, 2015, Delhi, Dwarka" />
+        <meta name="keywords" content="NSIT, IEEE, IEEE-NSIT, AICSSYC'15, 2015, Delhi, Dwarka" />
         <meta name="author" content="IEEE NSIT">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -120,7 +96,7 @@ src="http://maps.googleapis.com/maps/api/js">
                         
                         <!-- Headline Goes HEre -->
                         <h1 class="wow fadeInDown" data-wow-delay="0.3s">
-                            Hello! Welcome To AICSC
+                            Hello! Welcome To AICSSYC'15
                         </h1>
 
                         <!-- Detail -->
@@ -204,7 +180,7 @@ src="http://maps.googleapis.com/maps/api/js">
                     <div class="section-header col-md-6 col-md-offset-3">
                     
                         <h2 class="section-heading">Schedule Detail</h2>
-                        <p>IEEE AICSC will take place on 20th - 22nd December 2015.
+                        <p>IEEE AICSSYC'15 will take place on 20th - 22nd December 2015.
 These two days will be jam packed with events which will put your technical skills to the test!
  </p>
                         <p> The schedule will be announced soon! </p>
@@ -1777,32 +1753,27 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                         <!-- Register Form Goes Here  -->
                         <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInDown">
 
-                            <form id="register-form" method="post" class="form input-group register-form">
+                            <form id="query-form" method="post" class="form input-group register-form">
                                 <div class="container-fluid">
+
                                     <div class="row">
-
+                                    <p class="query-success"></p>
+                                        <p class="query-failed"></p>
                                         <div class="col-sm-6 col-xs-12">
-                                            <input name="name" id="register-name" class="form-cus form-control" type="text" placeholder="Name" required>
+                                            <input name="name" id="query-name" class="form-cus form-control" type="text" placeholder="Name" required>
                                         </div>
 
                                         <div class="col-sm-6 col-xs-12">
-                                            <input name="email" id="register-email" class="form-cus form-control" type="email" placeholder="Email" required>
+                                            <input name="email" id="query-email" class="form-cus form-control" type="email" placeholder="Email" required>
                                         </div>
 
                                         <div class="col-sm-6 col-xs-12">
-                                            <input name="telephone" class="form-cus form-control" id="register-telephone" type="tel" placeholder="Telephone">
+                                            <input name="telephone" class="form-cus form-control" id="query-telephone" type="tel" placeholder="Telephone">
                                         </div>
                                         <div class="col-sm-6 col-xs-12">
-                                            <input name="Query" class="form-cus form-control" id="register-telephone" type="tel" placeholder="Query">
+                                            <input name="Query" class="form-cus form-control" id="query-query" type="tel" placeholder="Query">
                                         </div> 
                                         <div class="clearfix visible-xs"></div>
-
-                                        <!--<div class="col-sm-6 col-xs-12 dropDown">
-                                            <select name="ticket" id="register-ticket" class="form-control">
-                                                <option value="Basic">Basic ( $13 )</option>
-                                                <option value="Standard">Standard ( $49 )</option>
-                                            </select>
-                                        </div>-->
                                         <div class="form-group col-sm-12 col-md-6 col-md-offset-3">
                                             <button class="btn btn-1 btn-top">Submit</button>
                                         </div>

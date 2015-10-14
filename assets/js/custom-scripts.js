@@ -369,7 +369,7 @@ $(function() {
      * =========================================
      */       
     $('.count_down-1').countdown({
-        end_time: "2015/10/21 14:27:28 +0600",
+        end_time: "2015/12/19 23:59:59 +0530",
         wrapper: function(unit){
             var wrpr = $('<div></div>').
                 addClass(unit.toLowerCase()+'_wrapper').
@@ -388,7 +388,7 @@ $(function() {
         }
     });
     $('.count_down-2').countdown({
-        end_time: "2015/10/21 14:27:28 +0600",
+        end_time: "2015/12/19 23:59:59 +0530",
         wrapper: function(unit){
             var wrpr = $('<div></div>').
                 addClass(unit.toLowerCase()+'_wrapper').
@@ -467,33 +467,36 @@ $(function() {
      * LOCAL NEWSLETTER SUBSCRIPTION
      * ====================================
      */
-    $("#subscribe").submit(function(e) {
+    $("#query-form").submit(function(e) {
         e.preventDefault();
         var data = {
-            email: $("#subscriber-email").val()
+            name: $("#query-name").val(),
+            email: $("#query-email").val(),
+            telephone: $("#query-telephone").val(),
+            query: $("#query-query").val(),
         };
 
         if ( isValidEmail(data['email']) ) {
             $.ajax({
                 type: "POST",
-                url: "subscribe.php",
+                url: "query.php",
                 data: data,
                 success: function() {
-                    $('.subscription-success')
-                      .html('<i class="fa fa-check"></i>' + "&nbsp;Almost finished...We need to confirm your email address.")
+                    $('.query-success')
+                      .html('<i class="fa fa-check"></i>' + "&nbsp;we will contact you soon :)")
                       .delay(500)
                       .fadeIn(1000);
 
-                    $('.subscription-failed').fadeOut(500);
+                    $('.query-failed').fadeOut(500);
                 }
             });
         } else {
-            $('.subscription-failed')
+            $('.query-failed')
                 .html('<i class="fa fa-close"></i>' + "&nbsp;Something went wrong!")
                 .delay(500)
                 .fadeIn(1000);
                 
-            $('.subscription-success').fadeOut(500);
+            $('.query-success').fadeOut(500);
         }
 
         return false;
