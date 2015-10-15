@@ -1548,7 +1548,7 @@ So this basically provides a platform to the students to further their knowledge
                         <div class="section-header col-md-6 col-md-offset-3">
                         
 
-                            <h2 class="section-heading">Registeration Form</h2>
+                            <h2 class="section-heading">Registration Form</h2>
                             <p>Register Here to Join and know about every single thing happening on our event</p>
                            
                             
@@ -1953,7 +1953,7 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                                     <address class="contact-address margin-b25">
                                         <strong>Netaji Subhas Institute of Technology</strong>
                                         <ul class="address-ul">
-                                            <li><span class="bold"><i class="fa fa-home"></i>Address:&nbsp;</span></li>
+                                            <li><span class="bold"><i class="fa fa-home"></i>Address:&nbsp;</span>Azad Hind Fauz Marg, Sector 3,Dwarka, New Delhi, Delhi 110078</li>
                                             <li><span class="bold"><i class="fa fa-phone"></i>Contact:Krishan Dhingra&nbsp;</span><a href="callto:+919999999999">(+91-9717300858)</a></li>
                                             <li><span class="bold"><i class="fa fa-phone"></i>Contact:Aman Jain&nbsp;</span><a href="callto:+919999999999">(+91-9810244065)</a></li>
 											<li><span class="bold"><i class="fa fa-fax"></i>Mail:&nbsp;</span><a href="mailto:contact@ieeensit.org">contact@ieeensit.org</a></li>
