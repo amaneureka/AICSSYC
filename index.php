@@ -1549,7 +1549,7 @@ So this basically provides a platform to the students to further their knowledge
                         
 
                             <h2 class="section-heading">Registration Form</h2>
-                            <p>Register Here to Join and know about every single thing happening on our event</p>
+                            <p>Register Here to Join!</p>
                            
                             
                         </div>
