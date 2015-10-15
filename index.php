@@ -1003,16 +1003,10 @@ These three days will be jam packed with events which will put your technical sk
                             <div class="flexslider">
                                 <ul class="slides slides-height">
                                     <li>
-                                        <img src="assets/images/gallery/gallery-1.jpg" alt="" title=""/>
+                                        <img src="assets/images/1.jpg" alt="" title=""/>
                                     </li>
                                     <li>
-                                        <img src="assets/images/gallery/gallery-2.jpg" alt="" title=""/>
-                                    </li>
-                                    <li>
-                                        <img src="assets/images/gallery/gallery-3.jpg" alt="" title=""/>
-                                    </li>
-                                    <li>
-                                        <img src="assets/images/gallery/gallery-4.jpg" alt="" title=""/>
+                                        <img src="assets/images/2.jpg" alt="" title=""/>
                                     </li>
                                 </ul>
                             </div>
@@ -1077,7 +1071,7 @@ The IEEE Computer Society is the community for technology leaders. As the comput
 
                     <!-- Start: TWO COLS DESCRIPTION IMAGE -->
                     <div class="two-cols-description-image col-sm-6">
-                        <img src="assets/images/gallery/gallery-1.jpg" alt="" >
+                        <img src="assets/images/3.jpg" alt="" >
                     </div>
                     <!-- End: TWO COLS DESCRIPTION IMAGE -->
 
@@ -1099,17 +1093,12 @@ The IEEE Computer Society is the community for technology leaders. As the comput
                             <div class="flexslider">
                                 <ul class="slides slides-height">
                                     <li>
-                                        <img src="assets/images/gallery/gallery-1.jpg" alt="" title=""/>
+                                        <img src="assets/images/5.jpg" alt="" title=""/>
                                     </li>
                                     <li>
-                                        <img src="assets/images/gallery/gallery-2.jpg" alt="" title=""/>
+                                        <img src="assets/images/2.jpg" alt="" title=""/>
                                     </li>
-                                    <li>
-                                        <img src="assets/images/gallery/gallery-3.jpg" alt="" title=""/>
-                                    </li>
-                                    <li>
-                                        <img src="assets/images/gallery/gallery-4.jpg" alt="" title=""/>
-                                    </li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -1175,7 +1164,7 @@ AICSSYC ’15 is once in a lifetime opportunity for students and professionals t
 
                     <!-- Start: TWO COLS DESCRIPTION IMAGE -->
                     <div class="two-cols-description-image col-sm-6">
-                        <img src="assets/images/gallery/gallery-1.jpg" alt="" >
+                        <img src="assets/images/6.jpg" alt="" >
                     </div>
                     <!-- End: TWO COLS DESCRIPTION IMAGE -->
 
@@ -1196,17 +1185,12 @@ AICSSYC ’15 is once in a lifetime opportunity for students and professionals t
                             <div class="flexslider">
                                 <ul class="slides slides-height">
                                     <li>
-                                        <img src="assets/images/gallery/gallery-1.jpg" alt="" title=""/>
+                                        <img src="assets/images/5.jpg" alt="" title=""/>
                                     </li>
                                     <li>
-                                        <img src="assets/images/gallery/gallery-2.jpg" alt="" title=""/>
+                                        <img src="assets/images/3.jpg" alt="" title=""/>
                                     </li>
-                                    <li>
-                                        <img src="assets/images/gallery/gallery-3.jpg" alt="" title=""/>
-                                    </li>
-                                    <li>
-                                        <img src="assets/images/gallery/gallery-4.jpg" alt="" title=""/>
-                                    </li>
+                                    
                                 </ul>
                             </div>
                         </div>
