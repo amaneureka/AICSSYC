@@ -646,6 +646,7 @@ $(function() {
    */
   function init_map() {
     var myLocation = new google.maps.LatLng(28.6091309,77.0350686);
+	var centermap = new google.maps.LatLng(28.609903226830212,77.05096592078917);
 
     var draggableValue;
       if($(document).width() <= 768){
@@ -657,8 +658,8 @@ $(function() {
 
     var mapOptions = {
       generate_controls : false,
-      center: myLocation,
-      zoom: 16,
+      center: centermap,
+      zoom: 14,
       mapTypeControl: true,           /*This option will hide map type.*/
       draggable: draggableValue,
       scaleControl: false,            //This option is used for disable zoom by scale.
