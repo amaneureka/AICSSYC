@@ -1548,7 +1548,7 @@ So this basically provides a platform to the students to further their knowledge
                         <div class="section-header col-md-6 col-md-offset-3">
                         
 
-                            <h2 class="section-heading">Registeration Form</h2>
+                            <h2 class="section-heading">Registration Form</h2>
                             <p>Register Here to Join and know about every single thing happening on our event</p>
                            
                             
@@ -1854,7 +1854,7 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
 
 
        <!--START Query Form
-	   ========================================================================-->
+	   ========================================================================--
 	   <section class="register-background register" id="register"> 
             <div class="overlay-color">
                 <div class="container">
