@@ -1547,13 +1547,10 @@ So this basically provides a platform to the students to further their knowledge
                         <!-- Start: Section Header -->
                         <div class="section-header col-md-6 col-md-offset-3">
                         
-<<<<<<< HEAD
+
                             <h2 class="section-heading">Registeration Form</h2>
-                            <p>Register Here to Join and know about every single thing happening on our event.</p>
-=======
-                            <h2 class="section-heading">Registration Form</h2>
-                            <p>Register Here to Join</p>
->>>>>>> 95382799c3f020ace17daf2ed1286ebc209a6794
+                            <p>Register Here to Join and know about every single thing happening on our event</p>
+                           
                             
                         </div>
                         <!-- End: Section Header -->
