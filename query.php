@@ -1,17 +1,17 @@
 <?php
-	if (!isset($_GET['name']))
+	if (!isset($_POST['name']))
 		die();
-	if (!isset($_GET['telephone']))
+	if (!isset($_POST['telephone']))
 		die();
-	if (!isset($_GET['query']))
+	if (!isset($_POST['query']))
 		die();
-	if (!isset($_GET['email']))
+	if (!isset($_POST['email']))
 		die();
 
-	$name = $_GET['name'];
-	$email = $_GET['email'];
-	$query = $_GET['query'];
-	$tel = $_GET['telephone'];
+	$name = $_POST['name'];
+	$email = $_POST['email'];
+	$query = $_POST['query'];
+	$tel = $_POST['telephone'];
 
 	$to = "aman.eureka@gmail.com";
     $email_subject = "@AICSC: Query Submission";
