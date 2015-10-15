@@ -180,10 +180,11 @@ src="http://maps.googleapis.com/maps/api/js">
                     <div class="section-header col-md-6 col-md-offset-3">
                     
                         <h2 class="section-heading">Schedule Detail</h2>
-                        <p>IEEE AICSSYC'15 will take place on 20th - 22nd December 2015.
-These three days will be jam packed with events which will put your technical skills to the test!
+                        <p>IEEE AICSSYC'15 is destined to be held on 20th - 22nd December 2015 in the pristine grounds of Netaji Subhas Institute of Technology . These three days will be jam packed with events which will not only put your technical skills to test , but also provide you with an opportunity to network around and develop!
+</br>The event schedule will be announced soon!
+</br>Stay Tuned!
  </p>
-                        <p> The schedule will be announced soon!</br> Stay Tuned! </p>
+                        
                         
                     </div>
                   <!--
