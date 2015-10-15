@@ -1394,7 +1394,7 @@ So this basically provides a platform to the students to further their knowledge
                         <div class="section-header col-md-6 col-md-offset-3">
                         
                             <h2 class="section-heading">Registeration Form</h2>
-                            <p>Register Here to Join abut every single things heppening on our event and know more about this event.</p>
+                            <p>Register Here to Join and know about every single thing happening on our event.</p>
                             
                         </div>
                         <!-- End: Section Header -->
@@ -1409,37 +1409,77 @@ So this basically provides a platform to the students to further their knowledge
                                     <div class="row">
 
                                         <div class="col-sm-6 col-xs-12">
-                                            <input name="name" id="register-name" class="form-cus form-control" type="text" placeholder="Name" required>
+                                            <input name="name" id="register-name" class="form-cus form-control" type="text" placeholder="Name*" required>
                                         </div>
 
                                         <div class="col-sm-6 col-xs-12">
-                                            <input name="email" id="register-email" class="form-cus form-control" type="email" placeholder="Email" required>
+                                            <input name="email" id="register-email" class="form-cus form-control" type="email" placeholder="Email*" required>
                                         </div>
 
                                         <div class="col-sm-6 col-xs-12">
-                                            <input name="telephone" class="form-cus form-control" id="register-telephone" type="tel" placeholder="Telephone">
+                                            <input name="telephone" class="form-cus form-control" id="register-telephone" type="tel" placeholder="Telephone*">
                                         </div>
 										  <div class="col-sm-6 col-xs-12">
-                                            <input name="Membership id" class="form-cus form-control" type="text" placeholder="Membership id">
+                                            <input name="Membership id" class="form-cus form-control" type="text" placeholder="Membership id*">
                                         </div>
 										</div>
-										  <div class="col-sm-6 col-xs-12">
-                                            <input name="Section" class="form-cus form-control" type="text" placeholder="Section">
+										  
+
+										<div class="col-sm-6 col-xs-12 dropDown">
+                                        <h4> Membership type?*</h4>
+										 <select name="member of ieee cs" id="registered-member" class="form-control">
+                                                <option value="students">Students</option>
+                                                <option value="professionals">Young Professionals</option>
+                                            </select>
                                         </div>
-										<div class="col-sm-6 col-xs-12">
-                                            <input name="T-shirt size" class="form-cus form-control" type="text" placeholder="T-shirt size">
+										<div class="col-sm-6 col-xs-12 dropDown">
+                                        <h4> T-shirt size?*</h4>
+										 <select name="size" id="registered-member" class="form-control">
+                                                <option value="S">S</option>
+                                                <option value="M">M</option>
+												<option value="L">L</option>
+                                                <option value="XL">XL</option>
+                                            </select>
                                         </div>
 										
 										
 										
                                        <div class="clearfix visible-xs"></div>
-
                                        <div class="col-sm-6 col-xs-12 dropDown">
-                                        <h4> Member of computer society?</h4>
+                                        <h4>Section*</h4>
+										 <select name="member of ieee cs" id="registered-member" class="form-control">
+                                                <option value="Delhi">Delhi</option>
+                                                <option value="Madras">Madras</option>
+												  <option value="Kerala">Kerala</option>
+                                                <option value="Bangalore">Bangalore</option>
+												  <option value="Hyderabad">Hyderabad</option>
+                                                <option value="Mumbai">Mumbai</option>
+												  <option value="Pune">Pune</option>
+                                                <option value="Gujarat">Gujarat</option>
+												  <option value="Kolkata">Kolkata</option>
+                                                <option value="Kharagpur">Kharagpur</option>
+												  <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                           
+                                            </select>
+                                        </div>
+                                       <div class="col-sm-6 col-xs-12 dropDown">
+                                        <h4> Member of computer society?*</h4>
 										 <select name="member of ieee cs" id="registered-member" class="form-control">
                                                 <option value="Yes">Yes</option>
                                                 <option value="No">No</option>
                                             </select>
+                                        </div>
+										<div class="col-sm-6 col-xs-12">
+                                            <input name="Why" class="form-cus form-control" type="text" placeholder="Reason for attending*">
+                                        </div>
+										<div class="col-sm-6 col-xs-12">
+                                            <input name="Expectations" class="form-cus form-control" type="text" placeholder="Expectations from Congress*">
+                                        </div>
+										<div class="col-sm-6 col-xs-12">
+                                            <input name="volunteering" class="form-cus form-control" type="text" placeholder="any volunteering experience?*">
+                                        </div>
+										<div class="col-sm-6 col-xs-12">
+                                            <input name="comments" class="form-cus form-control" type="text" placeholder="any comments">
                                         </div>
 										 </div>
 										
