@@ -101,7 +101,7 @@ src="http://maps.googleapis.com/maps/api/js">
 
                         <!-- Detail -->
                         <p class="wow fadeInDown" data-wow-delay="0.6s">
-                        Open Sourcing Technology for Betterment
+                        GOING DIGITAL </br> GROWING POTENTIAL 
                         </p>
 
                         <!-- Start: CountDown area -->
@@ -143,17 +143,17 @@ src="http://maps.googleapis.com/maps/api/js">
                     <ul class="nav">
                         <!-- Item 1 -->
                         <li class="col-xs-6 col-sm-4 wow fadeInRight">
-                            <a href="#"><img src="assets/images/ieee-cs-logo.png" class="img-responsive" alt=""></a>
+                            <a href="http://www.computer.org/web/guest"><img src="assets/images/ieee-cs-logo.png" class="img-responsive" alt=""></a>
                         </li>
 
                         <!-- Item 2 -->
                         <li class="col-xs-6 col-sm-4 wow fadeInRight" data-wow-delay="0.3s">
-                            <a href="#"><img src="assets/images/ieee-logo.png" class="img-responsive" alt=""></a>
+                            <a href="https://www.ieee.org/index.html"><img src="assets/images/ieee-logo.png" class="img-responsive" alt=""></a>
                         </li>
 
                         <!-- Item 3 -->
                         <li class="col-xs-6 col-sm-4 wow fadeInRight" data-wow-delay="0.6s">
-                            <a href="#"><img src="assets/images/logo-small.png" class="img-responsive" alt=""></a>
+                            <a href="http://ieeensit.org/"><img src="assets/images/logo-small.png" class="img-responsive" alt=""></a>
                         </li>
 
                         <!-- Item 4 -->
@@ -181,9 +181,9 @@ src="http://maps.googleapis.com/maps/api/js">
                     
                         <h2 class="section-heading">Schedule Detail</h2>
                         <p>IEEE AICSSYC'15 will take place on 20th - 22nd December 2015.
-These two days will be jam packed with events which will put your technical skills to the test!
+These three days will be jam packed with events which will put your technical skills to the test!
  </p>
-                        <p> The schedule will be announced soon! </p>
+                        <p> The schedule will be announced soon!</br> Stay Tuned! </p>
                         
                     </div>
                   <!--
@@ -1027,12 +1027,9 @@ These two days will be jam packed with events which will put your technical skil
                             <!-- Start: Section Header -->
                             <div class="section-header align-left">
                                 
-                                <h2 class="section-heading">About Our Event</h2>
+                                <h2 class="section-heading">About IEEE </h2>
 
-                                <p style="font-size:20px">IEEE students members are the leaders of tomorrow.
-Through IEEE, they are able to access the best electrical, electronic, and engineering publications of today’s world. Moreover,  networking with IEEE’s members and industry’s leaders not only imparts students with leadership skills, but also goes a long way nurturing a healthy technical environment where innovation and invention can bloom.
-However, in order to consummate IEEE’s aims, it is a necessity that student branches meet, communicate, and share their ideas and methods.
-To facilitate this communication, IEEE Delhi Branch has decided to host the All India Student Congress (AISC) for the year 2015 in association with IEEE NSIT Branch.</p>
+                                <p style="font-size:12px">IEEE is a non-profit organization and the world’s largest professional association that brings about the sharing of latest innovation in technology and its imbibitions into the society and thus making technology an integral part of an ever evolving society. With more than 3,75,000 IEEE members including nearly 80,000 student members across 150 countries around the world, it serves as an efficient global platform for budding technical minds to share their innovative ideas shape it into a reality. Its efficient platform with publications, conferences, technology standards, professional and educational activities bring together this driven cohort to advance technology for humanity.</p>
                                 
                             </div>                            
                         </div>
@@ -1063,10 +1060,14 @@ To facilitate this communication, IEEE Delhi Branch has decided to host the All 
                             <!-- Start: Section Header -->
                             <div class="section-header align-left">
                                 
-                                <h2 class="section-heading">Why?</h2>
-                                <p style="font-size:20px">This congress offers the members a collaborative environment for creativity and productivity as well as the resources to advance their knowledge and professional training. Participants are provided with the opportunity to meet the IEEE leaders and interact with members from other sections. They can also learn about the various student programs and networking opportunities that the society has to offer.
-So this basically provides a platform to the students to further their knowledge and equip them with the tools needed to realize their dreams and aspirations</p>
-                                
+                                <h2 class="section-heading">About IEEE Computer Society </h2>
+                                <p style="font-size:12px">
+								    The IEEE Computer Society is the world's leading membership organization dedicated to computer science and technology. Serving more than 60,000 members, the IEEE Computer Society is the trusted information, networking, and career-development source for a global community of technology leaders that includes researchers, educators, software engineers, IT professionals, employers, and students.
+
+The IEEE Computer Society sponsors more than 200 technical conferences and events each year, including the industry-oriented "Rock Stars" series, all over the world, aimed at research and industry professionals. Our publications are peer-reviewed, indexed, and authored by technology thought leaders worldwide, and include 17 scholarly journals and 13 magazines featuring the latest technology trends. We also offer cutting-edge products such as the myComputer app (available for iOS or Android), that provide unprecedented user-driven access to our content, and our Digital Library with more than 550,000 articles and papers spanning the full spectrum of computer science and technology.
+</br>
+The IEEE Computer Society is the community for technology leaders. As the computing professional's single, unmatched source for technology information, inspiration and collaboration, we are the organization that computing's leaders, innovators, and researchers trust.
+								</p>
                             </div>
                             <!-- End: Section Header -->                            
                         </div>
@@ -1085,9 +1086,162 @@ So this basically provides a platform to the students to further their knowledge
         </section>
         <!-- End: Two cols Section 
         ==============================-->
+        
+		<!-- Start: Two cols Section 
+        ==============================-->
+        <section id="two-cols-description-with-slider" class="two-cols-description-with-slider">
+            <div class="container-fluid">
+                <div class="row two-cols-description-with-slider-body">
 
+                    <!-- Expandable Gallery -->
+                    <div class="slider-bar col-sm-6">
+                        <div class="row">
+                            <div class="flexslider">
+                                <ul class="slides slides-height">
+                                    <li>
+                                        <img src="assets/images/gallery/gallery-1.jpg" alt="" title=""/>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/gallery/gallery-2.jpg" alt="" title=""/>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/gallery/gallery-3.jpg" alt="" title=""/>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/gallery/gallery-4.jpg" alt="" title=""/>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Start: TWO COLS DESCRIPTION TEXT -->
+                    <div class="description-info description-height col-sm-6 wow fadeInRight">
 
-        <!-- Start: Counter Up Area 
+                        <div class="description-info-inner section-separator">
+                            
+                            <!-- Start: Section Header -->
+                            <div class="section-header align-left">
+                                
+                                <h2 class="section-heading">About IEEE-NSIT </h2>
+
+                                <p style="font-size:12px">
+								  Started back in 2001, IEEE-DIT has now grown into a multi faceted chapter, empowering young engineers to enhance their skills and setup milestones in the history of IEEE NSIT. Our foremost objective is to create an environment which promotes students to learn technical knowledge, inculcate managerial skills and develop their overall personalities.
+
+We achieve this by sponsoring technical projects, providing opportunities to manage and organize events and to participate at various events and conferences at state as well as national level.
+
+IEEE-NSIT Student Branch works to create an atmosphere of technical excellence for the students. It aims at helping students in building an aptitude towards applying engineering in daily life by learning ways to use the latest technology on offer.
+								</p>
+                            </div>                            
+                        </div>
+
+                    </div>
+                    <!-- End: TWO COLS DESCRIPTION TEXT -->
+
+                </div>
+                <!-- End: .row .two-cols-description-with-slider-body -->
+            </div>
+            <!-- End: Container-fluit -->
+        </section>
+        <!-- End: Two cols Section 
+        ==============================-->
+
+        
+        <!-- Start: Two cols Section 
+        ==============================-->
+        <section id="two-cols-description-with-image" class="two-cols-description-with-image">
+            <div class="container-fluid">
+                <div class="row two-cols-description-with-image-body">
+
+                    <!-- Start: TWO COLS DESCRIPTION TEXT -->
+                    <div class="description-info col-sm-6 wow fadeInLeft">
+
+                        <div class="description-info-inner section-separator">
+                            
+                            <!-- Start: Section Header -->
+                            <div class="section-header align-left">
+                                
+                                <h2 class="section-heading">About AICSSYC</h2>
+                                <p style="font-size:12px">
+								  The prestigious IEEE All India Computer Society Student YP Congress 2015 will be held by Delhi Section at Netaji Subhas Institute of Technology, New Delhi. 
+AICSSYC ’15 is once in a lifetime opportunity for students and professionals to be a part of the colloquium that will provide an impetus to learn and assimilate knowledge from various informative sessions as well as interact and participate in different brainstorming events for mutual collaboration. The three day event aims to provide everything at once: Informative lectures by inspiring IEEE and IEEE CS leaders, industrial and professional erudites, elucidations on various dimensions of IEEE and CS, and its host of functionalities, industry visits, and discussions for the better analysis and working of teams, fun events full of frenzy and entertainment.
+								</p>
+                            </div>
+                            <!-- End: Section Header -->                            
+                        </div>
+
+                    </div>
+                    <!-- End: TWO COLS DESCRIPTION TEXT -->
+
+                    <!-- Start: TWO COLS DESCRIPTION IMAGE -->
+                    <div class="two-cols-description-image col-sm-6">
+                        <img src="assets/images/gallery/gallery-1.jpg" alt="" >
+                    </div>
+                    <!-- End: TWO COLS DESCRIPTION IMAGE -->
+
+                </div>
+            </div>
+        </section>
+        <!-- End: Two cols Section 
+        ==============================-->
+<!-- Start: Two cols Section 
+        ==============================-->
+        <section id="two-cols-description-with-slider" class="two-cols-description-with-slider">
+            <div class="container-fluid">
+                <div class="row two-cols-description-with-slider-body">
+
+                    <!-- Expandable Gallery -->
+                    <div class="slider-bar col-sm-6">
+                        <div class="row">
+                            <div class="flexslider">
+                                <ul class="slides slides-height">
+                                    <li>
+                                        <img src="assets/images/gallery/gallery-1.jpg" alt="" title=""/>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/gallery/gallery-2.jpg" alt="" title=""/>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/gallery/gallery-3.jpg" alt="" title=""/>
+                                    </li>
+                                    <li>
+                                        <img src="assets/images/gallery/gallery-4.jpg" alt="" title=""/>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Start: TWO COLS DESCRIPTION TEXT -->
+                    <div class="description-info description-height col-sm-6 wow fadeInRight">
+
+                        <div class="description-info-inner section-separator">
+                            
+                            <!-- Start: Section Header -->
+                            <div class="section-header align-left">
+                                
+                                <h2 class="section-heading">Why attend this meet?</h2>
+
+                                <p style="font-size:12px">
+								This congress offers the members a collaborative environment for creativity and productivity as well as the resources to advance their knowledge and professional training. Participants are provided with the opportunity to meet the IEEE leaders and interact with members from other sections. They can also learn about the various student programs and networking opportunities that the society has to offer.
+So this basically provides a platform to the students to further their knowledge and equip them with the tools needed to realize their dreams and aspirations</p>
+                                </p>
+                            </div>                            
+                        </div>
+
+                    </div>
+                    <!-- End: TWO COLS DESCRIPTION TEXT -->
+
+                </div>
+                <!-- End: .row .two-cols-description-with-slider-body -->
+            </div>
+            <!-- End: Container-fluit -->
+        </section>
+        <!-- End: Two cols Section 
+        ==============================-->
+		
+		
+		<!-- Start: Counter Up Area 
         ==================================-->
         <section class="countdown-background countdown-up" id="countdown-up">
             <div class="overlay-color">
@@ -1097,7 +1251,7 @@ So this basically provides a platform to the students to further their knowledge
                         <!-- Start: Section Header -->
                         <div class="section-header col-md-6 col-md-offset-3">
 
-                            <h2 class="section-heading">Numbers</h2>
+                            <h2 class="section-heading">Number Theory</h2>
 
                         </div>
                         <!-- End: Section Header -->
@@ -1112,26 +1266,26 @@ So this basically provides a platform to the students to further their knowledge
                                
                                 <div class="days_wrapper col-sm-6 col-xs-12 col-md-3 custom">
                                     <div class="background time">
-                                        <span class="counter"> <span class="counter-up">50</span></span>
+                                        <span class="counter"> <span class="counter-up">150</span>+</span>
                                         <span class="title">Participants</span>
                                     </div>
                                 </div>
                                 <div class="hours_wrapper col-sm-6 col-xs-12 col-md-3 custom">
                                     <div class="background time">
-                                        <span class="counter"> <span class="counter-up">15</span></span>
+                                        <span class="counter"> <span class="counter-up">250</span>+</span>
                                         <span class="title">Registrations</span>
                                     </div>
                                 </div>
                                 <div class="minutes_wrapper col-sm-6 col-xs-12 col-md-3 custom">
                                     <div class="background time">
-                                        <span class="counter"> <span class="counter-up">25</span></span>
+                                        <span class="counter"> <span class="counter-up">20</span>+</span>
                                         <span class="title">Events</span>
                                     </div>
                                 </div>
                                 <div class="seconds_wrapper col-sm-6 col-xs-12 col-md-3 custom">
                                     <div class="background time">
-                                        <span class="counter"> <span class="counter-up">15</span></span>
-                                        <span class="title">SPEAKERS</span>
+                                        <span class="counter"> <span class="counter-up">10</span>+</span>
+                                        <span class="title">Speakers</span>
                                     </div>
                                 </div>
 
@@ -1393,8 +1547,10 @@ So this basically provides a platform to the students to further their knowledge
                         <!-- Start: Section Header -->
                         <div class="section-header col-md-6 col-md-offset-3">
                         
-                            <h2 class="section-heading">Register Form</h2>
-                            <p>Register Here to Join abut every single things heppening on our event and know more about this event.</p>
+
+                            <h2 class="section-heading">Registeration Form</h2>
+                            <p>Register Here to Join and know about every single thing happening on our event</p>
+                           
                             
                         </div>
                         <!-- End: Section Header -->
@@ -1409,37 +1565,77 @@ So this basically provides a platform to the students to further their knowledge
                                     <div class="row">
 
                                         <div class="col-sm-6 col-xs-12">
-                                            <input name="name" id="register-name" class="form-cus form-control" type="text" placeholder="Name" required>
+                                            <input name="name" id="register-name" class="form-cus form-control" type="text" placeholder="Name*" required>
                                         </div>
 
                                         <div class="col-sm-6 col-xs-12">
-                                            <input name="email" id="register-email" class="form-cus form-control" type="email" placeholder="Email" required>
+                                            <input name="email" id="register-email" class="form-cus form-control" type="email" placeholder="Email*" required>
                                         </div>
 
                                         <div class="col-sm-6 col-xs-12">
-                                            <input name="telephone" class="form-cus form-control" id="register-telephone" type="tel" placeholder="Telephone">
+                                            <input name="telephone" class="form-cus form-control" id="register-telephone" type="tel" placeholder="Telephone*">
                                         </div>
 										  <div class="col-sm-6 col-xs-12">
-                                            <input name="Membership id" class="form-cus form-control" type="text" placeholder="Membership id">
+                                            <input name="Membership id" class="form-cus form-control" type="text" placeholder="Membership id*">
                                         </div>
 										</div>
-										  <div class="col-sm-6 col-xs-12">
-                                            <input name="Section" class="form-cus form-control" type="text" placeholder="Section">
+										  
+
+										<div class="col-sm-6 col-xs-12 dropDown">
+                                        <h4> Membership type?*</h4>
+										 <select name="member of ieee cs" id="registered-member" class="form-control">
+                                                <option value="students">Students</option>
+                                                <option value="professionals">Young Professionals</option>
+                                            </select>
                                         </div>
-										<div class="col-sm-6 col-xs-12">
-                                            <input name="T-shirt size" class="form-cus form-control" type="text" placeholder="T-shirt size">
+										<div class="col-sm-6 col-xs-12 dropDown">
+                                        <h4> T-shirt size?*</h4>
+										 <select name="size" id="registered-member" class="form-control">
+                                                <option value="S">S</option>
+                                                <option value="M">M</option>
+												<option value="L">L</option>
+                                                <option value="XL">XL</option>
+                                            </select>
                                         </div>
 										
 										
 										
                                        <div class="clearfix visible-xs"></div>
-
                                        <div class="col-sm-6 col-xs-12 dropDown">
-                                        <h4> Member of computer society?</h4>
+                                        <h4>Section*</h4>
+										 <select name="member of ieee cs" id="registered-member" class="form-control">
+                                                <option value="Delhi">Delhi</option>
+                                                <option value="Madras">Madras</option>
+												  <option value="Kerala">Kerala</option>
+                                                <option value="Bangalore">Bangalore</option>
+												  <option value="Hyderabad">Hyderabad</option>
+                                                <option value="Mumbai">Mumbai</option>
+												  <option value="Pune">Pune</option>
+                                                <option value="Gujarat">Gujarat</option>
+												  <option value="Kolkata">Kolkata</option>
+                                                <option value="Kharagpur">Kharagpur</option>
+												  <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                           
+                                            </select>
+                                        </div>
+                                       <div class="col-sm-6 col-xs-12 dropDown">
+                                        <h4> Member of computer society?*</h4>
 										 <select name="member of ieee cs" id="registered-member" class="form-control">
                                                 <option value="Yes">Yes</option>
                                                 <option value="No">No</option>
                                             </select>
+                                        </div>
+										<div class="col-sm-6 col-xs-12">
+                                            <input name="Why" class="form-cus form-control" type="text" placeholder="Reason for attending*">
+                                        </div>
+										<div class="col-sm-6 col-xs-12">
+                                            <input name="Expectations" class="form-cus form-control" type="text" placeholder="Expectations from Congress*">
+                                        </div>
+										<div class="col-sm-6 col-xs-12">
+                                            <input name="volunteering" class="form-cus form-control" type="text" placeholder="any volunteering experience?*">
+                                        </div>
+										<div class="col-sm-6 col-xs-12">
+                                            <input name="comments" class="form-cus form-control" type="text" placeholder="any comments">
                                         </div>
 										 </div>
 										
@@ -1465,51 +1661,29 @@ So this basically provides a platform to the students to further their knowledge
         ================================-->
 
         <!-- Start: Collapse Area 
-        ==================================-->
+        ==================================--
         <section class="collapse-area" id="collapse-area"> 
             <div class="container">
                 <div class="row section-separator">
                     
-                    <!-- Start: Section Header -->
+                    <!-- Start: Section Header --
                     <div class="section-header col-md-8 col-md-offset-2">
                     
                         <h2 class="section-heading">Frequently Asked Question</h2>
                         <p>Common Doubts and Queries</p>
                         
                     </div>
-                    <!-- End: Section Header -->
+                    <!-- End: Section Header --
 
-                    <!-- Start: Collapse Area Inner  -->
+                    <!-- Start: Collapse Area Inner  --
                     <div class="collapse-inner col-sm-12 col-md-offset-2 col-md-8">
-                        <!--  Start: Collapse-tab  -->
+                        <!--  Start: Collapse-tab  --
                         <div class="collapse-tab wow fadeInDown">
                             <div class="panel-group" id="accordion">
 
-                                <!-- Start: Tab-1 -->
-                                <div class="panel panel-default" id="panel1">
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
+                                
 
-                                            <!-- Tab-1 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" class="">
-                                                How do to Register?
-                                                <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseOne" class="panel-collapse collapse in">
-
-                                        <!-- Tab-1 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                          will be uploaded soon !
-										</div>
-
-                                    </div>
-                                </div>
-                                <!-- End: Tab-1 -->
-
-                                <!-- Start: Tab-2 -->
+                                <!-- Start: Tab-2 --
                                 <div class="panel panel-default" id="panel2" >
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
@@ -1524,7 +1698,7 @@ So this basically provides a platform to the students to further their knowledge
                                     </div>
                                     <div id="collapseTwo" class="panel-collapse collapse">
 
-                                        <!-- Tab-2 Detail Goes Here  -->
+                                        <!-- Tab-2 Detail Goes Here  --
                                         <div class="panel-body">
                                          The best way to reach NSIT is by using the Metro train. The nearest Metro Station to NSIT is the Dwarka Mor station, which is on the blue line. After getting off at the station a 5 min ride in an e- rickshaw takes you to NSIT.
 You can also avail the Bus Service, specifically bus nos. 764 and 727
@@ -1533,14 +1707,14 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
 
                                     </div>
                                 </div>
-                                <!-- End: Tab-2 -->
+                                <!-- End: Tab-2 --
 
-                                <!-- Start: Tab-3 -->
+                                <!-- Start: Tab-3 --
                                 <div class="panel panel-default" id="panel3">
                                     <div class="panel-heading">
                                         <h4 class="panel-title">
 
-                                            <!-- Tab-3 Title Goes Here  -->
+                                            <!-- Tab-3 Title Goes Here  --
                                             <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree" class="collapsed">
                                                 What all should I bring?
                                                 <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
@@ -1550,7 +1724,7 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                                     </div>
                                     <div id="collapseThree" class="panel-collapse collapse">
 
-                                        <!-- Tab-3 Detail Goes Here  -->
+                                        <!-- Tab-3 Detail Goes Here  --
                                         <div class="panel-body">
                                          Things to bring :-
 										  </br>
@@ -1561,45 +1735,22 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
 
                                     </div>
                                 </div>
-                                <!-- End: Tab-3 -->
+                                <!-- End: Tab-3 --
 
-                                <!-- Start: Tab-4 --
-                                <div class="panel panel-default" id="panel4" >
-                                    <div class="panel-heading">
-                                        <h4 class="panel-title">
-
-                                            <!-- Tab-4 Title Goes Here  -->
-                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour" class="collapsed">
-                                                What if I need to cancel my booking at late notice?
-                                                <span class="collapse-icon"><i class="fa fa-angle-down"></i></span>
-                                            </a>
-
-                                        </h4>
-                                    </div>
-                                    <div id="collapseFour" class="panel-collapse collapse">
-
-                                        <!-- Tab-4 Detail Goes Here  -->
-                                        <div class="panel-body">
-                                           soon!
-										</div>
-
-                                    </div>
-                                </div>
-                                <!-- End: Tab-4 -->
                                 
                             </div> 
-                            <!-- End: .panel-group  -->
+                            <!-- End: .panel-group  --
                         </div>
-                        <!--  End: .collapse-tab  -->
+                        <!--  End: .collapse-tab  --
 
                     </div>
-                    <!-- End: Collapse Area Inner  -->
+                    <!-- End: Collapse Area Inner  --
 
 
                 </div> 
-                <!-- End: .row  -->
+                <!-- End: .row  --
             </div> 
-            <!-- End: .container  -->
+            <!-- End: .container  --
         </section> 
         <!-- End: Collapse Area 
         ==============================-->
@@ -1803,8 +1954,8 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                                         <strong>Netaji Subhas Institute of Technology</strong>
                                         <ul class="address-ul">
                                             <li><span class="bold"><i class="fa fa-home"></i>Address:&nbsp;</span> NSIT, Dwarka Mor Delhi</li>
-                                            <li><span class="bold"><i class="fa fa-phone"></i>Contact:Krishan Dhingra&nbsp;</span><a href="callto:+919999999999">+91 9717300858</a></li>
-                                             <li><span class="bold"><i class="fa fa-phone"></i>Contact:Aman Jain&nbsp;</span><a href="callto:+919999999999">+91 9810244065</a></li>
+                                            <li><span class="bold"><i class="fa fa-phone"></i>Contact:Krishan Dhingra&nbsp;</span><a href="callto:+919999999999">(+91-9717300858)</a></li>
+                                            <li><span class="bold"><i class="fa fa-phone"></i>Contact:Aman Jain&nbsp;</span><a href="callto:+919999999999">(+91-9810244065)</a></li>
 											<li><span class="bold"><i class="fa fa-fax"></i>Mail:&nbsp;</span><a href="mailto:contact@ieeensit.org">contact@ieeensit.org</a></li>
                                         </ul>
                                     </address> 
@@ -1880,7 +2031,7 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                     </div>
 
                     <div class="copyright col-xs-12">
-                        <p>&copy; 2015 IEEE-NSIT WebD Team. <i class="fa twitter fa-twitter"></i> English (US) </p>
+                        <p>&copy; 2015 IEEE-NSIT WebD Team.</p>
                     </div>
                     
 
