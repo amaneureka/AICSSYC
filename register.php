@@ -99,6 +99,8 @@
 		die();
 	if (!isset($_POST['comments']))
 		die();
+	if (!isset($_POST['Member']))
+		die();
     $name = $_POST['name'];
     $email = $_POST['email'];
     $telephone = $_POST['telephone'];
@@ -110,6 +112,7 @@
     $Expctation = $_POST['Expctation'];
     $volunteering = $_POST['volunteering'];
     $comments = $_POST['comments'];
+    $Member = $_POST['Member'];
 
     $link = mysqli_connect("localhost", "colleges_aicssyc", "GTFO@123", "colleges_ieeewp");
 
@@ -127,7 +130,7 @@
 	}
 
 	mysqli_free_result($result);
-	$ddata = "Name: $name\tEmail ID: $email\tTelephone: $telephone\tMember ID: $member_id\tT-ShirtSize: $TShirtSize\tSection: $Section\tMembership: $IsMember\tWhy: $Why\tExpectation: $Expctation\tVolunteering: $volunteering\tComments: $comments\n";
+	$ddata = "Name: $name\tEmail ID: $email\tTelephone: $telephone\tMember ID: $member_id\tT-ShirtSize: $TShirtSize\tSection: $Section\tMembership: $IsMember\tWhy: $Why\tExpectation: $Expctation\tVolunteering: $volunteering\tComments: $comments\nMember: $Member";
 	mysqli_query($link, "INSERT INTO aicssyc2 (email, data, activate) VALUES ('$email', '$ddata', 0)");
 	mysqli_close($link);
 
