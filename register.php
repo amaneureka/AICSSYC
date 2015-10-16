@@ -74,7 +74,7 @@
 		}
 		mysqli_query($link, "UPDATE aicssyc2 SET activate=1 WHERE email='$email'");
 		mysqli_close($link);
-		echo "Activated Successfully!";
+		echo "<h1>Activated Successfully!</h1>";
 		exit();
 	}
 	if (!isset($_POST['name']))
