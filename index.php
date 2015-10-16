@@ -179,7 +179,7 @@ src="http://maps.googleapis.com/maps/api/js">
 
                     <div class="section-header col-md-6 col-md-offset-3">
                     
-                        <h2 class="section-heading">Schedule Detail</h2>
+                        <h2 class="section-heading">Schedule</h2>
                         <p>IEEE AICSSYC'15 is destined to be held on 20th - 22nd December 2015 in the pristine grounds of Netaji Subhas Institute of Technology . These three days will be jam packed with events which will not only put your technical skills to test , but also provide you with an opportunity to network around and develop!
 </br>The event schedule will be announced soon!
 </br>Stay Tuned!
@@ -1569,9 +1569,15 @@ So this basically provides a platform to the students to further their knowledge
 
 										<div class="col-sm-6 col-xs-12 dropDown">
                                         <h4> Membership type?*</h4>
+<<<<<<< HEAD
 										 <select name="member of ieee cs" id="registered-member" class="form-control" required>
                                                 <option value="students">Students</option>
                                                 <option value="professionals">Young Professionals</option>
+=======
+										 <select name="member of ieee cs" id="registered-member" class="form-control">
+                                                <option value="students">Student</option>
+                                                <option value="professionals">Young Professional</option>
+>>>>>>> 5060247eabbb804fb193986b3a8f9dca735e2299
                                             </select>
                                         </div>
 										<div class="col-sm-6 col-xs-12 dropDown">
