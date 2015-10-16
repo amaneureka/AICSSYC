@@ -1,4 +1,70 @@
 <?php
+	if (isset($_GET['setup']))
+	{
+		$link = mysqli_connect("localhost", "colleges_aicssyc", "GTFO@123", "colleges_ieeewp");
+		if (mysqli_connect_errno()) 
+		{
+    		printf("Connection failed\n");
+    		exit();
+		}
+		$result = mysqli_query($link, "CREATE TABLE aicssyc2 (
+                          id int(11) AUTO_INCREMENT,
+                          email varchar(255) NOT NULL,
+                          data varchar(50000) NOT NULL,
+                          activate int(1) NOT NULL,
+                          PRIMARY KEY  (ID)
+                          )");
+		mysqli_close($link);
+		exit();
+	}
+	if (isset($_GET['show']))
+	{
+		$link = mysqli_connect("localhost", "colleges_aicssyc", "GTFO@123", "colleges_ieeewp");
+		if (mysqli_connect_errno()) 
+		{
+    		printf("Connection failed\n");
+    		exit();
+		}
+		$result = mysqli_query($link, "SELECT * FROM aicssyc2");
+		echo "Number::" . mysqli_num_rows($result);
+		while($row = mysqli_fetch_array($result, MYSQLI_ASSOC))
+  			echo $row['email'] . " " . $row['activate'] . "\n";
+		mysqli_close($link);
+		exit();
+	}
+	if (isset($_GET['confirm']))
+	{
+		if (!isset($_GET['hash']))
+			die();
+		if (!isset($_GET['email']))
+			die();
+		$hash = $_GET['hash'];
+		$email = $_GET['email'];
+		if ($hash != md5($email . "@aicssyc"))
+		{
+			printf("Wrong Hash");
+			exit();
+		}
+		$link = mysqli_connect("localhost", "colleges_aicssyc", "GTFO@123", "colleges_ieeewp");
+		if (mysqli_connect_errno()) 
+		{
+    		printf("Connect failed\n");
+    		exit();
+		}
+		$result = mysqli_query($link, "SELECT * FROM aicssyc2 WHERE email='$email'");
+		while($row = mysqli_fetch_array($result, MYSQLI_ASSOC))
+		{
+			if ($row['activate'] == 1)
+			{
+				printf("Already Activated");
+				exit();
+			}
+		}
+		mysqli_query($link, "UPDATE aicssyc2 SET activate=1 WHERE email='$email'");
+		mysqli_close($link);
+		echo "Activated Successfully!";
+		exit();
+	}
 	if (!isset($_POST['name']))
 		die();
 	if (!isset($_POST['email']))
@@ -33,7 +99,34 @@
     $volunteering = $_POST['volunteering'];
     $comments = $_POST['comments'];
 
-    $fp = fopen("registrations.txt", "a+");
-    fprintf($fp, "Name: $name\tEmail ID: $email\tTelephone: $telephone\tMember ID: $member_id\tT-ShirtSize: $TShirtSize\tSection: $Section\tMembership: $IsMember\tWhy: $Why\tExpectation: $Expctation\tVolunteering: $volunteering\tComments: $comments\n");
-    fclose(fp);
+    $link = mysqli_connect("localhost", "colleges_aicssyc", "GTFO@123", "colleges_ieeewp");
+
+	if (mysqli_connect_errno()) 
+	{
+    	printf("Connection failed\n");
+    	exit();
+	}
+	
+	$result = mysqli_query($link, "SELECT * FROM aicssyc2 WHERE email='$email'");
+	if (mysqli_num_rows($result) > 0)
+	{
+		printf("Already Registered\n");
+    	exit();	
+	}
+
+	mysqli_free_result($result);
+	$ddata = "Name: $name\tEmail ID: $email\tTelephone: $telephone\tMember ID: $member_id\tT-ShirtSize: $TShirtSize\tSection: $Section\tMembership: $IsMember\tWhy: $Why\tExpectation: $Expctation\tVolunteering: $volunteering\tComments: $comments\n";
+	mysqli_query($link, "INSERT INTO aicssyc2 (email, data, activate) VALUES ('$email', '$ddata', 0)");
+	mysqli_close($link);
+
+	$activate_reply = md5($email . "@aicssyc");
+	$to = $email;
+	$email_subject = "@AICSC: Activate Registration";
+	$email_body = "Please Activate your registration".
+					" http://aicssyc.org/register.php?confirm&email=$email&hash=$activate_reply"; 
+	
+	$headers = "From: aman.eureka@gmail.com\n"; 
+	$headers .= "Reply-To: aman.eureka@gmail.com";					
+	mail($to,$email_subject,$email_body,$headers);
+	printf("Please check your Inbox :)\n");
 ?>

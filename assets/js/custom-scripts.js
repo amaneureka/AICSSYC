@@ -551,10 +551,10 @@ $(function() {
                 type: "POST",
                 url: "register.php",
                 data: data,
-                success: function() 
+                success: function(data) 
                 {
                     $('#register-success')
-                      .html('<i class="fa fa-check"></i>' + "&nbsp;we will contact you soon :)")
+                      .html('<i class="fa fa-check"></i>' + "&nbsp;" + data)
                       .delay(500)
                       .fadeIn(1000);
 
