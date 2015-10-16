@@ -1533,7 +1533,7 @@ So this basically provides a platform to the students to further their knowledge
                         <div class="section-header col-md-6 col-md-offset-3">
                         
 
-                            <h2 class="section-heading">Registration Form</h2>
+                            <h2 class="section-heading">Registeration Form</h2>
                             <p>Register Here to Join!</p>
                            
                             
@@ -1569,15 +1569,11 @@ So this basically provides a platform to the students to further their knowledge
 
 										<div class="col-sm-6 col-xs-12 dropDown">
                                         <h4> Membership type?*</h4>
-<<<<<<< HEAD
-										 <select name="member of ieee cs" id="registered-member" class="form-control" required>
-                                                <option value="students">Students</option>
-                                                <option value="professionals">Young Professionals</option>
-=======
-										 <select name="member of ieee cs" id="registered-member" class="form-control">
+
+										 
+				                     <select name="membership type" id="registered-member" class="form-control">
                                                 <option value="students">Student</option>
                                                 <option value="professionals">Young Professional</option>
->>>>>>> 5060247eabbb804fb193986b3a8f9dca735e2299
                                             </select>
                                         </div>
 										<div class="col-sm-6 col-xs-12 dropDown">
