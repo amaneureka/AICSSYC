@@ -67,9 +67,7 @@
 
                             <form id="register-form" method="post" class="form input-group register-form">
                                 <div class="container-fluid">
-                                    <div class="row">
-                                        <p id="register-success" class="email-success"></p>
-                                        <p id="register-failed" class="email-failed"></p>
+                                    <div class="row">                                        
                                         <div class="col-sm-6 col-xs-12">
                                             <input name="name" id="register-name" class="form-cus form-control" type="text" placeholder="Name*" required>
                                         </div>
@@ -89,7 +87,7 @@
 
 										<div class="col-sm-6 col-xs-12 dropDown">
                                             <h4> Membership type*</h4>
-                                            <select name="member of ieee cs" id="registered-member" class="form-control" required>
+                                            <select name="member of ieee cs" id="registered-student" class="form-control" required>
                                                 <option value="select">Select</option>
 												<option value="students">Student</option>
                                                 <option value="professionals">Young Professional</option>
@@ -139,23 +137,22 @@
                                             </select>
                                         </div>
 										<div class="col-sm-6 col-xs-12">
-                                            <textarea name="register-why" rows="5" cols="30"  class="form-cus form-control" id="register-why" type="text" placeholder="Reason for attending*" required>Reason for attending*
-									        </textarea>
+                                            <textarea name="register-why" rows="5" cols="30"  class="form-cus form-control" id="register-why" type="text" placeholder="Reason for attending*" required></textarea>
 											</div>
 									<div class="col-sm-6 col-xs-12">
-                                            <textarea rows="5" cols="30" name="register-expectation" class="form-cus form-control" id="register-expectation" type="text" placeholder="Expectations from Congress*" required>Expectations from Congress*
-                                      </textarea> 
+                                            <textarea rows="5" cols="30" name="register-expectation" class="form-cus form-control" id="register-expectation" type="text" placeholder="Expectations from Congress*" required></textarea> 
 									   </div>
 										<div class="col-sm-6 col-xs-12">
-                                            <textarea  rows="5" cols="30" name="register-volunteering" class="form-cus form-control" id="register-volunteering" type="text" placeholder="any volunteering experience*" required>any volunteering experience*
-                                        </textarea>
+                                            <textarea  rows="5" cols="30" name="register-volunteering" class="form-cus form-control" id="register-volunteering" type="text" placeholder="any volunteering experience*" required></textarea>
 										</div>
 										<div class="col-sm-6 col-xs-12">
-                                            <textarea rows="5" cols="30" name="register-comments"rows="5" cols="30" class="form-cus form-control" id="register-comments" type="text" placeholder="any comments">any comments                                        </textarea>
+                                            <textarea rows="5" cols="30" name="register-comments"rows="5" cols="30" class="form-cus form-control" id="register-comments" type="text" placeholder="any comments"></textarea>
 										</div>
 										 </div>
 										
                                         <div class="form-group col-sm-12 col-md-6 col-md-offset-3">
+                                            <p id="register-success" class="email-success"></p>
+                                            <p id="register-failed" class="email-failed"></p>
                                             <button class="btn btn-1 btn-top">Submit</button>
                                         </div>
 

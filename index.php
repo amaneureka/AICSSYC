@@ -111,7 +111,7 @@ src="http://maps.googleapis.com/maps/api/js">
                         
                         <!-- Start: Button area -->
                         <div class="buy-tricket btn-scroll wow fadeInDown" data-wow-delay="1.2s">
-                            <a href="registration.html"  target="_blank" class="btn btn-1 btn-top">Register Now</a>
+                            <a href="registration.php"  target="_blank" class="btn btn-1 btn-top">Register Now</a>
                             <!--<button class="btn btn-1 btn-1c">Button</button>-->
                         </div>
                         <!-- End: Button area" -->
