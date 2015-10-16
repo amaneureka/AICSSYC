@@ -111,7 +111,7 @@ src="http://maps.googleapis.com/maps/api/js">
                         
                         <!-- Start: Button area -->
                         <div class="buy-tricket btn-scroll wow fadeInDown" data-wow-delay="1.2s">
-                            <a href="#register" class="btn btn-1 btn-top">Register Now</a>
+                            <a href="registeration.html"  target="_blank" class="btn btn-1 btn-top">Register Now</a>
                             <!--<button class="btn btn-1 btn-1c">Button</button>-->
                         </div>
                         <!-- End: Button area" -->
@@ -1522,130 +1522,7 @@ So this basically provides a platform to the students to further their knowledge
         <!-- End: Speakers Area 
         =====================================-->
 
-        <!-- Start: Register Area 
-        ==================================-->
-        <section class="register-background register" id="register"> 
-            <div class="overlay-color">
-                <div class="container">
-                    <div class="row register-body section-separator">
-                        
-                        <!-- Start: Section Header -->
-                        <div class="section-header col-md-6 col-md-offset-3">
-                        
-
-                            <h2 class="section-heading">Registeration Form</h2>
-                            <p>Register Here to Join!</p>
-                           
-                            
-                        </div>
-                        <!-- End: Section Header -->
-                        
-                        <div class="clearfix"></div>
-
-                        <!-- Register Form Goes Here  -->
-                        <div class="col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2 wow fadeInDown">
-
-                            <form id="register-form" method="post" class="form input-group register-form">
-                                <div class="container-fluid">
-                                    <div class="row">
-                                        <p id="register-success" class="email-success"></p>
-                                        <p id="register-failed" class="email-failed"></p>
-                                        <div class="col-sm-6 col-xs-12">
-                                            <input name="name" id="register-name" class="form-cus form-control" type="text" placeholder="Name*" required>
-                                        </div>
-
-                                        <div class="col-sm-6 col-xs-12">
-                                            <input name="email" id="register-email" class="form-cus form-control" type="email" placeholder="Email*" required>
-                                        </div>
-
-                                        <div class="col-sm-6 col-xs-12">
-                                            <input name="telephone" class="form-cus form-control" id="register-telephone" type="tel" placeholder="Telephone*" required>
-                                        </div>
-										  <div class="col-sm-6 col-xs-12">
-                                            <input name="Membership id" id="register-member_id" class="form-cus form-control" type="text" placeholder="Membership id*" required>
-                                        </div>
-										</div>
-										  
-
-										<div class="col-sm-6 col-xs-12 dropDown">
-                                            <h4> Membership type?*</h4>
-                                            <select name="member of ieee cs" id="registered-member" class="form-control" required>
-                                                <option value="students">Students</option>
-                                                <option value="professionals">Young Professionals</option>
-
-                                            </select>
-                                        </div>
-										<div class="col-sm-6 col-xs-12 dropDown">
-                                        <h4> T-shirt size?*</h4>
-										 <select name="size" id="registered-size" class="form-control" required>
-                                                <option value="S">S</option>
-                                                <option value="M">M</option>
-												<option value="L">L</option>
-                                                <option value="XL">XL</option>
-                                            </select>
-                                        </div>
-										
-										
-										
-                                       <div class="clearfix visible-xs"></div>
-                                       <div class="col-sm-6 col-xs-12 dropDown">
-                                        <h4>Section*</h4>
-										 <select name="member of ieee cs" id="registered-section" class="form-control" required>
-                                                <option value="Delhi">Delhi</option>
-                                                <option value="Madras">Madras</option>
-												  <option value="Kerala">Kerala</option>
-                                                <option value="Bangalore">Bangalore</option>
-												  <option value="Hyderabad">Hyderabad</option>
-                                                <option value="Mumbai">Mumbai</option>
-												  <option value="Pune">Pune</option>
-                                                <option value="Gujarat">Gujarat</option>
-												  <option value="Kolkata">Kolkata</option>
-                                                <option value="Kharagpur">Kharagpur</option>
-												  <option value="Uttar Pradesh">Uttar Pradesh</option>
-                                           
-                                            </select>
-                                        </div>
-                                       <div class="col-sm-6 col-xs-12 dropDown">
-                                        <h4> Member of computer society?*</h4>
-										 <select name="member of ieee cs" id="registered-ismember" class="form-control" required>
-                                                <option value="Yes">Yes</option>
-                                                <option value="No">No</option>
-                                            </select>
-                                        </div>
-										<div class="col-sm-6 col-xs-12">
-                                            <input name="register-why" class="form-cus form-control" id="register-why" type="text" placeholder="Reason for attending*" required>
-                                        </div>
-										<div class="col-sm-6 col-xs-12">
-                                            <input name="register-expectation" class="form-cus form-control" id="register-expectation" type="text" placeholder="Expectations from Congress*" required>
-                                        </div>
-										<div class="col-sm-6 col-xs-12">
-                                            <input name="register-volunteering" class="form-cus form-control" id="register-volunteering" type="text" placeholder="any volunteering experience?*" required>
-                                        </div>
-										<div class="col-sm-6 col-xs-12">
-                                            <input name="register-comments" class="form-cus form-control" id="register-comments" type="text" placeholder="any comments">
-                                        </div>
-										 </div>
-										
-                                        <div class="form-group col-sm-12 col-md-6 col-md-offset-3">
-                                            <button class="btn btn-1 btn-top">Submit</button>
-                                        </div>
-
-                                    </div>
-                                </div>
-                            </form>
-
-                        </div>
-                        <!-- End: .col-sm-12  -->
-                        
-                    </div>
-                    <!-- End: .register-body -->
-                </div>
-                <!-- End: .container -->
-            </div> 
-            <!-- End: .overlay-color -->
-        </section> 
-        <!-- End: Register Area 
-        ================================-->
+       
 
         <!-- Start: Collapse Area 
         ==================================--
