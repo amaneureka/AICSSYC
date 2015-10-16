@@ -1568,12 +1568,19 @@ So this basically provides a platform to the students to further their knowledge
 										  
 
 										<div class="col-sm-6 col-xs-12 dropDown">
+<<<<<<< HEAD
                                         <h4> Membership type?*</h4>
 
 										 
 				                     <select name="membership type" id="registered-member" class="form-control">
                                                 <option value="students">Student</option>
                                                 <option value="professionals">Young Professional</option>
+=======
+                                            <h4> Membership type?*</h4>
+                                            <select name="member of ieee cs" id="registered-member" class="form-control" required>
+                                                <option value="students">Students</option>
+                                                <option value="professionals">Young Professionals</option>
+>>>>>>> f0de3410320cb8bf6bb6c74cc694e31fa73d0140
                                             </select>
                                         </div>
 										<div class="col-sm-6 col-xs-12 dropDown">

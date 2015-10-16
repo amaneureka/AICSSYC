@@ -1,5 +1,26 @@
 <?php
-
+	if (!isset($_POST['name']))
+		die();
+	if (!isset($_POST['email']))
+		die();
+	if (!isset($_POST['telephone']))
+		die();
+	if (!isset($_POST['member_id']))
+		die();
+	if (!isset($_POST['TShirtSize']))
+		die();
+	if (!isset($_POST['Section']))
+		die();
+	if (!isset($_POST['IsMember']))
+		die();
+	if (!isset($_POST['Why']))
+		die();
+	if (!isset($_POST['Expctation']))
+		die();
+	if (!isset($_POST['volunteering']))
+		die();
+	if (!isset($_POST['comments']))
+		die();
     $name = $_POST['name'];
     $email = $_POST['email'];
     $telephone = $_POST['telephone'];
