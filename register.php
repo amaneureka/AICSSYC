@@ -1,5 +1,17 @@
 <?php
-	if (isset($_GET['setup']))
+	if (isset($_GET['reset']))
+	{
+		$link = mysqli_connect("localhost", "colleges_aicssyc", "GTFO@123", "colleges_ieeewp");
+		if (mysqli_connect_errno()) 
+		{
+    		printf("Connection failed\n");
+    		exit();
+		}
+		$result = mysqli_query($link, "DROP TABLE IF EXISTS aicssyc2");
+		mysqli_close($link);
+		exit();
+	}
+	else if (isset($_GET['setup']))
 	{
 		$link = mysqli_connect("localhost", "colleges_aicssyc", "GTFO@123", "colleges_ieeewp");
 		if (mysqli_connect_errno()) 
@@ -121,9 +133,13 @@
 
 	$activate_reply = md5($email . "@aicssyc");
 	$to = $email;
-	$email_subject = "@AICSC: Activate Registration";
-	$email_body = "Please Activate your registration".
-					" http://aicssyc.org/register.php?confirm&email=$email&hash=$activate_reply"; 
+	$email_subject = "Confirmation of Registration for AICSSYC'15";
+	$email_body = "Greetings!!\n\nYou have successfully registered for ALL INDIA COMPUTER SOCIETY STUDENT YOUNG PROFESSIONAL CONGRESS 2015."  .
+					"\n\nConfirm your registration by visiting following url\nhttp://aicssyc.org/register.php?confirm&email=$email&hash=$activate_reply" .
+					"\n\nThe payment portal and details will be up shortly at http://aicssyc.org/ \nAlso, remain updated by liking our facebook page :  https://www.facebook.com/aicssyc?fref=ts" .
+					"\n\nIn the meantime please keep visiting our  site, we would unveil the speakers and other details soon." .
+					"\nHappy to have you aboard with us !" .
+					"\n\nWarm Regards\nIEEE AICSSYC'15 Team"; 
 	
 	$headers = "From: aman.eureka@gmail.com\n"; 
 	$headers .= "Reply-To: aman.eureka@gmail.com";					
