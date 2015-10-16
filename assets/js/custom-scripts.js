@@ -460,7 +460,110 @@ $(function() {
         return pattern.test(emailAddress);
 
     };
+    $("#register-form").submit(function(e) {
+        e.preventDefault();
+        var data = {
+            name: $("#register-name").val(),
+            email: $("#register-email").val(),
+            telephone: $("#register-telephone").val(),
+            member_id: $("#register-member_id").val(),
+            TShirtSize: $("#registered-size").val(),
+            Section: $("#registered-section").val(),
+            IsMember: $("#registered-ismember").val(),
+            Why: $("#register-why").val(),
+            Expctation: $("#register-expectation").val(),
+            volunteering: $("#register-volunteering").val(),
+            comments: $("#register-comments").val()
+        };
+        //alert(JSON.stringify(data, null, 4));
+        if (!isValidEmail(data['email']))
+        {
+            $('#register-failed')
+                .html('<i class="fa fa-close"></i>' + "&nbsp;Enter a Valid Email Address!")
+                .delay(500)
+                .fadeIn(1000);
+                
+            $('#register-success').fadeOut(500);
+            return false;
+        }
+        else if (data['name'] == null || data['name'] == "")
+        {
+          $('#register-failed')
+                .html('<i class="fa fa-close"></i>' + "&nbsp;Name Field can't be empty!")
+                .delay(500)
+                .fadeIn(1000);
+                
+            $('#register-success').fadeOut(500);
+          return false;
+        }
+        else if (isNaN(data['telephone']))
+        {
+          $('#register-failed')
+                .html('<i class="fa fa-close"></i>' + "&nbsp;Invalid input in telephone field!")
+                .delay(500)
+                .fadeIn(1000);
+                
+            $('#register-success').fadeOut(500);
+          return false;
+        }
+        else if (data['member_id'] == null || data['member_id'] == "")
+        {
+          $('#register-failed')
+                .html('<i class="fa fa-close"></i>' + "&nbsp;Member ID Field can't be empty!")
+                .delay(500)
+                .fadeIn(1000);
+                
+            $('#register-success').fadeOut(500);
+          return false;
+        }
+        else if (data['Why'] == null || data['Why'] == "")
+        {
+          $('#register-failed')
+                .html('<i class="fa fa-close"></i>' + "&nbsp;Reason Field can't be empty!")
+                .delay(500)
+                .fadeIn(1000);
+                
+            $('#register-success').fadeOut(500);
+          return false;
+        }
+        else if (data['Expctation'] == null || data['Expctation'] == "")
+        {
+          $('#register-failed')
+                .html('<i class="fa fa-close"></i>' + "&nbsp;Expctation Field can't be empty!")
+                .delay(500)
+                .fadeIn(1000);
+                
+            $('#register-success').fadeOut(500);
+          return false;
+        }
+        else if (data['volunteering'] == null || data['volunteering'] == "")
+        {
+          $('#register-failed')
+                .html('<i class="fa fa-close"></i>' + "&nbsp;Volunteering Field can't be empty!")
+                .delay(500)
+                .fadeIn(1000);
+                
+            $('#register-success').fadeOut(500);
+          return false;
+        }
 
+        $.ajax({
+                type: "POST",
+                url: "register.php",
+                data: data,
+                success: function() 
+                {
+                    $('#register-success')
+                      .html('<i class="fa fa-check"></i>' + "&nbsp;we will contact you soon :)")
+                      .delay(500)
+                      .fadeIn(1000);
+
+                    $('#register-failed').fadeOut(500);
+                }
+            });
+
+        return false;
+    });
 
     /**
      * ====================================
@@ -483,7 +586,7 @@ $(function() {
                 data: data,
                 success: function() {
                     $('.query-success')
-                      .html('<i class="fa fa-check"></i>' + "&nbsp;we will contact you soon :)")
+                      .html('<i class="fa fa-check"></i>' + "&nbsp;Registration Successfull")
                       .delay(500)
                       .fadeIn(1000);
 

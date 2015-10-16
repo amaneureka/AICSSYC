@@ -1548,7 +1548,8 @@ So this basically provides a platform to the students to further their knowledge
                             <form id="register-form" method="post" class="form input-group register-form">
                                 <div class="container-fluid">
                                     <div class="row">
-
+                                        <p id="register-success" class="email-success"></p>
+                                        <p id="register-failed" class="email-failed"></p>
                                         <div class="col-sm-6 col-xs-12">
                                             <input name="name" id="register-name" class="form-cus form-control" type="text" placeholder="Name*" required>
                                         </div>
@@ -1558,24 +1559,24 @@ So this basically provides a platform to the students to further their knowledge
                                         </div>
 
                                         <div class="col-sm-6 col-xs-12">
-                                            <input name="telephone" class="form-cus form-control" id="register-telephone" type="tel" placeholder="Telephone*">
+                                            <input name="telephone" class="form-cus form-control" id="register-telephone" type="tel" placeholder="Telephone*" required>
                                         </div>
 										  <div class="col-sm-6 col-xs-12">
-                                            <input name="Membership id" class="form-cus form-control" type="text" placeholder="Membership id*">
+                                            <input name="Membership id" id="register-member_id" class="form-cus form-control" type="text" placeholder="Membership id*" required>
                                         </div>
 										</div>
 										  
 
 										<div class="col-sm-6 col-xs-12 dropDown">
                                         <h4> Membership type?*</h4>
-										 <select name="member of ieee cs" id="registered-member" class="form-control">
+										 <select name="member of ieee cs" id="registered-member" class="form-control" required>
                                                 <option value="students">Students</option>
                                                 <option value="professionals">Young Professionals</option>
                                             </select>
                                         </div>
 										<div class="col-sm-6 col-xs-12 dropDown">
                                         <h4> T-shirt size?*</h4>
-										 <select name="size" id="registered-member" class="form-control">
+										 <select name="size" id="registered-size" class="form-control" required>
                                                 <option value="S">S</option>
                                                 <option value="M">M</option>
 												<option value="L">L</option>
@@ -1588,7 +1589,7 @@ So this basically provides a platform to the students to further their knowledge
                                        <div class="clearfix visible-xs"></div>
                                        <div class="col-sm-6 col-xs-12 dropDown">
                                         <h4>Section*</h4>
-										 <select name="member of ieee cs" id="registered-member" class="form-control">
+										 <select name="member of ieee cs" id="registered-section" class="form-control" required>
                                                 <option value="Delhi">Delhi</option>
                                                 <option value="Madras">Madras</option>
 												  <option value="Kerala">Kerala</option>
@@ -1605,22 +1606,22 @@ So this basically provides a platform to the students to further their knowledge
                                         </div>
                                        <div class="col-sm-6 col-xs-12 dropDown">
                                         <h4> Member of computer society?*</h4>
-										 <select name="member of ieee cs" id="registered-member" class="form-control">
+										 <select name="member of ieee cs" id="registered-ismember" class="form-control" required>
                                                 <option value="Yes">Yes</option>
                                                 <option value="No">No</option>
                                             </select>
                                         </div>
 										<div class="col-sm-6 col-xs-12">
-                                            <input name="Why" class="form-cus form-control" type="text" placeholder="Reason for attending*">
+                                            <input name="register-why" class="form-cus form-control" id="register-why" type="text" placeholder="Reason for attending*" required>
                                         </div>
 										<div class="col-sm-6 col-xs-12">
-                                            <input name="Expectations" class="form-cus form-control" type="text" placeholder="Expectations from Congress*">
+                                            <input name="register-expectation" class="form-cus form-control" id="register-expectation" type="text" placeholder="Expectations from Congress*" required>
                                         </div>
 										<div class="col-sm-6 col-xs-12">
-                                            <input name="volunteering" class="form-cus form-control" type="text" placeholder="any volunteering experience?*">
+                                            <input name="register-volunteering" class="form-cus form-control" id="register-volunteering" type="text" placeholder="any volunteering experience?*" required>
                                         </div>
 										<div class="col-sm-6 col-xs-12">
-                                            <input name="comments" class="form-cus form-control" type="text" placeholder="any comments">
+                                            <input name="register-comments" class="form-cus form-control" id="register-comments" type="text" placeholder="any comments">
                                         </div>
 										 </div>
 										
