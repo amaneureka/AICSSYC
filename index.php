@@ -1004,11 +1004,12 @@ src="http://maps.googleapis.com/maps/api/js">
                             <div class="flexslider">
                                 <ul class="slides slides-height">
                                     <li>
-                                        <img src="assets/images/1.jpg" alt="" title=""/>
+                                        <img src="assets/images/ieee1.jpg" alt="" title="" height="100px"/>
                                     </li>
                                     <li>
-                                        <img src="assets/images/2.jpg" alt="" title=""/>
+                                        <img src="assets/images/ieee3.jpg" alt="" title=""/>
                                     </li>
+									
                                 </ul>
                             </div>
                         </div>
@@ -1072,7 +1073,7 @@ The IEEE Computer Society is the community for technology leaders. As the comput
 
                     <!-- Start: TWO COLS DESCRIPTION IMAGE -->
                     <div class="two-cols-description-image col-sm-6">
-                        <img src="assets/images/3.jpg" alt="" >
+                        <img src="assets/images/cs1.png" alt="" height="100px" width="100px"/>
                     </div>
                     <!-- End: TWO COLS DESCRIPTION IMAGE -->
 
@@ -1094,10 +1095,10 @@ The IEEE Computer Society is the community for technology leaders. As the comput
                             <div class="flexslider">
                                 <ul class="slides slides-height">
                                     <li>
-                                        <img src="assets/images/5.jpg" alt="" title=""/>
+                                        <img src="assets/images/nsit1.png" alt="" title="" height="100px"/>
                                     </li>
                                     <li>
-                                        <img src="assets/images/2.jpg" alt="" title=""/>
+                                        <img src="assets/images/nsit1.jpg" alt="" title=""/>
                                     </li>
                                     
                                 </ul>

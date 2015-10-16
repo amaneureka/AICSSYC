@@ -67,7 +67,9 @@
 
                             <form id="register-form" method="post" class="form input-group register-form">
                                 <div class="container-fluid">
-                                    <div class="row">                                        
+                                    <div class="row">
+                                        <p id="register-success" class="email-success"></p>
+                                        <p id="register-failed" class="email-failed"></p>
                                         <div class="col-sm-6 col-xs-12">
                                             <input name="name" id="register-name" class="form-cus form-control" type="text" placeholder="Name*" required>
                                         </div>
@@ -97,7 +99,7 @@
 										<div class="col-sm-6 col-xs-12 dropDown">
                                         <h4> T-shirt size*</h4>
 										 <select name="size" id="registered-size" class="form-control" required>
-                                                <option value="select">Select</option>
+                                                 <option value="select">Select</option>
 												<option value="S">S</option>
                                                 <option value="M">M</option>
 												<option value="L">L</option>
@@ -112,7 +114,7 @@
                                        <div class="col-sm-6 col-xs-12 dropDown">
                                         <h4>Section*</h4>
 										 <select name="member of ieee cs" id="registered-section" class="form-control" required>
-                                                 <option value="select">Select</option>
+                                                  <option value="select">Select</option>
 												 <option value="Bangalore">Bangalore</option>
 												<option value="Delhi">Delhi</option>
 												 <option value="Gujarat">Gujarat</option>
@@ -131,28 +133,29 @@
                                        <div class="col-sm-6 col-xs-12 dropDown">
                                         <h4> Member of computer society*</h4>
 										 <select name="member of ieee cs" id="registered-ismember" class="form-control" required>
-                                                <option value="select">Select</option>
+                                                 <option value="select">Select</option>
 												<option value="Yes">Yes</option>
                                                 <option value="No">No</option>
                                             </select>
                                         </div>
 										<div class="col-sm-6 col-xs-12">
-                                            <input name="register-why" class="form-cus form-control" id="register-why" type="text" placeholder="Reason for attending*" required>
-                                        </div>
+                                            <textarea name="register-why" rows="5" cols="30"  class="form-cus form-control" id="register-why" type="text" placeholder="Reason for attending*" required>Reason for attending*
+									        </textarea>
+											</div>
+									<div class="col-sm-6 col-xs-12">
+                                            <textarea rows="5" cols="30" name="register-expectation" class="form-cus form-control" id="register-expectation" type="text" placeholder="Expectations from Congress*" required>Expectations from Congress*
+                                      </textarea> 
+									   </div>
 										<div class="col-sm-6 col-xs-12">
-                                            <input name="register-expectation" class="form-cus form-control" id="register-expectation" type="text" placeholder="Expectations from Congress*" required>
-                                        </div>
+                                            <textarea  rows="5" cols="30" name="register-volunteering" class="form-cus form-control" id="register-volunteering" type="text" placeholder="any volunteering experience*" required>any volunteering experience*
+                                        </textarea>
+										</div>
 										<div class="col-sm-6 col-xs-12">
-                                            <input name="register-volunteering" class="form-cus form-control" id="register-volunteering" type="text" placeholder="any volunteering experience*" required>
-                                        </div>
-										<div class="col-sm-6 col-xs-12">
-                                            <input name="register-comments" class="form-cus form-control" id="register-comments" type="text" placeholder="any comments">
-                                        </div>
+                                            <textarea rows="5" cols="30" name="register-comments"rows="5" cols="30" class="form-cus form-control" id="register-comments" type="text" placeholder="any comments">any comments                                        </textarea>
+										</div>
 										 </div>
 										
                                         <div class="form-group col-sm-12 col-md-6 col-md-offset-3">
-                                            <p id="register-success" class="email-success"></p>
-                                            <p id="register-failed" class="email-failed"></p>
                                             <button class="btn btn-1 btn-top">Submit</button>
                                         </div>
 
