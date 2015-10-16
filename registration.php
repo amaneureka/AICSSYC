@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>REGISTERATION</title>
+<title>REGISTRATION</title>
    <!--   FAV AND TOUCH ICONS   -->
         <link rel="icon" href="assets/images/favicon.ico">
         <link rel="apple-touch-icon" href="assets/images/logo_medium.png">
