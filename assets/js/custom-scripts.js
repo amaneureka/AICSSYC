@@ -469,7 +469,7 @@ $(function() {
             member_id: $("#register-member_id").val(),
             TShirtSize: $("#registered-size").val(),
             Section: $("#registered-section").val(),
-            Member: $("#registered-member").val(),
+            mmber: $("#registered-student").val(),
             IsMember: $("#registered-ismember").val(),
             Why: $("#register-why").val(),
             Expctation: $("#register-expectation").val(),
@@ -547,7 +547,7 @@ $(function() {
             $('#register-success').fadeOut(500);
           return false; 
         }
-        else if (data['Member'] == null || data['Member'] == "" || data['Member'] == "select")
+        else if (data['mmber'] == null || data['mmber'] == "" || data['mmber'] == "select")
         {
           $('#register-failed')
                 .html('<i class="fa fa-close"></i>' + "&nbsp;Invalid Member Field!")
@@ -587,7 +587,6 @@ $(function() {
             $('#register-success').fadeOut(500);
           return false;
         }
-
         $.ajax({
                 type: "POST",
                 url: "register.php",

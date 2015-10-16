@@ -87,7 +87,7 @@
 
 										<div class="col-sm-6 col-xs-12 dropDown">
                                             <h4> Membership type*</h4>
-                                            <select name="member of ieee cs" id="registered-member" class="form-control" required>
+                                            <select name="member of ieee cs" id="registered-student" class="form-control" required>
                                                 <option value="select">Select</option>
 												<option value="students">Student</option>
                                                 <option value="professionals">Young Professional</option>
