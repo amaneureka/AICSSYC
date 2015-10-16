@@ -198,5 +198,50 @@
 <script
 src="http://maps.googleapis.com/maps/api/js">
 </script>
-</head>
+    </head>
+
+    <body>
+        
+        <!-- Start: Header Section 
+        ==================================-->
+        <header class="header-background header " id="header" data-stellar-background-ratio="0.5"> 
+            <div class="fix header-overlay overlay-color">
+
+                       
+                <div class="container" id="header-body">
+                    <div class="row header-body section-separator">
+                        
+                        <!-- Logo Goes Here -->
+                        <img src="assets/images/logo.png" alt="This is a logo" style="background-color: transparent;" class="wow fadeInDown">
+                        
+                        <!-- Headline Goes HEre -->
+                        <h1 class="wow fadeInDown" data-wow-delay="0.3s">
+                            Hello! Welcome To AICSSYC'15
+                        </h1>
+
+                        <!-- Detail -->
+                        <p class="wow fadeInDown" data-wow-delay="0.6s">
+                        GOING DIGITAL </br> GROWING POTENTIAL 
+                        </p>
+						<p><h1>Activated your registration </h1></p>
+						<p>Happy to have you aboard </p>
+
+                        <!-- Start: CountDown area -->
+                        <div class="count_down count_down-1 col-md-8 col-md-offset-2 wow fadeInDown" data-wow-delay="0.9s">
+                        </div>
+                        <!-- End: CountDown area -->
+                      
+
+                    </div>
+                    <!-- End: header-body  -->
+                </div> 
+                <!-- End: container  -->
+
+
+            </div> 
+            <!-- End: fix header-overlay overlay-color  -->
+        </header> 
+        <!--End: Header Area
+        ===========================-->
+</body>
 </html>
