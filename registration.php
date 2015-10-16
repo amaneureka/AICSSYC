@@ -53,7 +53,7 @@
                         <div class="section-header col-md-6 col-md-offset-3">
                         
 
-                            <h2 class="section-heading">Registeration Form</h2>
+                            <h2 class="section-heading">Registration Form</h2>
                             <p>Register Here to Join!</p>
                            
                             
@@ -88,18 +88,21 @@
 										<div class="col-sm-6 col-xs-12 dropDown">
                                             <h4> Membership type*</h4>
                                             <select name="member of ieee cs" id="registered-member" class="form-control" required>
-                                                <option value="students">Students</option>
-                                                <option value="professionals">Young Professionals</option>
+                                                <option value="select">Select</option>
+												<option value="students">Student</option>
+                                                <option value="professionals">Young Professional</option>
 
                                             </select>
                                         </div>
 										<div class="col-sm-6 col-xs-12 dropDown">
                                         <h4> T-shirt size*</h4>
 										 <select name="size" id="registered-size" class="form-control" required>
-                                                <option value="S">S</option>
+                                                <option value="select">Select</option>
+												<option value="S">S</option>
                                                 <option value="M">M</option>
 												<option value="L">L</option>
                                                 <option value="XL">XL</option>
+												 <option value="XXL">XXL</option>
                                             </select>
                                         </div>
 										
@@ -109,7 +112,8 @@
                                        <div class="col-sm-6 col-xs-12 dropDown">
                                         <h4>Section*</h4>
 										 <select name="member of ieee cs" id="registered-section" class="form-control" required>
-                                                 <option value="Bangalore">Bangalore</option>
+                                                 <option value="select">Select</option>
+												 <option value="Bangalore">Bangalore</option>
 												<option value="Delhi">Delhi</option>
 												 <option value="Gujarat">Gujarat</option>
 												 <option value="Hyderabad">Hyderabad</option>
@@ -127,7 +131,8 @@
                                        <div class="col-sm-6 col-xs-12 dropDown">
                                         <h4> Member of computer society*</h4>
 										 <select name="member of ieee cs" id="registered-ismember" class="form-control" required>
-                                                <option value="Yes">Yes</option>
+                                                <option value="select">Select</option>
+												<option value="Yes">Yes</option>
                                                 <option value="No">No</option>
                                             </select>
                                         </div>
