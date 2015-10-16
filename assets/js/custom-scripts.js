@@ -469,6 +469,7 @@ $(function() {
             member_id: $("#register-member_id").val(),
             TShirtSize: $("#registered-size").val(),
             Section: $("#registered-section").val(),
+            mmber: $("#registered-student").val(),
             IsMember: $("#registered-ismember").val(),
             Why: $("#register-why").val(),
             Expctation: $("#register-expectation").val(),
@@ -516,6 +517,46 @@ $(function() {
             $('#register-success').fadeOut(500);
           return false;
         }
+        else if (data['TShirtSize'] == null || data['TShirtSize'] == "" || data['TShirtSize'] == "select")
+        {
+          $('#register-failed')
+                .html('<i class="fa fa-close"></i>' + "&nbsp;Invalid T-Shirt Size!")
+                .delay(500)
+                .fadeIn(1000);
+                
+            $('#register-success').fadeOut(500);
+          return false; 
+        }
+        else if (data['Section'] == null || data['Section'] == "" || data['Section'] == "select")
+        {
+          $('#register-failed')
+                .html('<i class="fa fa-close"></i>' + "&nbsp;Invalid Section Field!")
+                .delay(500)
+                .fadeIn(1000);
+                
+            $('#register-success').fadeOut(500);
+          return false; 
+        }
+        else if (data['IsMember'] == null || data['IsMember'] == "" || data['IsMember'] == "select")
+        {
+          $('#register-failed')
+                .html('<i class="fa fa-close"></i>' + "&nbsp;IEEE Member?!")
+                .delay(500)
+                .fadeIn(1000);
+                
+            $('#register-success').fadeOut(500);
+          return false; 
+        }
+        else if (data['mmber'] == null || data['mmber'] == "" || data['mmber'] == "select")
+        {
+          $('#register-failed')
+                .html('<i class="fa fa-close"></i>' + "&nbsp;Invalid Member Field!")
+                .delay(500)
+                .fadeIn(1000);
+                
+            $('#register-success').fadeOut(500);
+          return false; 
+        }
         else if (data['Why'] == null || data['Why'] == "")
         {
           $('#register-failed')
@@ -546,7 +587,6 @@ $(function() {
             $('#register-success').fadeOut(500);
           return false;
         }
-
         $.ajax({
                 type: "POST",
                 url: "register.php",
