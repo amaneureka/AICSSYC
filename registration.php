@@ -67,9 +67,7 @@
 
                             <form id="register-form" method="post" class="form input-group register-form">
                                 <div class="container-fluid">
-                                    <div class="row">
-                                        <p id="register-success" class="email-success"></p>
-                                        <p id="register-failed" class="email-failed"></p>
+                                    <div class="row">                                        
                                         <div class="col-sm-6 col-xs-12">
                                             <input name="name" id="register-name" class="form-cus form-control" type="text" placeholder="Name*" required>
                                         </div>
@@ -148,6 +146,8 @@
 										 </div>
 										
                                         <div class="form-group col-sm-12 col-md-6 col-md-offset-3">
+                                            <p id="register-success" class="email-success"></p>
+                                            <p id="register-failed" class="email-failed"></p>
                                             <button class="btn btn-1 btn-top">Submit</button>
                                         </div>
 
