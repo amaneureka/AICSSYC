@@ -180,7 +180,7 @@ src="http://maps.googleapis.com/maps/api/js">
                     <div class="section-header col-md-6 col-md-offset-3">
                     
                         <h2 class="section-heading">Schedule</h2>
-                        <p>IEEE AICSSYC'15 is destined to be held on 20th - 22nd December 2015 in the pristine grounds of Netaji Subhas Institute of Technology . These three days will be jam packed with events which will not only put your technical skills to test , but also provide you with an opportunity to network around and develop!
+                        <p>IEEE AICSSYC'15 is destined to be held on </br>20th - 22nd December 2015 </br>in the pristine grounds of Netaji Subhas Institute of Technology . These three days will be jam packed with events which will not only put your technical skills to test , but also provide you with an opportunity to network around and develop!
 </br>The event schedule will be announced soon!
 </br>Stay Tuned!
  </p>
@@ -1004,10 +1004,10 @@ src="http://maps.googleapis.com/maps/api/js">
                             <div class="flexslider">
                                 <ul class="slides slides-height">
                                     <li>
-                                        <img src="assets/images/ieee1.jpg" alt="" title="" height="100px"/>
+                                        <a href="http://www.ieee.org/index.html"><img src="assets/images/ieee1.jpg" alt="" title="" height="100px" width="80px"></a>
                                     </li>
                                     <li>
-                                        <img src="assets/images/ieee3.jpg" alt="" title=""/>
+                                        <img src="assets/images/ieee3.jpg" alt="" title="" height="100px" width="100px"/>
                                     </li>
 									
                                 </ul>
@@ -1073,7 +1073,7 @@ The IEEE Computer Society is the community for technology leaders. As the comput
 
                     <!-- Start: TWO COLS DESCRIPTION IMAGE -->
                     <div class="two-cols-description-image col-sm-6">
-                        <img src="assets/images/cs1.png" alt="" height="100px" width="100px"/>
+                        <a href="http://www.computer.org/web/guest"><img src="assets/images/cs1.jpg" alt="" height="100px" width="100px"/></a>
                     </div>
                     <!-- End: TWO COLS DESCRIPTION IMAGE -->
 
@@ -1095,10 +1095,10 @@ The IEEE Computer Society is the community for technology leaders. As the comput
                             <div class="flexslider">
                                 <ul class="slides slides-height">
                                     <li>
-                                        <img src="assets/images/nsit1.png" alt="" title="" height="100px"/>
+                                        <a href="http://ieeensit.org/"><img src="assets/images/nsit.jpg" alt="" title="" height="100px" width="100px"/></a>
                                     </li>
                                     <li>
-                                        <img src="assets/images/nsit1.jpg" alt="" title=""/>
+                                        <img src="assets/images/nsit1.jpg" alt="" title="" height="100px" width="100px" />
                                     </li>
                                     
                                 </ul>
@@ -1166,7 +1166,7 @@ AICSSYC ’15 is once in a lifetime opportunity for students and professionals t
 
                     <!-- Start: TWO COLS DESCRIPTION IMAGE -->
                     <div class="two-cols-description-image col-sm-6">
-                        <img src="assets/images/6.jpg" alt="" >
+                        <img src="assets/images/2.jpg" alt="" height="100px" width="100px" />
                     </div>
                     <!-- End: TWO COLS DESCRIPTION IMAGE -->
 
@@ -1187,7 +1187,7 @@ AICSSYC ’15 is once in a lifetime opportunity for students and professionals t
                             <div class="flexslider">
                                 <ul class="slides slides-height">
                                     <li>
-                                        <img src="assets/images/5.jpg" alt="" title=""/>
+                                        <img src="assets/images/5.jpg" alt="" title="" height="100px" width="100px"/>
                                     </li>
                                     <li>
                                         <img src="assets/images/3.jpg" alt="" title=""/>
@@ -1253,7 +1253,7 @@ So this basically provides a platform to the students to further their knowledge
                                 <div class="days_wrapper col-sm-6 col-xs-12 col-md-3 custom">
                                     <div class="background time">
                                         <span class="counter"> <span class="counter-up">150</span>+</span>
-                                        <span class="title">Participants</span>
+                                        <span class="title">Delegates</span>
                                     </div>
                                 </div>
                                 <div class="hours_wrapper col-sm-6 col-xs-12 col-md-3 custom">
@@ -1821,7 +1821,7 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                                             <li><span class="bold"><i class="fa fa-home"></i>Address:&nbsp;</span>Azad Hind Fauz Marg, Sector 3,Dwarka, New Delhi, Delhi 110078</li>
                                             <li><span class="bold"><i class="fa fa-phone"></i>Contact:Krishan Dhingra&nbsp;</span><a href="callto:+919717300858">(+91-9717300858)</a></li>
                                             <li><span class="bold"><i class="fa fa-phone"></i>Contact:Aman Jain&nbsp;</span><a href="callto:+919810244065">(+91-9810244065)</a></li>
-											<li><span class="bold"><i class="fa fa-fax"></i>Mail:&nbsp;</span><a href="mailto:contact@ieeensit.org">contact@ieeensit.org</a></li>
+											<li><span class="bold"><i class="fa fa-fax"></i>Mail:&nbsp;</span><a href="mailto:aicssyc2015@gmail.com">aicssyc2015@gmail.com</a></li>
                                         </ul>
                                     </address> 
                                     <!-- End: address -->

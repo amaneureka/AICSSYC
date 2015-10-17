@@ -55,6 +55,12 @@
 
                             <h2 class="section-heading">Registration Form</h2>
                             <p>Register Here to Join!</p>
+							<p>Register here for a chance to participate in the AICSSYC'15.</br>
+This registration is not a confirmation of your attendance for the event. After screening the applications, selected participants will receive confirmation mails and details about further steps. The attendance ticket will be sent as soon as the payment is completed.
+</br>
+For more information and queries, reach out to at aicssyc2015@gmail.com .
+</br>
+ We will start mailing out to selected people soon.</p>
                            
                             
                         </div>

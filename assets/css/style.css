@@ -925,7 +925,21 @@ h3 {
   background-attachment: fixed;
   background-repeat: 'no-repeat';
   background-color: #fff;
+  
 }
+
+.header-background1{
+  background: url('../images/bg-1.jpg');
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: center 0;
+  background-attachment: fixed;
+  background-repeat: 'no-repeat';
+  background-color: #fff;
+}
+
 .header .section-separator {
   padding-bottom: 140px;
 }
@@ -1895,12 +1909,14 @@ footer .footer-body .copyright p .fa {
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-color: #fff;
+  opacity:0.9;
 }
 #register .section-header .section-heading {
   color: #fff;
+  font-weight:bold;
 }
 #register .section-header p {
-  color: #bbb;
+  color: #fff;
 }
 .register-form {
   margin-top: 60px;
