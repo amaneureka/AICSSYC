@@ -787,6 +787,7 @@ $(function() {
    * GOOGLE MAP 
    * =======================================
    */
+   var map;
   function init_map() {
     var myLocation = new google.maps.LatLng(28.6091309,77.0350686);
 	var centermap = new google.maps.LatLng(28.609903226830212,77.05096592078917);
@@ -802,7 +803,7 @@ $(function() {
     var mapOptions = {
       generate_controls : false,
       center: centermap,
-      zoom: 14,
+      zoom: 15,
       mapTypeControl: true,           /*This option will hide map type.*/
       draggable: draggableValue,
       scaleControl: false,            //This option is used for disable zoom by scale.
@@ -820,18 +821,47 @@ $(function() {
       position: myLocation,
       title:"Netaji Subhash Instituate of Technology (NSIT)"});
       
-    var map = new google.maps.Map(document.getElementById("map"),
+    map = new google.maps.Map(document.getElementById("map"),
       mapOptions);
 
     marker.setMap(map); 
+
+    if (navigator.geolocation) 
+    {
+        navigator.geolocation.getCurrentPosition(geolocationSuccess, geolocationFailure);
+    }
   }
-  google.maps.event.addDomListener(window, 'load', init_map);
- 
+  function geolocationSuccess(position) {
+
+    var location = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+    var mstart = new google.maps.LatLng(28.6091309,77.0350686);
+    var marker = new google.maps.Marker({
+      position: location,
+      title:"You are here!"});
+    marker.setMap(map);
+
+    var directionsDisplay = new google.maps.DirectionsRenderer();
+    directionsDisplay.setMap(map);
+
+    var request = {
+        origin : location,
+        destination : mstart,
+        travelMode : google.maps.TravelMode.DRIVING
+    };
+    var directionsService = new google.maps.DirectionsService(); 
+    directionsService.route(request, function(response, status) {
+        if (status == google.maps.DirectionsStatus.OK) {
+            directionsDisplay.setDirections(response);
+        }
+    });
+}
+
+  // Geolocation Failure, each error code  
+function geolocationFailure(positionError) {
+  //ignore any error
+}
+  google.maps.event.addDomListener(window, 'load', init_map); 
 });
-
-
-
-
 
 
 /*********************************************/
