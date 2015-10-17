@@ -92,7 +92,7 @@ src="http://maps.googleapis.com/maps/api/js">
                     <div class="row header-body section-separator">
                         
                         <!-- Logo Goes Here -->
-                        <img src="assets/images/logo.png" alt="This is a logo" style="background-color: transparent;" class="wow fadeInDown">
+                        <img src="assets/images/logo.png" alt="This is a logo" class="wow fadeInDown">
                         
                         <!-- Headline Goes HEre -->
                         <h1 class="wow fadeInDown" data-wow-delay="0.3s">
@@ -1819,8 +1819,8 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                                         <strong>Netaji Subhas Institute of Technology</strong>
                                         <ul class="address-ul">
                                             <li><span class="bold"><i class="fa fa-home"></i>Address:&nbsp;</span>Azad Hind Fauz Marg, Sector 3,Dwarka, New Delhi, Delhi 110078</li>
-                                            <li><span class="bold"><i class="fa fa-phone"></i>Contact:Krishan Dhingra&nbsp;</span><a href="callto:+919999999999">(+91-9717300858)</a></li>
-                                            <li><span class="bold"><i class="fa fa-phone"></i>Contact:Aman Jain&nbsp;</span><a href="callto:+919999999999">(+91-9810244065)</a></li>
+                                            <li><span class="bold"><i class="fa fa-phone"></i>Contact:Krishan Dhingra&nbsp;</span><a href="callto:+919717300858">(+91-9717300858)</a></li>
+                                            <li><span class="bold"><i class="fa fa-phone"></i>Contact:Aman Jain&nbsp;</span><a href="callto:+919810244065">(+91-9810244065)</a></li>
 											<li><span class="bold"><i class="fa fa-fax"></i>Mail:&nbsp;</span><a href="mailto:contact@ieeensit.org">contact@ieeensit.org</a></li>
                                         </ul>
                                     </address> 
