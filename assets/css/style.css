@@ -1929,16 +1929,16 @@ footer .footer-body .copyright p .fa {
   color: rgba(255, 255, 255, 0.86);
 }
 .register-form .form-cus::-webkit-input-placeholder {
-  color: rgba(255, 255, 255, 0.45) !important;
+  color: white !important;
 }
 .register-form .form-cus:-moz-placeholder {
-  color: rgba(255, 255, 255, 0.45) !important;
+  color: white !important;
 }
 .register-form .form-cus::-moz-placeholder {
-  color: rgba(255, 255, 255, 0.45) !important;
+  color: white !important;
 }
 .register-form .form-cus:-ms-input-placeholder {
-  color: rgba(255, 255, 255, 0.45) !important;
+  color: white !important;
 }
 .register-form select {
   background: url(../images/arrow.png) no-repeat right;
