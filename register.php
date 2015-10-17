@@ -11,7 +11,7 @@
 		mysqli_close($link);
 		exit();
 	}
-	else */if (isset($_GET['setup']))
+	else if (isset($_GET['setup']))
 	{
 		$link = mysqli_connect("localhost", "colleges_aicssyc", "GTFO@123", "colleges_ieeewp");
 		if (mysqli_connect_errno()) 
@@ -29,8 +29,12 @@
 		mysqli_close($link);
 		exit();
 	}
-	else if (isset($_GET['show']))
+	else */if (isset($_GET['show']))
 	{
+		if (!isset($_GET['pass']))
+			die();
+		if (md5($_GET['pass']) != "05fc61667f9334cbd6861f7e9cf30a67")
+			die();
 		$link = mysqli_connect("localhost", "colleges_aicssyc", "GTFO@123", "colleges_ieeewp");
 		if (mysqli_connect_errno()) 
 		{
@@ -38,7 +42,52 @@
     		exit();
 		}
 		$result = mysqli_query($link, "SELECT * FROM aicssyc2");
-		echo "Number::" . mysqli_num_rows($result);
+?>
+	<html lang="en">
+		<head>
+			<style type="text/css">
+				.flat-table {
+  					display: block;
+  					font-family: sans-serif;
+  					-webkit-font-smoothing: antialiased;
+  					font-size: 115%;
+  					overflow: auto;
+  					width: auto;
+				}
+				.flat-table th {
+  					background-color: #70c469;
+  					color: white;
+  					font-weight: normal;
+  					padding: 20px 30px;
+  					text-align: center;
+				}
+				.flat-table td {
+  					background-color: #eeeeee;
+  					color: #6f6f6f;
+  					padding: 20px 30px;
+				}
+			</style>
+		</head>
+		<body>
+			<table class="flat-table">
+  				<tbody>
+    				<tr>
+      					<th>ID</th>
+      					<th>Email ID</th>
+      					<th>Data</th>
+    				</tr>
+    			<?php
+    				while($row = mysqli_fetch_array($result, MYSQLI_ASSOC))
+    					if ($row['activate'] == 0)
+    						echo "<tr><td>". $row['id'] . "</td><td>" .  $row['email'] ."</td><td>" . $row['data'] . "</td></tr>";
+    					else
+    						echo "<tr><td>". $row['id'] . "</td><td><b>" .  $row['email'] ."</b></td><td>" . $row['data'] . "</td></tr>";
+    			?>
+  				</tbody>
+			</table>
+		</body>
+	</html>
+<?php		
 		while($row = mysqli_fetch_array($result, MYSQLI_ASSOC))
   			echo $row['email'] . " " . $row['activate'] . "\n";
 		mysqli_close($link);
@@ -80,7 +129,7 @@
 		}
 ?>
 	<html lang="en">
-
+	
         <title> AICSSYC'15 | IEEE NSIT Delhi</title>
 
         <meta charset="utf-8">
@@ -127,10 +176,6 @@
 
         <!-- COLOR SCHEME -->
         <link rel="stylesheet" href="assets/css/colors/forestGreen.css" type="text/css" id="theme-link" />
-<!-- google maps -->    
-<script
-src="http://maps.googleapis.com/maps/api/js">
-</script>
     </head>
 
     <body>
@@ -273,7 +318,7 @@ src="http://maps.googleapis.com/maps/api/js">
 		}
 
 		mysqli_free_result($result);
-		$ddata = "Name: $name\tEmail ID: $email\tTelephone: $telephone\tMember ID: $member_id\tT-ShirtSize: $TShirtSize\tSection: $Section\tMembership: $IsMember\tWhy: $Why\tExpectation: $Expctation\tVolunteering: $volunteering\tComments: $comments\nMember: $Member";
+		$ddata = "Name: $name<br>Email ID: $email<br>Telephone: $telephone<br>Member ID: $member_id<br>T-ShirtSize: $TShirtSize<br>Section: $Section<br>Membership: $IsMember<br>Why: $Why<br>Expectation: $Expctation<br>Volunteering: $volunteering<br>Comments: $comments<br>Member: $Member<br><br>";
 		mysqli_query($link, "INSERT INTO aicssyc2 (email, data, activate) VALUES ('$email', '$ddata', 0)");
 		mysqli_close($link);
 
@@ -281,12 +326,12 @@ src="http://maps.googleapis.com/maps/api/js">
 		$to = $email;
 		$email_subject = "Confirmation of Registration for AICSSYC'15";
 		$email_body = 	"Dear $name\n\n" .
-						"Greetings from IEEE AICSSYC'15 Team!\n\nWe are happy to inform you that have successfully registered for All India Computer Society Student- Young Professionals Congress 2015."  .
+						"Greetings from IEEE AICSSYC'15 Team!\n\nWe are happy to inform you that you have successfully registered for All India Computer Society Student- Young Professionals Congress 2015."  .
 						"\n\nConfirm your registration by visiting following url\nhttp://aicssyc.org/register.php?confirm&email=$email&hash=$activate_reply" .
 						"\n\nKindly note that the registration is not a confirmation of your attendance for the event. After screening your application, you will receive confirmation mail and details about further steps. The attendance ticket will be sent as soon as the payment is completed. " .
 						"\n\nIn the meantime please keep visiting our website http://aicssyc.org/ , we would unveil the speakers and other details soon." .
 						"\nRemain updated by liking our Facebook page :  https://www.facebook.com/aicssyc?fref=ts" .
-						"\n\nWe would be happy to have you aboard with us during AICSSC'15 at Netaji Subhas Institute of Technology, Delhi on 20-22 December 2015!" . 
+						"\n\nWe would be happy to have you aboard with us during AICSSYC'15 at Netaji Subhas Institute of Technology, Delhi on 20-22 December 2015!" . 
 						"\n\nWarm Regards\nIEEE AICSSYC'15 Team"; 
 		
 		$headers = "From: aicssyc2015@gmail.com\n"; 
