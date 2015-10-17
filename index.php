@@ -1270,7 +1270,7 @@ So this basically provides a platform to the students to further their knowledge
                                 </div>
                                 <div class="seconds_wrapper col-sm-6 col-xs-12 col-md-3 custom">
                                     <div class="background time">
-                                        <span class="counter"> <span class="counter-up">10</span>+</span>
+                                        <span class="counter"> <span class="counter-up">15</span>+</span>
                                         <span class="title">Speakers</span>
                                     </div>
                                 </div>
