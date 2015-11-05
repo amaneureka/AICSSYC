@@ -1305,31 +1305,31 @@ So this basically provides a platform to the students to further their knowledge
 
                         <!-- Speakers Heading Goes Here -->
                         <h2 class="section-heading">OUR SPEAKERS</h2>
-                               <p>To Be announced soon !</p>
+                               <p>More to be announced soon !</p>
                     </div>
-                    <!-- End: Section Header --
+                    <!-- End: Section Header -->
 
                     <div class="clearfix"></div>
                     
-                    <!-- Start: Slider Area --
+                    <!-- Start: Slider Area -->
                     <div id="slider" class=" wow fadeInDown">
 
-                        <!-- Speakers Slide images Goes Here --
-                        <!-- Item 1 --
+                        <!-- Speakers Slide images Goes Here -->
+                        <!-- Item 1 -->
                         <div class="item">
                             <div class="view grid">
                                 <figure class="effect-zoe">
 
-                                    <!-- Image Goes Here --
-                                    <img src="assets/images/speakers-img/1.jpg" alt="speakers"/>
+                                    <!-- Image Goes Here -->
+                                    <img src="assets/images/speakers-img/fujii.jpg" alt="speakers" height="300px" width="400px"/>
 
-                                    <!-- Social Icon Goes Here --
+                                    <!-- Social Icon Goes Here -->
                                     <figcaption>
                                         <div class="icon-links">
                                             <ul class="nav">
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa facebook fa-facebook"></i> </a></li>
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>
+                                                <li><a href="https://www.linkedin.com/profile/view?id=AAkAAAZ4yW8BZJRug7U9urWELtmbN9vyPte0nFw&authType=NAME_SEARCH&authToken=9fsY&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A108579183%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1446737396799%2Ctas%3Aroger%20fujii" class="btn btn-1 btn-top"> <i class="fa linkedin fa-linkedin-square"></i> </a></li>
+                                               <!-- <li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
+                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>-->
                                             </ul>
                                         </div>
                                     </figcaption>           
@@ -1338,27 +1338,28 @@ So this basically provides a platform to the students to further their knowledge
 
                             <div class="clearfix"></div>
                             
-                            <!-- Name and Company Goes Here --
-                            <h3>Anjel Gorina</h3>
-                            <p>CEO, DeviserWeb</p>
+                            <!-- Name and Company Goes Here -->
+                            <h3>Roger Fujii</h3>
+                            <p>President</p>
+							<p>IEEE Computer Society</p>
 
                         </div>
 
-                        <!-- Item 2 --
+                        <!-- Item 2 -->
                         <div class="item">
                             <div class="view grid">
                                 <figure class="effect-zoe">
 
-                                    <!-- Image Goes Here --
-                                    <img src="assets/images/speakers-img/2.jpg" alt="speakers"/>
+                                    <!-- Image Goes Here -->
+                                    <img src="assets/images/speakers-img/berkowitz.png" alt="speakers" height="300px"/>
 
-                                    <!-- Social Icon Goes Here --
+                                    <!-- Social Icon Goes Here -->
                                     <figcaption>
                                         <div class="icon-links">
                                             <ul class="nav">
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa facebook fa-facebook"></i> </a></li>
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>
+                                                <li><a href="https://www.linkedin.com/profile/view?id=AAkAAAF5YGABUmVWqqe6TemZ7LsY-FjISGtDvhY&authType=NAME_SEARCH&authToken=BFin&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A24731744%2CauthType%3ANAME_SEARCH%2Cidx%3A1-4-4%2CtarId%3A1446737463602%2Ctas%3Aeric%20berkowitz" class="btn btn-1 btn-top"> <i class="fa linkedin fa-linkedin-square"></i> </a></li>
+                                                <!--<li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
+                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>-->
                                             </ul>
                                         </div>
                                     </figcaption>           
@@ -1367,12 +1368,13 @@ So this basically provides a platform to the students to further their knowledge
 
                             <div class="clearfix"></div>
                             
-                            <!-- Name and Company Goes Here --
-                            <h3>David Jones</h3>
-                            <p>CEO, DeviserWeb</p>
+                            <!-- Name and Company Goes Here -->
+                            <h3>Eric Berkowitz</h3>
+                            <p>Director of Membership </p>
+							<p>IEEE Computer Society</p>
                                 
                         </div>
-                        <div class="item">
+                        <!--<div class="item">
 
                             <div class="view grid">
                                 <figure class="effect-zoe">
