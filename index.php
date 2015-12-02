@@ -1626,38 +1626,39 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
         
         
         <!-- Start: Sponsors Area 
-        =================================-
+        =================================-->
         <section id="sponsore" >
             <div class="container-fluid">
                 <div class="row sponsore-body section-separator">
                     
-                    <!-- Start: Section Header --
+                    <!-- Start: Section Header -->
                     <div class="section-header col-md-6 col-md-offset-3">
 
-                        <!-- Sponsore Heading Goes Here --
+                        <!-- Sponsore Heading Goes Here -->
                         <h2 class="section-heading">OUR SPONSORS</h2>
 
                     </div>
-                    <!-- End: Section Header --
+                    <!-- End: Section Header -->
 
                     <div class="clearfix"></div>
                     
-                    <!-- Start: Images Area --
+                    <!-- Start: Images Area -->
                     <div class=" wow fadeInDown">
 
                         <ul class="nav">
                             <li class="col-xs-6 col-md-3">
                                 <div class="row">
                                     <a href="#" class="btn btn-1 btn-top">
-                                        <img src="assets/images/sponsors-img/1.png" alt="Sponsors" class="">
+                                        <img src="assets/images/pes.jpeg" alt="Sponsors" class="" height="200px">
                                     </a>
                                 </div>
                             </li>
                             <li class="col-md-3 col-xs-6">
                                 <div class="row">
-                                    <a href="#" class="btn btn-1 btn-top"><img src="assets/images/sponsors-img/2.png" alt="Sponsors" class=""></a>
+                                    <a href="#" class="btn btn-1 btn-top"><img src="assets/images/pels.jpg" alt="Sponsors" class="" height="200px" width="500px"></a>
                                 </div>
                             </li>
+							<!--
                             <li class="col-md-3 col-xs-6">
                                 <div class="row">
                                     <a href="#" class="btn btn-1 btn-top">
@@ -1700,7 +1701,7 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                                         <img src="assets/images/sponsors-img/1.png" alt="Sponsors" class="">
                                     </a>
                                 </div>
-                            </li>
+                            </li>--->
                         </ul>
                         
                     </div>
@@ -1709,12 +1710,12 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                     <div class="become-a-sponsor btn-scroll-2 wow fadeInDown" data-wow-delay="0.6s">
                         <a class="" href="#map_contact">Would you like to be a sponsor?</a>
                     </div>
-
+                    -->
 
                 </div>
-                <!-- Start: Sponsore Body Area --
+                <!-- Start: Sponsore Body Area -->
             </div>
-            <!-- End: .container  --
+            <!-- End: .container  -->
         </section>
         <!-- End: Sponsore Area 
         ==================================-->
