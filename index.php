@@ -1327,7 +1327,7 @@ So this basically provides a platform to the students to further their knowledge
                                     <figcaption>
                                         <div class="icon-links">
                                             <ul class="nav">
-                                                <li><a href="https://www.linkedin.com/profile/view?id=AAkAAAZ4yW8BZJRug7U9urWELtmbN9vyPte0nFw&authType=NAME_SEARCH&authToken=9fsY&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A108579183%2CauthType%3ANAME_SEARCH%2Cidx%3A1-1-1%2CtarId%3A1446737396799%2Ctas%3Aroger%20fujii" class="btn btn-1 btn-top"> <i class="fa linkedin fa-linkedin-square"></i> </a></li>
+                                                <li><a href="https://www.linkedin.com/in/roger-fujii-21344330" class="btn btn-1 btn-top"> <i class="fa linkedin fa-linkedin-square"></i> </a></li>
                                                <!-- <li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
                                                 <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>-->
                                             </ul>
@@ -1357,7 +1357,7 @@ So this basically provides a platform to the students to further their knowledge
                                     <figcaption>
                                         <div class="icon-links">
                                             <ul class="nav">
-                                                <li><a href="https://www.linkedin.com/profile/view?id=AAkAAAF5YGABUmVWqqe6TemZ7LsY-FjISGtDvhY&authType=NAME_SEARCH&authToken=BFin&locale=en_US&trk=tyah&trkInfo=clickedVertical%3Amynetwork%2CclickedEntityId%3A24731744%2CauthType%3ANAME_SEARCH%2Cidx%3A1-4-4%2CtarId%3A1446737463602%2Ctas%3Aeric%20berkowitz" class="btn btn-1 btn-top"> <i class="fa linkedin fa-linkedin-square"></i> </a></li>
+                                                <li><a href="https://www.linkedin.com/in/ericberkowitz" class="btn btn-1 btn-top"> <i class="fa linkedin fa-linkedin-square"></i> </a></li>
                                                 <!--<li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
                                                 <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>-->
                                             </ul>
@@ -1374,21 +1374,21 @@ So this basically provides a platform to the students to further their knowledge
 							<p>IEEE Computer Society</p>
                                 
                         </div>
-                        <!--<div class="item">
+                        <div class="item">
 
                             <div class="view grid">
                                 <figure class="effect-zoe">
 
-                                    <!-- Image Goes Here --
-                                    <img src="assets/images/speakers-img/3.jpg" alt="speakers"/>
+                                    <!-- Image Goes Here -->
+                                    <img src="assets/images/speakers-img/sarvesh.jpg" alt="speakers" height="300px"/>
 
-                                    <!-- Social Icon Goes Here --
+                                    <!-- Social Icon Goes Here -->
                                     <figcaption>
                                         <div class="icon-links">
                                             <ul class="nav">
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa facebook fa-facebook"></i> </a></li>
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>
+                                                <li><a href="https://www.linkedin.com/in/sarveshagrawal" class="btn btn-1 btn-top"> <i class="fa linkedin fa-linkedin"></i> </a></li>
+                                                <!--<li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
+                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>-->
                                             </ul>
                                         </div>
                                     </figcaption>           
@@ -1397,9 +1397,9 @@ So this basically provides a platform to the students to further their knowledge
 
                             <div class="clearfix"></div>
                             
-                            <!-- Name and Company Goes Here --
-                            <h3>Jon Doe</h3>
-                            <p>CEo, DeviserWeb</p>
+                            <!-- Name and Company Goes Here -->
+                            <h3>Sarvesh Agrawal</h3>
+                            <p>CEO,Internshala</p>
 
                         </div>
                         <div class="item">
@@ -1407,16 +1407,16 @@ So this basically provides a platform to the students to further their knowledge
                             <div class="view grid">
                                 <figure class="effect-zoe">
 
-                                    <!-- Image Goes Here --
-                                    <img src="assets/images/speakers-img/2.jpg" alt="speakers"/>
+                                    <!-- Image Goes Here -->
+                                    <img src="assets/images/speakers-img/alok.jpg" alt="speakers" height="300px"/>
 
-                                    <!-- Social Icon Goes Here --
+                                    <!-- Social Icon Goes Here -->
                                     <figcaption>
                                         <div class="icon-links">
                                             <ul class="nav">
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa facebook fa-facebook"></i> </a></li>
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>
+                                                <li><a href="https://www.linkedin.com/in/goelalok" class="btn btn-1 btn-top"> <i class="fa linkedin fa-linkedin"></i> </a></li>
+                                                <!--<li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
+                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>-->
                                             </ul>
                                         </div>
                                     </figcaption>           
@@ -1425,9 +1425,9 @@ So this basically provides a platform to the students to further their knowledge
 
                             <div class="clearfix"></div>
                             
-                            <!-- Name and Company Goes Here --
-                            <h3>Mitrel Lord</h3>
-                            <p>CEO, DeviserWeb</p>
+                            <!-- Name and Company Goes Here -->
+                            <h3>Alok Goel</h3>
+                            <p>Managing Director,SAIF Partners</p>
 
                         </div>
                         <div class="item">
@@ -1648,25 +1648,25 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                         <ul class="nav">
                             <li class="col-xs-6 col-md-3">
                                 <div class="row">
-                                    <a href="#" class="btn btn-1 btn-top">
-                                        <img src="assets/images/pes.jpeg" alt="Sponsors" class="" height="200px">
+                                    <a href="https://ewh.ieee.org/r10/delhi/pe-ia.html" class="btn btn-1 btn-top">
+                                        <h4>IEEE PES-IAS </br>Delhi Section Chapter</h4><img src="assets/images/pes.jpeg" alt="Sponsors" class="" height="200px">
                                     </a>
                                 </div>
                             </li>
                             <li class="col-md-3 col-xs-6">
                                 <div class="row">
-                                    <a href="#" class="btn btn-1 btn-top"><img src="assets/images/pels.jpg" alt="Sponsors" class="" height="200px" width="500px"></a>
+                                    <a href="https://ewh.ieee.org/r10/delhi/pel-ie.html" class="btn btn-1 btn-top">
+									<h4>IEEE PELS-IES </br>Delhi Section Chapter</h4><img src="assets/images/pels.jpg" alt="Sponsors" class="" height="200px" width="500px"></a>
                                 </div>
                             </li>
-							<!--
+							
                             <li class="col-md-3 col-xs-6">
                                 <div class="row">
                                     <a href="#" class="btn btn-1 btn-top">
-                                        <img s
-										rc="assets/images/sponsors-img/3.png" alt="Sponsors" class="">
+                                        <h4> IEEE PR&P </br>Standing Committee</h4><img src="assets/images/delhisection.jpg" alt="Sponsors" class="" height="200px" width="500px">
                                     </a>
                                 </div>
-                            </li>
+                            <!--</li>
                             <li class="col-md-3 col-xs-6">
                                 <div class="row">
                                     <a href="#" class="btn btn-1 btn-top">
