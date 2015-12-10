@@ -1386,7 +1386,7 @@ So this basically provides a platform to the students to further their knowledge
                                     <figcaption>
                                         <div class="icon-links">
                                             <ul class="nav">
-                                                <li><a href="https://www.linkedin.com/in/sarveshagrawal" class="btn btn-1 btn-top"> <i class="fa linkedin fa-linkedin"></i> </a></li>
+                                                <li><a href="https://www.linkedin.com/in/sarveshagrawal" class="btn btn-1 btn-top"> <i class="fa linkedin fa-linkedin-square"></i> </a></li>
                                                 <!--<li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
                                                 <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>-->
                                             </ul>
@@ -1414,7 +1414,7 @@ So this basically provides a platform to the students to further their knowledge
                                     <figcaption>
                                         <div class="icon-links">
                                             <ul class="nav">
-                                                <li><a href="https://www.linkedin.com/in/goelalok" class="btn btn-1 btn-top"> <i class="fa linkedin fa-linkedin"></i> </a></li>
+                                                <li><a href="https://www.linkedin.com/in/goelalok" class="btn btn-1 btn-top"> <i class="fa linkedin fa-linkedin-square"></i> </a></li>
                                                 <!--<li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
                                                 <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>-->
                                             </ul>
@@ -1434,16 +1434,16 @@ So this basically provides a platform to the students to further their knowledge
                             <div class="view grid">
                                 <figure class="effect-zoe">
 
-                                    <!-- Image Goes Here --
-                                    <img src="assets/images/speakers-img/3.jpg" alt="speakers"/>
+                                    <!-- Image Goes Here -->
+                                    <img src="assets/images/speakers-img/san.jpg" alt="speakers" height="300px"/>
 
-                                    <!-- Social Icon Goes Here --
+                                    <!-- Social Icon Goes Here -->
                                     <figcaption>
                                         <div class="icon-links">
                                             <ul class="nav">
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa facebook fa-facebook"></i> </a></li>
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>
+                                                <li><a href="https://au.linkedin.com/in/san-murugesan-60700a9" class="btn btn-1 btn-top"> <i class="fa linkedin fa-linkedin-square"></i> </a></li>
+                                                <!--<li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
+                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>-->
                                             </ul>
                                         </div>
                                     </figcaption>           
@@ -1452,11 +1452,12 @@ So this basically provides a platform to the students to further their knowledge
 
                             <div class="clearfix"></div>
                             
-                            <!-- Name and Company Goes Here --
-                            <h3>David Jones</h3>
-                            <p>CEO, DeviserWeb</p>
+                            <!-- Name and Company Goes Here -->
+                            <h3>San Murugesan</h3>
+                            <p>Director,BRITE Professional Resources</p>
                                 
                         </div>
+						<!--
                         <div class="item">
 
                             <div class="view grid">
