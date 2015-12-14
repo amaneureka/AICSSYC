@@ -1647,49 +1647,49 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
                     <div class=" wow fadeInDown">
 
                         <ul class="nav">
-                            <li class="col-xs-6 col-md-3">
+                            <li class="col-xs-6 col-md-4">
                                 <div class="row">
                                     <a href="https://ewh.ieee.org/r10/delhi/pe-ia.html" class="btn btn-1 btn-top">
                                         <h4>IEEE PES-IAS </br>Delhi Section Chapter</h4><img src="assets/images/pes.jpeg" alt="Sponsors" class="" height="200px">
                                     </a>
                                 </div>
                             </li>
-                            <li class="col-md-3 col-xs-6">
+                            <li class="col-md-4 col-xs-6">
                                 <div class="row">
                                     <a href="https://ewh.ieee.org/r10/delhi/pel-ie.html" class="btn btn-1 btn-top">
-									<h4>IEEE PELS-IES </br>Delhi Section Chapter</h4><img src="assets/images/pels.jpg" alt="Sponsors" class="" height="200px" width="500px"></a>
+									<h4>IEEE PELS-IES </br>Delhi Section Chapter</h4><img src="assets/images/pels.jpg" alt="Sponsors" class="" height="200px" width="450px"></a>
                                 </div>
                             </li>
 							
-                            <li class="col-md-3 col-xs-6">
+                            <li class="col-md-4 col-xs-6">
                                 <div class="row">
                                     <a href="#" class="btn btn-1 btn-top">
-                                        <h4> IEEE PR&P </br>Standing Committee</h4><img src="assets/images/delhisection.jpg" alt="Sponsors" class="" height="200px" width="500px">
-                                    </a>
-                                </div>
-                            <!--</li>
-                            <li class="col-md-3 col-xs-6">
-                                <div class="row">
-                                    <a href="#" class="btn btn-1 btn-top">
-                                        <img src="assets/images/sponsors-img/4.png" alt="Sponsors" class="">
+                                        <h4> IEEE PR&P </br>Standing Committee</h4><img src="assets/images/delhisection.jpg" alt="Sponsors" class="" height="200px" width="400px">
                                     </a>
                                 </div>
                             </li>
-                            <li class="col-md-3 col-xs-6">
+                            <li class="col-md-4 col-xs-6">
                                 <div class="row">
-                                    <a href="#" class="btn btn-1 btn-top">
-                                        <img src="assets/images/sponsors-img/4.png" alt="Sponsors" class="">
+                                    <a href="https://greymeter.com/" class="btn btn-1 btn-top">
+                                         <h4> Greymeter </h4><img src="assets/images/greymeter.jpg" alt="Sponsors" class="" height="200px" width="400px">
                                     </a>
                                 </div>
                             </li>
-                            <li class="col-md-3 col-xs-6">
+                            <li class="col-md-4 col-xs-6">
                                 <div class="row">
-                                    <a href="#" class="btn btn-1 btn-top">
-                                        <img src="assets/images/sponsors-img/3.png" alt="Sponsors" class="">
+                                    <a href="http://www.redbull.com/in/en" class="btn btn-1 btn-top">
+                                        <h4>Redbull</h4><img src="assets/images/redbull.png" alt="Sponsors" class="" height="200px" width="400px">
                                     </a>
                                 </div>
                             </li>
-                            <li class="col-md-3 col-xs-6">
+                            <li class="col-md-4 col-xs-6">
+                                <div class="row">
+                                    <a href="http://www.nsit.ac.in/" class="btn btn-1 btn-top">
+                                         <h4> Netaji Subhas </br>Institute of Technology</h4><img src="assets/images/nsitlogo.png" alt="Sponsors" class="" height="180px" width="400px">
+                                    </a>
+                                </div>
+                            </li>
+							<!--<li class="col-md-3 col-xs-6">
                                 <div class="row">
                                     <a href="#" class="btn btn-1 btn-top">
                                         <img src="assets/images/sponsors-img/2.png" alt="Sponsors" class="">
