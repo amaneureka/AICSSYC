@@ -47,6 +47,11 @@
 
         <!-- COLOR SCHEME -->
         <link rel="stylesheet" href="assets/css/colors/forestGreen.css" type="text/css" id="theme-link" />
+		
+		<!--lightbox---->
+		
+		<link rel="stylesheet" href="assets/css/lightbox.min.css">
+		
 <!-- google maps -->    
 <script
 src="http://maps.googleapis.com/maps/api/js">
@@ -181,12 +186,12 @@ src="http://maps.googleapis.com/maps/api/js">
                     
                         <h2 class="section-heading">Schedule</h2>
                         <p>IEEE AICSSYC'15 is destined to be held on </br>20th - 22nd December 2015 </br>in the pristine grounds of Netaji Subhas Institute of Technology . These three days will be jam packed with events which will not only put your technical skills to test , but also provide you with an opportunity to network around and develop!
-</br>The event schedule will be announced soon!
-</br>Stay Tuned!
+</br></br></br></br>The event schedule has been announced!
  </p>
                         
                         
                     </div>
+    
                   <!--
                     <div class="clearfix"></div>
 
@@ -987,10 +992,22 @@ src="http://maps.googleapis.com/maps/api/js">
                 <!-- End: .row -->
             </div> 
             <!-- End: .container  -->
+			 <div>					
+    <div style="width:800px; margin:0 auto;">
+      <a class="example-image-link" href="assets/images/page2.jpg" data-lightbox="example-set" data-title="Click the right half of the image to move forward."><img class="example-image" src="assets/images/page2.jpg" alt="" height="300px"/></a>
+      <a class="example-image-link" href="assets/images/page3.jpg" data-lightbox="example-set" data-title="Or press the right arrow on your keyboard."><img class="example-image" src="assets/images/page3.jpg" alt="" height="300px"/></a>
+      <a class="example-image-link" href="assets/images/page4.jpg" data-lightbox="example-set" data-title="The next image in the set is preloaded as you're viewing."><img class="example-image" src="assets/images/page4.jpg" alt="" height="300px"/></a>
+       </br>
+	  <p> or download the pdf click <a href="assets/images/schedule.pdf" download>here</a> </p> 
+       </br></br>	   
+	</div>
+	
+
+  </div>
         </section> 
         <!-- End: Schedule Area 
         ==============================-->
-        
+       
         
         <!-- Start: Two cols Section 
         ==============================-->
@@ -1486,22 +1503,22 @@ So this basically provides a platform to the students to further their knowledge
                             <p>Trainer- Corporate Grooming, International Etiquette, Fine Dining and Wine Appreciation.</p>
 
                         </div>
-						<!--
+						
                         <div class="item">
 
                             <div class="view grid">
                                 <figure class="effect-zoe">
 
-                                    <!-- Image Goes Here --
-                                    <img src="assets/images/speakers-img/1.jpg" alt="speakers"/>
+                                    <!-- Image Goes Here -->
+                                    <img src="assets/images/speakers-img/anil.jpg" alt="speakers" height="300px"/>
 
-                                    <!-- Social Icon Goes Here --
+                                    <!-- Social Icon Goes Here -->
                                     <figcaption>
                                         <div class="icon-links">
                                             <ul class="nav">
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa facebook fa-facebook"></i> </a></li>
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
-                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>
+                                                <li><a href="https://in.linkedin.com/in/anil-gupta-2a861b2" class="btn btn-1 btn-top"> <i class="fa linkedin fa-linkedin-square"></i> </a></li>
+                                                <!--<li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
+                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>-->
                                             </ul>
                                         </div>
                                     </figcaption>           
@@ -1510,11 +1527,12 @@ So this basically provides a platform to the students to further their knowledge
 
                             <div class="clearfix"></div>
                             
-                            <!-- Name and Company Goes Here --
-                            <h3>Kulsum Doe</h3>
-                            <p>CEo, DeviserWeb</p>
+                            <!-- Name and Company Goes Here -->
+                            <h3>Prof. Anil Kumar Gupta</h3>
+                            <p>Founder, Honey Bee Network</p>
 
                         </div>
+						<!--
                         <div class="item">
 
                             <div class="view grid">
@@ -1961,5 +1979,6 @@ You can also avail the Bus Service, specifically bus nos. 764 and 727
         <script src="assets/js/jquery.magnific-popup.min.js"></script>
         <script src="assets/js/waypoints.min.js"></script>
         <script src="assets/js/custom-scripts.js"></script>
+		
     </body>
 </html>
