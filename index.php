@@ -1457,6 +1457,35 @@ So this basically provides a platform to the students to further their knowledge
                             <p>Director,BRITE Professional Resources</p>
                                 
                         </div>
+						
+						<div class="item">
+
+                            <div class="view grid">
+                                <figure class="effect-zoe">
+
+                                    <!-- Image Goes Here -->
+                                    <img src="assets/images/speakers-img/mira.jpg" alt="speakers" height="300px"/>
+
+                                    <!-- Social Icon Goes Here -->
+                                    <figcaption>
+                                        <div class="icon-links">
+                                            <ul class="nav">
+                                                <li><a href="https://www.linkedin.com/in/mira-gulati-swarup-ba233325" class="btn btn-1 btn-top"> <i class="fa linkedin fa-linkedin-square"></i> </a></li>
+                                               <!-- <li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
+                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>
+ -->                                           </ul>
+                                        </div>
+                                    </figcaption>           
+                                </figure>
+                            </div>
+
+                            <div class="clearfix"></div>
+                            
+                            <!-- Name and Company Goes Here -->
+                            <h3>Mira Gulati Swarup</h3>
+                            <p>Trainer- Corporate Grooming, International Etiquette, Fine Dining and Wine Appreciation.</p>
+
+                        </div>
 						<!--
                         <div class="item">
 
