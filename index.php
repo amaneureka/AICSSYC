@@ -1532,6 +1532,64 @@ So this basically provides a platform to the students to further their knowledge
                             <p>Founder, Honey Bee Network</p>
 
                         </div>
+						
+						<div class="item">
+
+                            <div class="view grid">
+                                <figure class="effect-zoe">
+
+                                    <!-- Image Goes Here -->
+                                    <img src="assets/images/speakers-img/saurabh.jpg" alt="speakers" height="300px"/>
+
+                                    <!-- Social Icon Goes Here -->
+                                    <figcaption>
+                                        <div class="icon-links">
+                                            <ul class="nav">
+                                                <li><a href="https://www.linkedin.com/in/saurabh-garg-6619205a" class="btn btn-1 btn-top"> <i class="fa linkedin fa-linkedin-square"></i> </a></li>
+                                                <!--<li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
+                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>-->
+                                            </ul>
+                                        </div>
+                                    </figcaption>           
+                                </figure>
+                            </div>
+
+                            <div class="clearfix"></div>
+                            
+                            <!-- Name and Company Goes Here -->
+                            <h3>Saurabh Garg</h3>
+                            <p>Co-founder and CTO, Velmenni</p>
+
+                        </div>
+						
+						<div class="item">
+
+                            <div class="view grid">
+                                <figure class="effect-zoe">
+
+                                    <!-- Image Goes Here -->
+                                    <img src="assets/images/speakers-img/nitender.jpg" alt="speakers" height="300px"/>
+
+                                    <!-- Social Icon Goes Here -->
+                                    <figcaption>
+                                        <div class="icon-links">
+                                            <ul class="nav">
+                                                <li><a href="https://www.linkedin.com/in/nitendra-rajput-255b37" class="btn btn-1 btn-top"> <i class="fa linkedin fa-linkedin-square"></i> </a></li>
+                                                <!--<li><a href="#" class="btn btn-1 btn-top"> <i class="fa twitter fa-twitter"></i> </a></li>
+                                                <li><a href="#" class="btn btn-1 btn-top"> <i class="fa skype fa-skype"></i> </a></li>-->
+                                            </ul>
+                                        </div>
+                                    </figcaption>           
+                                </figure>
+                            </div>
+
+                            <div class="clearfix"></div>
+                            
+                            <!-- Name and Company Goes Here -->
+                            <h3>Nitendra Rajput</h3>
+                            <p>Senior Researcher & Research Manager, Indian Research Laboratory</p>
+
+                        </div>
 						<!--
                         <div class="item">
 
